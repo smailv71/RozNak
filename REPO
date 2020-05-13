@@ -1,0 +1,13 @@
+d:libsixel
+d:ffmpeg
+d:libvidstab
+f:d2c10463065efbf6df42f62dc4663b0c:libsixel/Pkgfile
+f:e68c9796dd312e6786c311ac45a272e8:libsixel/.md5sum
+f:d5edc86dd17b6e0586ae3197d13f7393:libsixel/.footprint
+f:6a949f2c03d51a0e191e1de160a271c7:ffmpeg/Pkgfile
+f:950357863a1b68ec53f1eae81ba8773c:ffmpeg/.md5sum
+f:f7e65531646fe2ecdb2f364f28a2385d:ffmpeg/sixel.patch
+f:16347f2f41995cbf3180a7c593481429:ffmpeg/.footprint
+f:26314608d903289743461904023eafbb:libvidstab/Pkgfile
+f:81dc6281afc29da69cc9ee7d3688b0e8:libvidstab/.md5sum
+f:f9a7da89d3b58584f3d1cdd56aafa069:libvidstab/.footprint

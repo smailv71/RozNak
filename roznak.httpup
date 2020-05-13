@@ -1,0 +1,5 @@
+# RozNak ports collection
+# https://github.com/smailv71/crux-ports/
+#
+ROOT_DIR=/usr/ports/roznak
+URL=https://raw.githubusercontent.com/smailv71/crux-ports/master/
