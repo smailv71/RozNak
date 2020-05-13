@@ -1,0 +1,20 @@
+# Description: Transcode video stabilization plugin
+# URL: http://public.hronopik.de/vid.stab/index.php?lang=en
+# Maintainer: smailv71 at gmail dot com
+# Depends on: cmake
+
+name=libvidstab
+version=1.1.0
+release=1
+source=(https://github.com/georgmartius/vid.stab/archive/v$version.tar.gz)
+
+build() {
+	cd vid.stab-$version
+
+	cmake \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DCMAKE_BUILD_TYPE=Release .
+
+	make
+	make DESTDIR=$PKG install
+}

@@ -1,0 +1,17 @@
+# Description: terminal image format
+# URL: https://github.com/saitoha/libsixel
+# Maintainer: smailv71 at gmail dot com
+# Depends on:  
+
+name=libsixel
+version=1.7.3
+release=1
+source=(https://github.com/saitoha/$name/archive/v$version.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr
+
+	make
+	make DESTDIR=$PKG install
+}
