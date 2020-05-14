@@ -1,0 +1,20 @@
+# Description: Highly configurable text editor
+# URL:         http://www.vim.org
+# Maintainer:  smailv71 at gmail dot com
+# Depends on:  ncurses acl
+
+name=vim
+version=8.2.0728
+release=1
+source=(https://github.com/vim/vim/archive/v${version}/$name-$version.tar.gz)
+
+build () {
+	cd $name-$version/src
+
+	./configure \
+	--prefix=/usr \
+	--disable-gui
+
+	make -j4
+	make DESTDIR=$PKG install
+}

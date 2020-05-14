@@ -1,0 +1,18 @@
+# Description: Free software for dealing with DjVu documents
+# URL: http://djvu.sourceforge.net/
+# Maintainer: smailv71 at gmail dot com
+# Depends on: libjpeg-turbo libtiff
+
+name=djvulibre
+version=3.5.27
+release=1
+source=(http://downloads.sourceforge.net/djvu/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	./configure --prefix=/usr
+
+	make -j4
+	make DESTDIR=$PKG install
+}

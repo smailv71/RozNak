@@ -1,0 +1,18 @@
+# Description: simple terminal implementation for X
+# URL:         https://st.suckless.org
+# Maintainer:  smailv71 at gmail dot com
+# Depends on:  xorg-libxext xorg-libxft
+
+name=st
+version=0.8.3
+release=1
+source=(https://dl.suckless.org/st/$name-$version.tar.gz)
+
+build () {
+	cd "$name-$version"
+	make CC=gcc
+	make DESTDIR=$PKG PREFIX=/usr TERMINFO=$PKG/usr/share/terminfo install
+
+	# Remove duplicates of files from ncurses
+	rm -f $PKG/usr/share/terminfo/s/{st,st-256color}
+}

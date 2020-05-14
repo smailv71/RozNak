@@ -1,0 +1,14 @@
+# Description: dynamic menu, originally designed for dwm (with xft support)
+# URL:         http://tools.suckless.org/dmenu
+# Maintainer:  smailv71 at gmail dot com 
+# Depends on:  xorg-libxinerama xorg-libxft
+
+name=dmenu
+version=4.9
+release=1
+source=(http://dl.suckless.org/tools/$name-$version.tar.gz)
+
+build () {
+	cd "$name-$version"
+	make DESTDIR=$PKG PREFIX=/usr MANPREFIX=/usr/share/man install
+}

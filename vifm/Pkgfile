@@ -1,0 +1,19 @@
+# Description: A ncurses based file manager with vi like keybindings
+# URL:         http://vifm.info
+# Maintainer:  smailv71 at gmail dot com
+# Depends on:  ncurses
+
+name=vifm
+version=0.10.1
+release=2
+source=(https://codeload.github.com/vifm/vifm/zip/master)
+build() {
+	unzip master
+	cd vifm-master
+
+	./configure \
+	--prefix=/usr
+
+	make -j4
+	make DESTDIR=$PKG install
+}
