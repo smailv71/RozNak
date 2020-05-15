@@ -1,0 +1,17 @@
+# Description: Tiny, lightning fast, feature-packed file manager
+# URL: https://github.com/jarun/nnn
+# Maintainer: smailv71 at gmaili dot com
+# Depends on: ncurses readline
+# Optional: patool mediainfo
+
+name=nnn
+version=3.1
+release=1
+source=(https://github.com/jarun/nnn/releases/download/v$version/$name-v$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	make -j4
+	make PREFIX=/usr DESTDIR=$PKG install
+}

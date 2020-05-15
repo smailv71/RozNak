@@ -8,6 +8,7 @@ d:mupdf
 d:dmenu
 d:vim
 d:vifm
+d:nnn
 d:gforth
 f:ce737fe249767c30d7788fc57ee57399:st/Pkgfile
 f:04c712cafc8d4a45baa917f7c8ac1cc7:st/.md5sum
@@ -45,6 +46,9 @@ f:3d30af7950bac5aa369d2c81a858c425:vim/.footprint
 f:a128419e1b41becf10ec9bb602dcc1f2:vifm/Pkgfile
 f:69297864e3c0ed374c80a33dd5f3c2e9:vifm/.md5sum
 f:1a9f0a7fbd424b8b5b6c81f3b27197ab:vifm/.footprint
+f:7d3dad7f0c2e868456a60d60f362b7be:nnn/Pkgfile
+f:6de02700144e242fc1eb20abd7cdb3ab:nnn/.md5sum
+f:2764af97dd3ad108fb2c12ad5ee2fc15:nnn/.footprint
 f:936e8c45f9a25b90302db1d6db8d4caf:gforth/Pkgfile
 f:729f2ebf2b19f5da4c61265df3466408:gforth/.md5sum
 f:e3667f07efab4a1e917ea143cef518ff:gforth/.footprint
