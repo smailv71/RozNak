@@ -9,7 +9,7 @@ release=1
 source=(https://github.com/$name/AC/releases/download/v$version/AssaultCube_v$version.tar.bz2)
 
 build () {
-	cd "AssaultCube_v$version/source/src"
+	cd AssaultCube_v$version/source/src
 
 	make -j4
 	make install
