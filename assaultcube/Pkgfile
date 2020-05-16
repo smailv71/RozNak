@@ -1,0 +1,23 @@
+# Description: AssaultCube is a FREE, multiplayer, first-person shooter game, based on the CUBE engine.
+# URL:         https://assault.cubers.net
+# Maintainer:  smailv71 at gmail dot com
+# Depends on:  libsdl sdl_image zlib libogg libvorbis openal curl
+
+name=assaultcube
+version=1.2.0.2
+release=1
+source=(https://github.com/$name/AC/releases/download/v$version/AssaultCube_v$version.tar.bz2)
+
+build () {
+	cd "AssaultCube_v$version/source/src"
+
+	make -j4
+	make install
+
+	cd ${SRC}/AssaultCube_v$version
+	rm  -r bin_unix/l* source
+
+	install -d ${PKG}/usr/{bin,games/AssaultCube_v$version}
+	cp -r * ${PKG}/usr/games/AssaultCube_v$version
+	ln -s /usr/games/AssaultCube_v1.2.0.2/assaultcube.sh ${PKG}/usr/bin/ac_client
+}
