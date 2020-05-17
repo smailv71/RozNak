@@ -1,0 +1,23 @@
+# Description: Cube 2: Sauerbraten is a free multiplayer & singleplayer first person shooter, the successor of the Cube FPS.
+# URL:         http://sauerbraten.org
+# Maintainer:  smailv71 at gmail dot com 
+# Depends on:  sdl_image sdl_mixer glu
+
+name=sauerbraten
+version=2013_04_04
+release=1
+source=(https://netcologne.dl.sourceforge.net/project/sauerbraten/sauerbraten/2013_01_04/${name}_${version}_collect_edition_linux.tar.bz2 sauer_client)
+
+build () {
+	cd "$name/src"
+
+	make -j4
+	make install
+
+	cd ${SRC}/$name
+	rm  -r bin_unix/l* src
+
+	install -d ${PKG}/usr/{bin,games/${name}}
+	cp -r * ${PKG}/usr/games/${name}
+	install -D -m 0755 $SRC/sauer_client ${PKG}/usr/bin
+}
