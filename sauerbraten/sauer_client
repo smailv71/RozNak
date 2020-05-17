@@ -1,2 +1,2 @@
-cd /usr/games/sauerbraten/bin_unix
-./native_client
+cd /usr/games/sauerbraten
+./sauerbraten_unix
