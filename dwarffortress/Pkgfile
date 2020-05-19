@@ -1,0 +1,19 @@
+# Description: A single-player fantasy game (text mode) in which you build a dwarven outpost or play an adventurer in a randomly generated world.
+# URL:         http://www.bay12games.com/dwarves
+# Maintainer:  smailv71 at gmail dot com 
+# Depends on:  gtk sdl_image sdl_ttf openal libsndfile glew glu
+
+name=dwarffortress
+version=0.47.04
+release=1
+source=(http://www.bay12games.com/dwarves/df_47_04_linux.tar.bz2)
+
+build() {
+	cd df_linux
+	sed -i 's/2D]/TEXT]/g' d*/init/ini* # Delete this line to play in graphics mode.
+	rm ../*x/l*/{*1,*6}
+
+	install -d ${PKG}/usr/{bin,games/df_linux}
+	cp -r * ${PKG}/usr/games/df_linux
+	ln -s /usr/games/df_linux/df ${PKG}/usr/bin/df
+}
