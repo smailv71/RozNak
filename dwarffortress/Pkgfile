@@ -15,5 +15,5 @@ build() {
 
 	install -d ${PKG}/usr/{bin,games/df_linux}
 	cp -r * ${PKG}/usr/games/df_linux
-	ln -s /usr/games/df_linux/df ${PKG}/usr/bin/df_linux
+	install -D -m 0755 $SRC/df_linux ${PKG}/usr/bin
 }
