@@ -38,7 +38,7 @@ f:6a949f2c03d51a0e191e1de160a271c7:ffmpeg/Pkgfile
 f:950357863a1b68ec53f1eae81ba8773c:ffmpeg/.md5sum
 f:f7e65531646fe2ecdb2f364f28a2385d:ffmpeg/sixel.patch
 f:16347f2f41995cbf3180a7c593481429:ffmpeg/.footprint
-f:676b400723944e61b4852d9fc43308df:dwarffortress/Pkgfile
+f:7086788144da875bc0cdad1c01abcc6e:dwarffortress/Pkgfile
 f:ecdc73492883baa09f644c2b71596176:dwarffortress/.md5sum
 f:bdf3546f19a42cdb6bfa24afac1dbb64:dwarffortress/.footprint
 f:26314608d903289743461904023eafbb:libvidstab/Pkgfile
