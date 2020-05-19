@@ -1,6 +1,6 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
-lrwxrwxrwx	root/root	usr/bin/df -> /usr/games/df_linux/df
+lrwxrwxrwx	root/root	usr/bin/df_linux -> /usr/games/df_linux/df
 drwxr-xr-x	root/root	usr/games/
 drwxr-xr-x	root/root	usr/games/df_linux/
 -rw-r--r--	root/root	usr/games/df_linux/README.linux
