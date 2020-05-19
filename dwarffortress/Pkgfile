@@ -6,7 +6,7 @@
 name=dwarffortress
 version=0.47.04
 release=1
-source=(http://www.bay12games.com/dwarves/df_47_04_linux.tar.bz2)
+source=(http://www.bay12games.com/dwarves/df_47_04_linux.tar.bz2 df_game)
 
 build() {
 	cd df_linux
@@ -15,5 +15,5 @@ build() {
 
 	install -d ${PKG}/usr/{bin,games/df_linux}
 	cp -r * ${PKG}/usr/games/df_linux
-	install -D -m 0755 $SRC/df_linux ${PKG}/usr/bin
+	install -m 0755 $SRC/df_game ${PKG}/usr/bin
 }

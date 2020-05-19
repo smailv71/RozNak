@@ -38,10 +38,10 @@ f:6a949f2c03d51a0e191e1de160a271c7:ffmpeg/Pkgfile
 f:950357863a1b68ec53f1eae81ba8773c:ffmpeg/.md5sum
 f:f7e65531646fe2ecdb2f364f28a2385d:ffmpeg/sixel.patch
 f:16347f2f41995cbf3180a7c593481429:ffmpeg/.footprint
-f:7ea4d627b59bbcf2c4b0fad1dcde6f45:dwarffortress/Pkgfile
-f:ecdc73492883baa09f644c2b71596176:dwarffortress/.md5sum
-f:30210691b8a3fd413db436e9a8dbb09d:dwarffortress/df_linux
-f:7cf31d1686c110b4e9a90412d76c1948:dwarffortress/.footprint
+f:30210691b8a3fd413db436e9a8dbb09d:dwarffortress/df_game
+f:ad0b0fce3c846c6dc99b8820c28fd430:dwarffortress/Pkgfile
+f:83892853c7ef2f1332c100fcb7039feb:dwarffortress/.md5sum
+f:eb5f6960388ae2b29869946dd435fec8:dwarffortress/.footprint
 f:26314608d903289743461904023eafbb:libvidstab/Pkgfile
 f:81dc6281afc29da69cc9ee7d3688b0e8:libvidstab/.md5sum
 f:f9a7da89d3b58584f3d1cdd56aafa069:libvidstab/.footprint
