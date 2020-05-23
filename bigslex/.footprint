@@ -1,0 +1,15 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+lrwxrwxrwx	root/root	usr/bin/bigslex -> /usr/games/slex/slex-2.6.8/slex
+drwxr-xr-x	root/root	usr/games/
+drwxr-xr-x	root/root	usr/games/slex/
+drwxr-xr-x	root/root	usr/games/slex/slex-2.6.8/
+-rw-r--r--	root/root	usr/games/slex/slex-2.6.8/license
+-rw-r--r--	root/root	usr/games/slex/slex-2.6.8/livelog (EMPTY)
+-rw-r--r--	root/root	usr/games/slex/slex-2.6.8/logfile (EMPTY)
+-rw-r--r--	root/root	usr/games/slex/slex-2.6.8/nhdat
+-rw-r--r--	root/root	usr/games/slex/slex-2.6.8/perm (EMPTY)
+-rw-r--r--	root/root	usr/games/slex/slex-2.6.8/record (EMPTY)
+drwxr-xr-x	root/root	usr/games/slex/slex-2.6.8/save/
+-rwxr-xr-x	root/root	usr/games/slex/slex-2.6.8/slex
+-rw-r--r--	root/root	usr/games/slex/slex-2.6.8/xlogfile (EMPTY)

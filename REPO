@@ -6,6 +6,7 @@ d:firefox
 d:ffmpeg
 d:dwarffortress
 d:libvidstab
+d:bigslex
 d:mupdf
 d:dmenu
 d:assaultcube
@@ -45,6 +46,9 @@ f:eb5f6960388ae2b29869946dd435fec8:dwarffortress/.footprint
 f:26314608d903289743461904023eafbb:libvidstab/Pkgfile
 f:81dc6281afc29da69cc9ee7d3688b0e8:libvidstab/.md5sum
 f:f9a7da89d3b58584f3d1cdd56aafa069:libvidstab/.footprint
+f:6369d8600a04c17a9966c7db9f7315c0:bigslex/Pkgfile
+f:de3352b225477c0b65c402944db594c4:bigslex/.md5sum
+f:890e8cf40feb0e92cd2400fe4f7dcfac:bigslex/.footprint
 f:663fb84a1a73340657aca691397bcb8a:mupdf/Pkgfile
 f:d367e693c6933e61e3aac2c5338fdce1:mupdf/.md5sum
 f:487cc80f3e7ac6ce6954b7bb7331d673:mupdf/.footprint
