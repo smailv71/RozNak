@@ -6,7 +6,7 @@
 name=bigslex
 version=2.6.8
 release=1
-source=(https://github.com/SLASHEM-Extended/SLASHEM-Extended/archive/slex-${version//8/7}.zip)
+source=(https://github.com/SLASHEM-Extended/SLASHEM-Extended/archive/slex-${version//8/7}.zip bigslex)
 build() {
 	cd $SRC/SLASHEM-Extended-slex-${version//8/7}
 
@@ -17,5 +17,5 @@ build() {
 
 	install -d ${PKG}/usr/{bin,games}
 	mv ~/slex ${PKG}/usr/games
-	ln -s /usr/games/slex/slex-$version/slex ${PKG}/usr/bin/bigslex
+	install -D -m 0755 $SRC/bigslex ${PKG}/usr/bin
 }

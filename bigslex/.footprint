@@ -1,6 +1,6 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
-lrwxrwxrwx	root/root	usr/bin/bigslex -> /usr/games/slex/slex-2.6.8/slex
+-rwxr-xr-x	root/root	usr/bin/bigslex
 drwxr-xr-x	root/root	usr/games/
 drwxr-xr-x	root/root	usr/games/slex/
 drwxr-xr-x	root/root	usr/games/slex/slex-2.6.8/
