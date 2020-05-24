@@ -14,6 +14,7 @@ d:vim
 d:vifm
 d:nnn
 d:gforth
+d:urbanterror
 f:ce737fe249767c30d7788fc57ee57399:st/Pkgfile
 f:04c712cafc8d4a45baa917f7c8ac1cc7:st/.md5sum
 f:20f08c5f31e9a85c101e0a2c43b6ab36:st/README
@@ -72,3 +73,6 @@ f:2764af97dd3ad108fb2c12ad5ee2fc15:nnn/.footprint
 f:936e8c45f9a25b90302db1d6db8d4caf:gforth/Pkgfile
 f:729f2ebf2b19f5da4c61265df3466408:gforth/.md5sum
 f:e3667f07efab4a1e917ea143cef518ff:gforth/.footprint
+f:58d22ff12c23f0bf66d12fd3912895f9:urbanterror/Pkgfile
+f:23c8a9747d992e4e2621c1a1755930d9:urbanterror/.md5sum
+f:d45e86f2ec15fd9e042aa7e1d851d99b:urbanterror/.footprint

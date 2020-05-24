@@ -1,0 +1,24 @@
+# Description: Urban Terror™ is a free multiplayer first person shooter developed by FrozenSand, that will run on any Quake III Arena compatible engine. 
+# URL:         https://www.urbanterror.info 
+# Maintainer:  smailv71 at gmail dot com
+# Depends on:  curl libsdl mesa3d openal
+
+name=urbanterror
+version=4.3.4
+release=1
+source=(http://cdn.urbanterror.info/urt/43/releases/zips/UrbanTerror434_full.zip https://codeload.github.com/FrozenSand/ioq3-for-UrbanTerror-4/tar.gz/release-4.3.4)
+
+build () {
+	cd ${SRC}
+	rm -R UrbanTerror43/Q* 
+	tar xf release-4.3.4
+	cd ioq3-for-UrbanTerror-4-release-4.3.4 
+	make -j4
+	cp build/release-linux-x86_64/Q* ../UrbanTerror43 
+
+	cd ${SRC}/UrbanTerror43
+
+	install -d ${PKG}/usr/{bin,games/UrbanTerror43}
+	cp -r * ${PKG}/usr/games/UrbanTerror43
+	ln -s /usr/games/UrbanTerror43/Quake3-UrT.x86_64 ${PKG}/usr/bin/ut_client
+}
