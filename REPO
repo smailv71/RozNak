@@ -6,6 +6,7 @@ d:firefox
 d:ffmpeg
 d:dwarffortress
 d:libvidstab
+d:rexuiz
 d:bigslex
 d:mupdf
 d:dmenu
@@ -47,6 +48,10 @@ f:eb5f6960388ae2b29869946dd435fec8:dwarffortress/.footprint
 f:26314608d903289743461904023eafbb:libvidstab/Pkgfile
 f:81dc6281afc29da69cc9ee7d3688b0e8:libvidstab/.md5sum
 f:f9a7da89d3b58584f3d1cdd56aafa069:libvidstab/.footprint
+f:c542e7877863c45a92ac02daeb4dacb5:rexuiz/rexuiz_client
+f:8d31e7ecbd2e25489603146732c55eae:rexuiz/Pkgfile
+f:4265100bf331c7ba87c228bcfcff841a:rexuiz/.md5sum
+f:b543f2934df9d82fb32a805d160a7fcb:rexuiz/.footprint
 f:a3a8a478b6d23ca0abc908c3dc35f767:bigslex/Pkgfile
 f:85b99fc63b2ac92925f8405037c0bd8f:bigslex/.md5sum
 f:f29bcddf4941e8882853901bb09125cb:bigslex/bigslex

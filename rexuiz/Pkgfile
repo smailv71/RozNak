@@ -1,0 +1,19 @@
+# Description: Rexuiz is a pure, fast first-person shooter.
+# URL:         http://rexuiz.com
+# Maintainer:  smailv71 at gmail dot com 
+# Depends on:  curl freetype libjpeg-turbo libpng libtheora libvorbis make unzip zip
+# Optional:    libircclient libmaxminddb
+name=rexuiz
+version=2.5.2-200524
+release=1
+source=(https://netcologne.dl.sourceforge.net/project/rexuiz/Rexuiz-$version.zip rexuiz_client)
+
+build () {
+	cd ${SRC}/Rexuiz 
+
+	rm  -r *p b* l*/i* se*/{*6,*d} so* *6.AppImage *xe *6 *d 
+
+	install -d ${PKG}/usr/{bin,games/Rexuiz}
+	cp -r * ${PKG}/usr/games/Rexuiz
+	install -D -m 0755 $SRC/rexuiz_client ${PKG}/usr/bin
+}
