@@ -11,7 +11,9 @@ source=(https://netcologne.dl.sourceforge.net/project/rexuiz/Rexuiz-$version.zip
 build () {
 	cd ${SRC}/Rexuiz 
 
-	rm  -r *p b* l*/i* se*/{*6,*d} so* *6.AppImage *xe *6 *d 
+	rm  -r R* b* s* g* i* r*
+	mv l*/x*/r* .
+	rm -r l* 
 
 	install -d ${PKG}/usr/{bin,games/Rexuiz}
 	cp -r * ${PKG}/usr/games/Rexuiz
