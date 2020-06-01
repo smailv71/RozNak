@@ -211,6 +211,36 @@ lrwxrwxrwx	root/root	usr/share/man/ru.UTF-8/man1/view.1 -> vim.1
 -rw-r--r--	root/root	usr/share/man/ru.UTF-8/man1/vimdiff.1
 -rw-r--r--	root/root	usr/share/man/ru.UTF-8/man1/vimtutor.1
 -rw-r--r--	root/root	usr/share/man/ru.UTF-8/man1/xxd.1
+drwxr-xr-x	root/root	usr/share/man/tr.ISO8859-9/
+drwxr-xr-x	root/root	usr/share/man/tr.ISO8859-9/man1/
+-rw-r--r--	root/root	usr/share/man/tr.ISO8859-9/man1/evim.1
+lrwxrwxrwx	root/root	usr/share/man/tr.ISO8859-9/man1/ex.1 -> vim.1
+lrwxrwxrwx	root/root	usr/share/man/tr.ISO8859-9/man1/rview.1 -> vim.1
+lrwxrwxrwx	root/root	usr/share/man/tr.ISO8859-9/man1/rvim.1 -> vim.1
+lrwxrwxrwx	root/root	usr/share/man/tr.ISO8859-9/man1/view.1 -> vim.1
+-rw-r--r--	root/root	usr/share/man/tr.ISO8859-9/man1/vim.1
+-rw-r--r--	root/root	usr/share/man/tr.ISO8859-9/man1/vimdiff.1
+-rw-r--r--	root/root	usr/share/man/tr.ISO8859-9/man1/vimtutor.1
+drwxr-xr-x	root/root	usr/share/man/tr.UTF-8/
+drwxr-xr-x	root/root	usr/share/man/tr.UTF-8/man1/
+-rw-r--r--	root/root	usr/share/man/tr.UTF-8/man1/evim.1
+lrwxrwxrwx	root/root	usr/share/man/tr.UTF-8/man1/ex.1 -> vim.1
+lrwxrwxrwx	root/root	usr/share/man/tr.UTF-8/man1/rview.1 -> vim.1
+lrwxrwxrwx	root/root	usr/share/man/tr.UTF-8/man1/rvim.1 -> vim.1
+lrwxrwxrwx	root/root	usr/share/man/tr.UTF-8/man1/view.1 -> vim.1
+-rw-r--r--	root/root	usr/share/man/tr.UTF-8/man1/vim.1
+-rw-r--r--	root/root	usr/share/man/tr.UTF-8/man1/vimdiff.1
+-rw-r--r--	root/root	usr/share/man/tr.UTF-8/man1/vimtutor.1
+drwxr-xr-x	root/root	usr/share/man/tr/
+drwxr-xr-x	root/root	usr/share/man/tr/man1/
+-rw-r--r--	root/root	usr/share/man/tr/man1/evim.1
+lrwxrwxrwx	root/root	usr/share/man/tr/man1/ex.1 -> vim.1
+lrwxrwxrwx	root/root	usr/share/man/tr/man1/rview.1 -> vim.1
+lrwxrwxrwx	root/root	usr/share/man/tr/man1/rvim.1 -> vim.1
+lrwxrwxrwx	root/root	usr/share/man/tr/man1/view.1 -> vim.1
+-rw-r--r--	root/root	usr/share/man/tr/man1/vim.1
+-rw-r--r--	root/root	usr/share/man/tr/man1/vimdiff.1
+-rw-r--r--	root/root	usr/share/man/tr/man1/vimtutor.1
 drwxr-xr-x	root/root	usr/share/vim/
 drwxr-xr-x	root/root	usr/share/vim/vim82/
 drwxr-xr-x	root/root	usr/share/vim/vim82/autoload/
