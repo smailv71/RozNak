@@ -2,6 +2,7 @@ d:st
 d:sauerbraten
 d:libsixel
 d:djvulibre
+d:firefox
 d:ffmpeg
 d:dwarffortress
 d:libvidstab
@@ -29,6 +30,11 @@ f:d5edc86dd17b6e0586ae3197d13f7393:libsixel/.footprint
 f:02ad839b8e4aa038c0c944d0e7b23788:djvulibre/Pkgfile
 f:280b87892c378707691a589981c9067d:djvulibre/.md5sum
 f:9f64f5eaccb62c595511ef87e1fca450:djvulibre/.footprint
+f:3a34a63a36ace9c4f6d7a6518ae9b0bf:firefox/0001-Use-remoting-name-for-GDK-application-names.patch
+f:e38fdca3bf4589887145719781fab199:firefox/Pkgfile
+f:5ed791b0dc1231b041ddbced6a5d4920:firefox/.md5sum
+f:4d6811c8f2518e93434b11802dd333a0:firefox/README
+f:148fc68da66e6e59dabb9b296a4c08da:firefox/.footprint
 f:50d2f51d00b5ec8ae697ebfdbd593b36:ffmpeg/Pkgfile
 f:c82d02e8f08c2964177edf618a3499ea:ffmpeg/.md5sum
 f:f7e65531646fe2ecdb2f364f28a2385d:ffmpeg/sixel.patch
