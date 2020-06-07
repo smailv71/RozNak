@@ -2,7 +2,6 @@ d:st
 d:sauerbraten
 d:libsixel
 d:djvulibre
-d:firefox
 d:ffmpeg
 d:dwarffortress
 d:libvidstab
@@ -30,13 +29,6 @@ f:d5edc86dd17b6e0586ae3197d13f7393:libsixel/.footprint
 f:02ad839b8e4aa038c0c944d0e7b23788:djvulibre/Pkgfile
 f:280b87892c378707691a589981c9067d:djvulibre/.md5sum
 f:9f64f5eaccb62c595511ef87e1fca450:djvulibre/.footprint
-f:d71b340ba7a5a40750c7f9ffde59a889:firefox/fix-unicode-errors.patch
-f:b515191b11f53ef81f2e98b56f36f317:firefox/0001-Use-remoting-name-for-GDK-application-names.patch
-f:3884de9b65a10c45c7bcafbc1b0d4c9f:firefox/Pkgfile
-f:0ef098e12afb7113eb82146eba537e86:firefox/.md5sum
-f:4d6811c8f2518e93434b11802dd333a0:firefox/README
-f:c384935cf4ec7bba08798e0258c55350:firefox/.footprint
-f:cf6971669f70b440cb6ff8df8b2722ae:firefox/firefox.desktop
 f:50d2f51d00b5ec8ae697ebfdbd593b36:ffmpeg/Pkgfile
 f:c82d02e8f08c2964177edf618a3499ea:ffmpeg/.md5sum
 f:f7e65531646fe2ecdb2f364f28a2385d:ffmpeg/sixel.patch
@@ -66,8 +58,8 @@ f:382e43da4d97a0c1c31e0e8813b94d93:assaultcube/Pkgfile
 f:5a7dc78c788dbdcdf8ccf97957a21df7:assaultcube/.md5sum
 f:f103875a3e1b461b52e83002cf0ecdeb:assaultcube/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:record
-f:83c433404f791c7d696ea0b348c3b8b7:vim/Pkgfile
-f:450e2f098a5ce2341682bc4120c8dbd2:vim/.md5sum
+f:58a0988add63e54fe15563597f1bfe5a:vim/Pkgfile
+f:915997f940601e551ea84c8ceb0290b6:vim/.md5sum
 f:c22acd777ff968e704630b1b581eb02b:vim/.footprint
 f:a128419e1b41becf10ec9bb602dcc1f2:vifm/Pkgfile
 f:69297864e3c0ed374c80a33dd5f3c2e9:vifm/.md5sum
