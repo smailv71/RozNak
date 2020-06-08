@@ -11,6 +11,7 @@ d:bigslex
 d:mupdf
 d:dmenu
 d:assaultcube
+d:bzflag
 d:vim
 d:vifm
 d:nnn
@@ -64,6 +65,9 @@ f:382e43da4d97a0c1c31e0e8813b94d93:assaultcube/Pkgfile
 f:5a7dc78c788dbdcdf8ccf97957a21df7:assaultcube/.md5sum
 f:f103875a3e1b461b52e83002cf0ecdeb:assaultcube/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:record
+f:c75d7062aafea0a9f4188b91561b6fb5:bzflag/Pkgfile
+f:100cdde0f3f9b296e77195df90d2f4fb:bzflag/.md5sum
+f:c7cf332de4b0cdecb243d1b25cfc7810:bzflag/.footprint
 f:58a0988add63e54fe15563597f1bfe5a:vim/Pkgfile
 f:915997f940601e551ea84c8ceb0290b6:vim/.md5sum
 f:c22acd777ff968e704630b1b581eb02b:vim/.footprint

@@ -1,0 +1,19 @@
+# Free multi-player 3D tank battle game.
+# URL: https://www.bzflag.org
+# Maintainer: smailv71 at gmail dot com 
+# Depends on:
+
+name=bzflag
+version=2.4.20
+release=1
+source=(https://download.bzflag.org/bzflag/source/$version/bzflag-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr/games/bzflag
+	make -j4
+	make prefix=$PKG/usr/games/bzflag install
+
+	install -d ${PKG}/usr/bin
+	ln -s /usr/games/bzflag/bin/bzflag ${PKG}/usr/bin/bzflag
+}
