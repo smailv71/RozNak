@@ -1,0 +1,27 @@
+# Description: The Battle for Wesnoth is a turn-based strategy game with a fantasy theme.
+# URL: http://www.wesnoth.org/
+# Maintainer: Danny Rawlins, crux at romster dot me
+# Depends on: boost bzip2 cairo fontconfig icu libsdl2 libvorbis lua52 openssl pango sdl2_image sdl2_mixer sdl2_net sdl2_ttf zlib
+# Optional: dbus fribidi readline
+
+name=wesnoth
+version=1.14.12
+release=1
+source=(https://downloads.sourceforge.net/project/$name/$name-${version%.*}/$name-$version/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+
+	mkdir build
+	cd build
+
+	cmake ../ \
+		-DCMAKE_INSTALL_PREFIX=/usr/games/wesnoth \
+		-DENABLE_NLS:BOOL=ON \
+
+	make -j4
+	make DESTDIR=$PKG install
+
+	install -d ${PKG}/usr/bin
+	ln -s /usr/games/wesnoth/bin/wesnoth ${PKG}/usr/bin/wesnoth
+}
