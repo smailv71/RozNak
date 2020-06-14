@@ -1,6 +1,6 @@
-# Description: The Battle for Wesnoth is a turn-based strategy game with a fantasy theme.
-# URL: http://www.wesnoth.org/
-# Maintainer: Danny Rawlins, crux at romster dot me
+# Description: The Battle for Wesnoth is a turn-based strategy video game with a fantasy setting, designed by Australian developer David White and first released in June 2003.
+# URL: http://www.wesnoth.org
+# Maintainer: smailv71 at gmail dot com
 # Depends on: boost bzip2 cairo fontconfig icu libsdl2 libvorbis lua52 openssl pango sdl2_image sdl2_mixer sdl2_net sdl2_ttf zlib
 # Optional: dbus fribidi readline
 
