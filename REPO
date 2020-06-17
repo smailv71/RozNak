@@ -72,8 +72,8 @@ f:d41d8cd98f00b204e9800998ecf8427e:record
 f:c75d7062aafea0a9f4188b91561b6fb5:bzflag/Pkgfile
 f:100cdde0f3f9b296e77195df90d2f4fb:bzflag/.md5sum
 f:c7cf332de4b0cdecb243d1b25cfc7810:bzflag/.footprint
-f:6cb65fce3566c1667c796111527d59c3:vim/Pkgfile
-f:eee05528eb7cbc86586e7bb6bc7ff10c:vim/.md5sum
+f:cec8da548b8b7b31fa9b0fc13576469f:vim/Pkgfile
+f:1b002ca9e06003c366188b1b70e86700:vim/.md5sum
 f:8f79739fb2619d05616a0a8cdaaaf558:vim/.footprint
 f:a128419e1b41becf10ec9bb602dcc1f2:vifm/Pkgfile
 f:69297864e3c0ed374c80a33dd5f3c2e9:vifm/.md5sum
