@@ -472,6 +472,8 @@ drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/An_Orcish_In
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/An_Orcish_Incursion/images/maps/l10n/lt/aoi--overlay.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/An_Orcish_Incursion/images/maps/l10n/pt/
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/An_Orcish_Incursion/images/maps/l10n/pt/aoi--overlay.png
+drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/An_Orcish_Incursion/images/maps/l10n/ru/
+-rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/An_Orcish_Incursion/images/maps/l10n/ru/aoi--overlay.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/An_Orcish_Incursion/images/maps/l10n/zh_CN/
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/An_Orcish_Incursion/images/maps/l10n/zh_CN/aoi--overlay.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/An_Orcish_Incursion/images/portraits/
@@ -525,6 +527,8 @@ drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Dead_Water/i
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Dead_Water/images/maps/l10n/it/dw--overlay.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Dead_Water/images/maps/l10n/pt/
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Dead_Water/images/maps/l10n/pt/dw--overlay.png
+drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Dead_Water/images/maps/l10n/ru/
+-rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Dead_Water/images/maps/l10n/ru/dw--overlay.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Dead_Water/images/maps/l10n/zh_CN/
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Dead_Water/images/maps/l10n/zh_CN/dw--overlay.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Dead_Water/images/misc/
@@ -787,6 +791,8 @@ drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Descent_Into
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Descent_Into_Darkness/images/maps/l10n/lt/did--overlay.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Descent_Into_Darkness/images/maps/l10n/pt/
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Descent_Into_Darkness/images/maps/l10n/pt/did--overlay.png
+drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Descent_Into_Darkness/images/maps/l10n/ru/
+-rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Descent_Into_Darkness/images/maps/l10n/ru/did--overlay.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Descent_Into_Darkness/images/maps/l10n/zh_CN/
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Descent_Into_Darkness/images/maps/l10n/zh_CN/did--overlay.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Descent_Into_Darkness/images/misc/
@@ -903,6 +909,8 @@ drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Eastern_Inva
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Eastern_Invasion/images/maps/l10n/it/ei--overlay.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Eastern_Invasion/images/maps/l10n/pt/
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Eastern_Invasion/images/maps/l10n/pt/ei--overlay.png
+drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Eastern_Invasion/images/maps/l10n/ru/
+-rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Eastern_Invasion/images/maps/l10n/ru/ei--overlay.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Eastern_Invasion/images/maps/l10n/zh_CN/
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Eastern_Invasion/images/maps/l10n/zh_CN/ei--overlay.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Eastern_Invasion/images/misc/
@@ -1011,6 +1019,8 @@ drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Heir_To_The_
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Heir_To_The_Throne/images/maps/l10n/lt/httt--overlay.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Heir_To_The_Throne/images/maps/l10n/pt/
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Heir_To_The_Throne/images/maps/l10n/pt/httt--overlay.png
+drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Heir_To_The_Throne/images/maps/l10n/ru/
+-rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Heir_To_The_Throne/images/maps/l10n/ru/httt--overlay.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Heir_To_The_Throne/images/maps/l10n/zh_CN/
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Heir_To_The_Throne/images/maps/l10n/zh_CN/httt--overlay.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Heir_To_The_Throne/images/portraits/
@@ -1249,6 +1259,8 @@ drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Legend_of_We
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Legend_of_Wesmere/images/l10n/it/low-map--overlay.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Legend_of_Wesmere/images/l10n/pt/
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Legend_of_Wesmere/images/l10n/pt/low-map--overlay.png
+drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Legend_of_Wesmere/images/l10n/ru/
+-rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Legend_of_Wesmere/images/l10n/ru/low-map--overlay.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Legend_of_Wesmere/images/l10n/zh_CN/
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Legend_of_Wesmere/images/l10n/zh_CN/low-map--overlay.png
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Legend_of_Wesmere/images/low-map.png
@@ -1375,6 +1387,8 @@ drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Liberty/imag
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Liberty/images/maps/l10n/it/liberty--overlay.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Liberty/images/maps/l10n/pt/
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Liberty/images/maps/l10n/pt/liberty--overlay.png
+drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Liberty/images/maps/l10n/ru/
+-rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Liberty/images/maps/l10n/ru/liberty--overlay.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Liberty/images/maps/l10n/zh_CN/
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Liberty/images/maps/l10n/zh_CN/liberty--overlay.png
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Liberty/images/maps/liberty.png
@@ -1472,7 +1486,7 @@ drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Liberty/util
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Northern_Rebirth/
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Northern_Rebirth/_main.cfg
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Northern_Rebirth/images/
--rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Northern_Rebirth/images/campaign_image.jpg
+-rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Northern_Rebirth/images/campaign_image.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Northern_Rebirth/images/ellipse/
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Northern_Rebirth/images/ellipse/unprivileged-leader-bottom.png
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Northern_Rebirth/images/ellipse/unprivileged-leader-selected-bottom.png
@@ -1494,6 +1508,8 @@ drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Northern_Reb
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Northern_Rebirth/images/maps/l10n/lt/nr--overlay.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Northern_Rebirth/images/maps/l10n/pt/
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Northern_Rebirth/images/maps/l10n/pt/nr--overlay.png
+drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Northern_Rebirth/images/maps/l10n/ru/
+-rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Northern_Rebirth/images/maps/l10n/ru/nr--overlay.png
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Northern_Rebirth/images/maps/nr.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Northern_Rebirth/images/portraits/
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Northern_Rebirth/images/portraits/Arthian.png
@@ -1583,6 +1599,8 @@ drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Sceptre_of_F
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Sceptre_of_Fire/images/maps/l10n/it/sof--overlay.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Sceptre_of_Fire/images/maps/l10n/pt/
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Sceptre_of_Fire/images/maps/l10n/pt/sof--overlay.png
+drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Sceptre_of_Fire/images/maps/l10n/ru/
+-rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Sceptre_of_Fire/images/maps/l10n/ru/sof--overlay.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Sceptre_of_Fire/images/maps/l10n/zh_CN/
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Sceptre_of_Fire/images/maps/l10n/zh_CN/sof--overlay.png
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Sceptre_of_Fire/images/maps/sof.png
@@ -1986,6 +2004,8 @@ drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Son_Of_The_B
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Son_Of_The_Black_Eye/images/maps/l10n/it/sotbe--overlay.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Son_Of_The_Black_Eye/images/maps/l10n/pt/
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Son_Of_The_Black_Eye/images/maps/l10n/pt/sotbe--overlay.png
+drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Son_Of_The_Black_Eye/images/maps/l10n/ru/
+-rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Son_Of_The_Black_Eye/images/maps/l10n/ru/sotbe--overlay.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Son_Of_The_Black_Eye/images/maps/l10n/zh_CN/
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Son_Of_The_Black_Eye/images/maps/l10n/zh_CN/sotbe--overlay.png
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Son_Of_The_Black_Eye/images/maps/sotbe.png
@@ -2094,6 +2114,8 @@ drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_Hammer_o
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_Hammer_of_Thursagan/images/maps/l10n/it/thot--overlay.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_Hammer_of_Thursagan/images/maps/l10n/pt/
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_Hammer_of_Thursagan/images/maps/l10n/pt/thot--overlay.png
+drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_Hammer_of_Thursagan/images/maps/l10n/ru/
+-rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_Hammer_of_Thursagan/images/maps/l10n/ru/thot--overlay.png
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_Hammer_of_Thursagan/images/maps/thot.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_Hammer_of_Thursagan/images/misc/
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_Hammer_of_Thursagan/images/misc/righteous-flame-icon.png
@@ -2296,6 +2318,8 @@ drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_Rise_Of_
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_Rise_Of_Wesnoth/images/maps/l10n/it/green_isle--overlay.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_Rise_Of_Wesnoth/images/maps/l10n/pt/
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_Rise_Of_Wesnoth/images/maps/l10n/pt/green_isle--overlay.png
+drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_Rise_Of_Wesnoth/images/maps/l10n/ru/
+-rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_Rise_Of_Wesnoth/images/maps/l10n/ru/green_isle--overlay.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_Rise_Of_Wesnoth/images/maps/l10n/zh_CN/
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_Rise_Of_Wesnoth/images/maps/l10n/zh_CN/green_isle--overlay.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_Rise_Of_Wesnoth/images/misc/
@@ -2348,6 +2372,8 @@ drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_Rise_Of_
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_Rise_Of_Wesnoth/images/story/l10n/nl/trow-logo.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_Rise_Of_Wesnoth/images/story/l10n/pt/
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_Rise_Of_Wesnoth/images/story/l10n/pt/trow-logo.png
+drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_Rise_Of_Wesnoth/images/story/l10n/ru/
+-rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_Rise_Of_Wesnoth/images/story/l10n/ru/trow-logo.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_Rise_Of_Wesnoth/images/story/l10n/vi/
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_Rise_Of_Wesnoth/images/story/l10n/vi/trow-logo.png
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_Rise_Of_Wesnoth/images/story/trow-logo.png
@@ -2580,6 +2606,8 @@ drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_South_Gu
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_South_Guard/images/maps/l10n/lt/tsg--overlay.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_South_Guard/images/maps/l10n/pt/
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_South_Guard/images/maps/l10n/pt/tsg--overlay.png
+drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_South_Guard/images/maps/l10n/ru/
+-rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_South_Guard/images/maps/l10n/ru/tsg--overlay.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_South_Guard/images/maps/l10n/zh_CN/
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_South_Guard/images/maps/l10n/zh_CN/tsg--overlay.png
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_South_Guard/images/maps/tsg.png
@@ -2668,6 +2696,8 @@ drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Two_Brothers
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Two_Brothers/images/maps/l10n/it/tb--overlay.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Two_Brothers/images/maps/l10n/pt/
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Two_Brothers/images/maps/l10n/pt/tb--overlay.png
+drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Two_Brothers/images/maps/l10n/ru/
+-rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Two_Brothers/images/maps/l10n/ru/tb--overlay.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Two_Brothers/images/maps/l10n/zh_CN/
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Two_Brothers/images/maps/l10n/zh_CN/tb--overlay.png
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/Two_Brothers/images/maps/tb.png
