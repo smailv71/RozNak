@@ -37,10 +37,10 @@ f:e38fdca3bf4589887145719781fab199:firefox/Pkgfile
 f:5ed791b0dc1231b041ddbced6a5d4920:firefox/.md5sum
 f:4d6811c8f2518e93434b11802dd333a0:firefox/README
 f:148fc68da66e6e59dabb9b296a4c08da:firefox/.footprint
-f:50d2f51d00b5ec8ae697ebfdbd593b36:ffmpeg/Pkgfile
-f:c82d02e8f08c2964177edf618a3499ea:ffmpeg/.md5sum
+f:f654bec7408f298d398e0a62da6bf0d7:ffmpeg/Pkgfile
+f:f0fb47b705401de293c53779663bad22:ffmpeg/.md5sum
 f:f7e65531646fe2ecdb2f364f28a2385d:ffmpeg/sixel.patch
-f:16347f2f41995cbf3180a7c593481429:ffmpeg/.footprint
+f:5f41dfd7c68c898a7acd88a235770eea:ffmpeg/.footprint
 f:30210691b8a3fd413db436e9a8dbb09d:dwarffortress/df_game
 f:ad0b0fce3c846c6dc99b8820c28fd430:dwarffortress/Pkgfile
 f:83892853c7ef2f1332c100fcb7039feb:dwarffortress/.md5sum
