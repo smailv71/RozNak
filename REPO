@@ -18,8 +18,8 @@ d:vifm
 d:nnn
 d:gforth
 d:urbanterror
-f:ce737fe249767c30d7788fc57ee57399:st/Pkgfile
-f:04c712cafc8d4a45baa917f7c8ac1cc7:st/.md5sum
+f:fa930307c0d1d3f8651a80c97a9317c4:st/Pkgfile
+f:f476fb5f8178a5436e2cf2f10e5a2bac:st/.md5sum
 f:20f08c5f31e9a85c101e0a2c43b6ab36:st/README
 f:d76bb9d9216d9488d8c584a4b615df4f:st/.footprint
 f:7b7196fef0b7c92757a3b12b1f24533b:sauerbraten/sauer_client
@@ -72,8 +72,8 @@ f:d41d8cd98f00b204e9800998ecf8427e:record
 f:c75d7062aafea0a9f4188b91561b6fb5:bzflag/Pkgfile
 f:100cdde0f3f9b296e77195df90d2f4fb:bzflag/.md5sum
 f:c7cf332de4b0cdecb243d1b25cfc7810:bzflag/.footprint
-f:cec8da548b8b7b31fa9b0fc13576469f:vim/Pkgfile
-f:1b002ca9e06003c366188b1b70e86700:vim/.md5sum
+f:a45c9c422f03d34c5b9e58139eacb701:vim/Pkgfile
+f:dfc25abbe4bba077b42ab72dba6410f8:vim/.md5sum
 f:8f79739fb2619d05616a0a8cdaaaf558:vim/.footprint
 f:a128419e1b41becf10ec9bb602dcc1f2:vifm/Pkgfile
 f:69297864e3c0ed374c80a33dd5f3c2e9:vifm/.md5sum
