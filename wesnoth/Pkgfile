@@ -17,7 +17,7 @@ build() {
 
 	cmake ../ \
 		-DCMAKE_INSTALL_PREFIX=/usr/games/wesnoth \
-		-DENABLE_NLS:BOOL=ON \
+		-DENABLE_NLS:BOOL=ON
 
 	make -j4
 	make DESTDIR=$PKG install

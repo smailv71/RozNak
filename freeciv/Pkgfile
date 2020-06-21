@@ -1,0 +1,23 @@
+# Description: Freeciv is a Free and Open Source empire-building strategy game inspired by the history of human civilization.
+# URL:         https://github.com/freeciv/freeciv 
+# Maintainer:  smailv71 at gmail dot com 
+# Depends on:  atk autoconf automake curl freetype gdk-pixbuf gettext glib gtk3 icu libsdl2 libtool pango pkg-config sqlite3 sdl2_image sdl2_mixer sdl2_ttf
+# Optional:    gtk+ qt5 sdl2_gfx
+name=freeciv
+version=2.6.2
+release=1
+source=(https://codeload.github.com/freeciv/freeciv/zip/master)
+
+build () {
+
+	unzip master
+	cd ${SRC}/$name-master
+
+	./autogen.sh
+	./configure --prefix=/usr/games/freeciv
+	make -j4
+	make DESTDIR=$PKG install
+
+	install -d ${PKG}/usr/bin
+	ln -s /usr/games/freeciv/bin/freeciv-gtk3.22 ${PKG}/usr/bin/fc-client
+}
