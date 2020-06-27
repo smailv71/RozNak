@@ -50,8 +50,8 @@ f:26314608d903289743461904023eafbb:libvidstab/Pkgfile
 f:81dc6281afc29da69cc9ee7d3688b0e8:libvidstab/.md5sum
 f:f9a7da89d3b58584f3d1cdd56aafa069:libvidstab/.footprint
 f:1fb6f4cb93da6446dfdeaab7b53db173:rexuiz/rexuiz_client
-f:662b894a09c2ba940e25c37108b7ff07:rexuiz/Pkgfile
-f:9414b3906a65306933929a50ae0baefa:rexuiz/.md5sum
+f:f5232709cb409550765144227a48fe3d:rexuiz/Pkgfile
+f:2db65eb444fee74eeea721857f72a75b:rexuiz/.md5sum
 f:f8fbb3a7eeaf1cf71df4c5242779a981:rexuiz/.footprint
 f:9cde717042c326e837c1b137bbbd6307:wesnoth/Pkgfile
 f:5694b6df30de7343d1351158d8f37308:wesnoth/.md5sum
@@ -73,8 +73,8 @@ f:d41d8cd98f00b204e9800998ecf8427e:record
 f:c75d7062aafea0a9f4188b91561b6fb5:bzflag/Pkgfile
 f:100cdde0f3f9b296e77195df90d2f4fb:bzflag/.md5sum
 f:c7cf332de4b0cdecb243d1b25cfc7810:bzflag/.footprint
-f:5f84aaca61d0368d6777a378330c4961:vim/Pkgfile
-f:9fb41b6ac49a49fce9f0f047ae753de2:vim/.md5sum
+f:b735d2bac948e59804cd63e962ebe934:vim/Pkgfile
+f:28ffef93cd18fe33b4e6d468135b5b00:vim/.md5sum
 f:8f79739fb2619d05616a0a8cdaaaf558:vim/.footprint
 f:a128419e1b41becf10ec9bb602dcc1f2:vifm/Pkgfile
 f:69297864e3c0ed374c80a33dd5f3c2e9:vifm/.md5sum
