@@ -1,11 +1,10 @@
 # Description: The Mozilla Firefox browser with Alsa support
 # URL: https://www.mozilla.com/firefox
-# Maintainer: smailv71 at gmail dot com 
+# Maintainer: smailv71 at gmail dot com
 # Depends on: alsa-lib autoconf-2.13 cbindgen clang dbus-glib gtk libidl libnotify libxkbcommon lld nodejs nss unzip xorg-libxt yasm zip python
-# Optional: sccache
 
 name=firefox
-version=77.0.1
+version=78.0
 release=1
 source=(https://ftp.mozilla.org/pub/firefox/releases/$version/source/firefox-$version.source.tar.xz
 	0001-Use-remoting-name-for-GDK-application-names.patch)
@@ -38,7 +37,6 @@ cat <<- EOF > .mozconfig
 	ac_add_options --enable-application=browser
 	ac_add_options --with-system-jpeg
 	ac_add_options --with-system-zlib
-	ac_add_options --with-system-bz2
 	ac_add_options --with-system-png
 	ac_add_options --with-system-nspr
 	ac_add_options --with-system-nss
@@ -60,7 +58,6 @@ cat <<- EOF > .mozconfig
 	ac_add_options --disable-updater
 	ac_add_options --disable-crashreporter
 	ac_add_options --disable-necko-wifi
-	ac_add_options --disable-gconf
 EOF
 
 	[[ -e '/usr/bin/ccache' ]] && echo 'ac_add_options --enable-ccache' >> .mozconfig
