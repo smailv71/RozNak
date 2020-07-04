@@ -4,11 +4,12 @@
 # Depends on:	
 
 name=bigslex
-version=2.6.8
+version=2.6.6
 release=1
-source=(https://github.com/SLASHEM-Extended/SLASHEM-Extended/archive/slex-${version//8/7}.zip bigslex)
+source=(https://codeload.github.com/SLASHEM-Extended/SLASHEM-Extended/zip/master bigslex)
 build() {
-	cd $SRC/SLASHEM-Extended-slex-${version//8/7}
+	unzip master
+	cd SLASHEM-Extended-master
 
 	sed -i 's/\/\* #define BIG/#define BIG/g' include/config.h
 

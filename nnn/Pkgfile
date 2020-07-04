@@ -7,10 +7,11 @@
 name=nnn
 version=3.2
 release=1
-source=(https://github.com/jarun/nnn/releases/download/v$version/$name-v$version.tar.gz)
+source=(https://codeload.github.com/jarun/nnn/zip/master)
 
 build() {
-	cd $name-$version
+	unzip master
+	cd nnn-master 
 
 	make -j4
 	make PREFIX=/usr DESTDIR=$PKG install
