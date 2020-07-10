@@ -34,8 +34,8 @@ f:02ad839b8e4aa038c0c944d0e7b23788:djvulibre/Pkgfile
 f:280b87892c378707691a589981c9067d:djvulibre/.md5sum
 f:9f64f5eaccb62c595511ef87e1fca450:djvulibre/.footprint
 f:3a34a63a36ace9c4f6d7a6518ae9b0bf:firefox/0001-Use-remoting-name-for-GDK-application-names.patch
-f:4bac82f83980e3d3445c31964d19ff9f:firefox/Pkgfile
-f:5eb9da0da48156f69b2fe2f557e3d4b4:firefox/.md5sum
+f:18ae2e17e8bc6e35fa1140fc88261b4c:firefox/Pkgfile
+f:6ada2ee0f938b8bef6ad8c92e2a4e764:firefox/.md5sum
 f:4d6811c8f2518e93434b11802dd333a0:firefox/README
 f:148fc68da66e6e59dabb9b296a4c08da:firefox/.footprint
 f:f654bec7408f298d398e0a62da6bf0d7:ffmpeg/Pkgfile
@@ -73,8 +73,8 @@ f:d41d8cd98f00b204e9800998ecf8427e:record
 f:c75d7062aafea0a9f4188b91561b6fb5:bzflag/Pkgfile
 f:100cdde0f3f9b296e77195df90d2f4fb:bzflag/.md5sum
 f:c7cf332de4b0cdecb243d1b25cfc7810:bzflag/.footprint
-f:d2aae7a9f316d0e01cf3e5cab32cf1d9:vim/Pkgfile
-f:91512ee075dfeb635481155835fe6ece:vim/.md5sum
+f:3b45239d5baa8f94aebde0563533af1c:vim/Pkgfile
+f:a67e04d54cccb4e905fd0ad19c771f0a:vim/.md5sum
 f:8f79739fb2619d05616a0a8cdaaaf558:vim/.footprint
 f:a128419e1b41becf10ec9bb602dcc1f2:vifm/Pkgfile
 f:f0755f83dbb352ff4319c5e3e37b0dad:vifm/.md5sum
