@@ -1,7 +1,7 @@
 # Description: A ncurses based file manager with vi like keybindings
 # URL:         http://vifm.info
 # Maintainer:  smailv71 at gmail dot com
-# Depends on:  ncurses
+# Depends on:  ncurses unzip
 
 name=vifm
 version=0.10.1
