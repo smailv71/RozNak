@@ -4,16 +4,25 @@
 # Depends on: alsa-lib autoconf-2.13 cbindgen clang dbus-glib gtk libidl libnotify libxkbcommon lld nodejs nss unzip xorg-libxt yasm zip python
 
 name=firefox
-version=78.0.2
+version=79.0
 release=1
 source=(https://ftp.mozilla.org/pub/firefox/releases/$version/source/firefox-$version.source.tar.xz
-	0001-Use-remoting-name-for-GDK-application-names.patch)
+	0001-Use-remoting-name-for-GDK-application-names.patch
+	bug1654465.diff)
 
 build() {
 	cd firefox-$version
 
 	# https://bugzilla.mozilla.org/show_bug.cgi?id=1530052
 	patch -p1 -i $SRC/0001-Use-remoting-name-for-GDK-application-names.patch
+
+	if [ $(/usr/bin/python -c "import sys; print sys.stdout.encoding") = 'UTF-8' ]; then
+		printf "\e[031mError: set an UTF-8 locale to compile this!\033[0m\n"
+		exit 1
+	fi
+
+	# https://bugzilla.mozilla.org/show_bug.cgi?id=1654465
+	patch -p1 -i $SRC/bug1654465.diff
 
 	if [ $(/usr/bin/python -c "import sys; print sys.stdout.encoding") = 'UTF-8' ]; then
 		printf "\e[031mError: set an UTF-8 locale to compile this!\033[0m\n"

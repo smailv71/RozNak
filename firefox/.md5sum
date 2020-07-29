@@ -1,2 +1,3 @@
 3a34a63a36ace9c4f6d7a6518ae9b0bf  0001-Use-remoting-name-for-GDK-application-names.patch
-9b5c977ffee7804c9cdac68367864225  firefox-78.0.2.source.tar.xz
+293097ecb67691c45afde91843462c80  bug1654465.diff
+afc30d1e704965bddb950ab322a07cc9  firefox-79.0.source.tar.xz
