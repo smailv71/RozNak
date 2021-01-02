@@ -1,28 +1,19 @@
 # Description: The Mozilla Firefox browser with Alsa support
-# URL: https://www.mozilla.com/firefox
-# Maintainer: smailv71 at gmail dot com
+# URL: https://www.mozilla.com/firefox/
+# Maintainer: Danny Rawlins, crux at romster dot me
 # Depends on: alsa-lib autoconf-2.13 cbindgen clang dbus-glib gtk libidl libnotify libxkbcommon lld nodejs nss unzip xorg-libxt yasm zip python
+# Optional: sccache
 
 name=firefox
-version=79.0
+version=84.0.1
 release=1
 source=(https://ftp.mozilla.org/pub/firefox/releases/$version/source/firefox-$version.source.tar.xz
-	0001-Use-remoting-name-for-GDK-application-names.patch
-	bug1654465.diff)
-
+	0001-Use-remoting-name-for-GDK-application-names.patch)
 build() {
 	cd firefox-$version
 
 	# https://bugzilla.mozilla.org/show_bug.cgi?id=1530052
 	patch -p1 -i $SRC/0001-Use-remoting-name-for-GDK-application-names.patch
-
-	if [ $(/usr/bin/python -c "import sys; print sys.stdout.encoding") = 'UTF-8' ]; then
-		printf "\e[031mError: set an UTF-8 locale to compile this!\033[0m\n"
-		exit 1
-	fi
-
-	# https://bugzilla.mozilla.org/show_bug.cgi?id=1654465
-	patch -p1 -i $SRC/bug1654465.diff
 
 	if [ $(/usr/bin/python -c "import sys; print sys.stdout.encoding") = 'UTF-8' ]; then
 		printf "\e[031mError: set an UTF-8 locale to compile this!\033[0m\n"
@@ -67,14 +58,16 @@ cat <<- EOF > .mozconfig
 	ac_add_options --disable-updater
 	ac_add_options --disable-crashreporter
 	ac_add_options --disable-necko-wifi
+	ac_add_options --disable-elf-hack
 EOF
 
 	[[ -e '/usr/bin/ccache' ]] && echo 'ac_add_options --enable-ccache' >> .mozconfig
 
 	export CC=clang CXX=clang++ AR=llvm-ar NM=llvm-nm RANLIB=llvm-ranlib
-	export MOZ_MAKE_FLAGS="-j $JOBS"
+	export MOZ_MAKE_FLAGS="-j ${JOBS}"
 	export MOZBUILD_STATE_PATH="$PKGMK_SOURCE_DIR/.mozbuild"
 	export MOZ_NOSPAM=1
+	export MACH_USE_SYSTEM_PYTHON=1
 
 	./mach build
 	#./mach build toolkit/library/rust
