@@ -4,7 +4,7 @@
 # Depends on:  
 
 name=libsixel
-version=1.7.3
+version=1.8.6
 release=1
 source=(https://github.com/saitoha/$name/archive/v$version.tar.gz)
 

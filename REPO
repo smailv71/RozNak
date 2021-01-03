@@ -53,9 +53,9 @@ f:20f08c5f31e9a85c101e0a2c43b6ab36:st/README
 f:d76bb9d9216d9488d8c584a4b615df4f:st/.footprint
 f:fa930307c0d1d3f8651a80c97a9317c4:st/Pkgfile
 f:f476fb5f8178a5436e2cf2f10e5a2bac:st/.md5sum
-f:7b140562d5d7ef21f686052fe061fd7a:freeciv/.footprint
-f:44e111da373b1a86e8de2f16c9f27e75:freeciv/Pkgfile
-f:6ef3861a02e541d9c66b4f92821435e6:freeciv/.md5sum
+f:a566daa40bda2f8aa47db1f5264c3013:freeciv/.footprint
+f:6d16b9b55196abc344bdb78d1a491a56:freeciv/Pkgfile
+f:716ac94950cf5f5a3387763a04ad8921:freeciv/.md5sum
 f:226c327824f9151d78f72e3554dba912:flash-player-plugin/.footprint
 f:a83e0a46c4639a930e1bff7a7017cc00:flash-player-plugin/Pkgfile
 f:c1edcc42863000252e889aa034d26d18:flash-player-plugin/.md5sum
@@ -79,8 +79,8 @@ f:343356074f55371824ed1e749d63ba93:vim/.footprint
 f:6d4eae82fbe8ffd80f7c33c56630a697:vim/Pkgfile
 f:3a72c1edebaef18a5cff30c3c2dfa571:vim/.md5sum
 f:d5edc86dd17b6e0586ae3197d13f7393:libsixel/.footprint
-f:d2c10463065efbf6df42f62dc4663b0c:libsixel/Pkgfile
-f:e68c9796dd312e6786c311ac45a272e8:libsixel/.md5sum
+f:c57f1e449f35a0bab67771415979a894:libsixel/Pkgfile
+f:a8dcff5ce9922c1412d304477b108720:libsixel/.md5sum
 f:f9a7da89d3b58584f3d1cdd56aafa069:libvidstab/.footprint
 f:26314608d903289743461904023eafbb:libvidstab/Pkgfile
 f:81dc6281afc29da69cc9ee7d3688b0e8:libvidstab/.md5sum

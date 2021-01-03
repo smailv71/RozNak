@@ -4,7 +4,7 @@
 # Depends on:  atk autoconf automake curl freetype gdk-pixbuf gettext glib gtk3 icu libsdl2 libtool pango pkg-config sqlite3 sdl2_image sdl2_mixer sdl2_ttf
 # Optional:    gtk+ qt5 sdl2_gfx
 name=freeciv
-version=2.6.2
+version=2.6.3
 release=1
 source=(https://codeload.github.com/freeciv/freeciv/zip/master)
 
