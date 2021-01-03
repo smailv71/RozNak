@@ -91,6 +91,8 @@ drwxr-xr-x	root/root	usr/share/doc/mupdf/
 -rw-r--r--	root/root	usr/share/doc/mupdf/coding-overview.html
 -rw-r--r--	root/root	usr/share/doc/mupdf/coding-progressive.html
 -rw-r--r--	root/root	usr/share/doc/mupdf/coding-style.html
+-rw-r--r--	root/root	usr/share/doc/mupdf/ecosystem.html
+-rw-r--r--	root/root	usr/share/doc/mupdf/ecosystem.png
 drwxr-xr-x	root/root	usr/share/doc/mupdf/examples/
 -rw-r--r--	root/root	usr/share/doc/mupdf/examples/bbox-device.js
 -rw-r--r--	root/root	usr/share/doc/mupdf/examples/create-thumbnail.js
@@ -103,8 +105,10 @@ drwxr-xr-x	root/root	usr/share/doc/mupdf/examples/
 -rw-r--r--	root/root	usr/share/doc/mupdf/examples/pdf-create-lowlevel.js
 -rw-r--r--	root/root	usr/share/doc/mupdf/examples/pdf-create.js
 -rw-r--r--	root/root	usr/share/doc/mupdf/examples/pdf-dejpx.js
+-rw-r--r--	root/root	usr/share/doc/mupdf/examples/pdf-extract-rich-media.js
 -rw-r--r--	root/root	usr/share/doc/mupdf/examples/pdf-merge.js
 -rw-r--r--	root/root	usr/share/doc/mupdf/examples/pdf-portfolio.js
+-rw-r--r--	root/root	usr/share/doc/mupdf/examples/pdf-trace.js
 -rw-r--r--	root/root	usr/share/doc/mupdf/examples/trace-device.js
 -rw-r--r--	root/root	usr/share/doc/mupdf/index.html
 -rw-r--r--	root/root	usr/share/doc/mupdf/manual-mupdf-gl.html

@@ -46,9 +46,9 @@ f:eb5f6960388ae2b29869946dd435fec8:dwarffortress/.footprint
 f:ad0b0fce3c846c6dc99b8820c28fd430:dwarffortress/Pkgfile
 f:83892853c7ef2f1332c100fcb7039feb:dwarffortress/.md5sum
 f:30210691b8a3fd413db436e9a8dbb09d:dwarffortress/df_game
-f:487cc80f3e7ac6ce6954b7bb7331d673:mupdf/.footprint
-f:663fb84a1a73340657aca691397bcb8a:mupdf/Pkgfile
-f:d367e693c6933e61e3aac2c5338fdce1:mupdf/.md5sum
+f:3a0eb996e5b037338370ea5649e22663:mupdf/.footprint
+f:7843ebd52492d54a9505572d1ef5e74f:mupdf/Pkgfile
+f:bc1d129ef5fb2cb00e390c80aa104a7a:mupdf/.md5sum
 f:20f08c5f31e9a85c101e0a2c43b6ab36:st/README
 f:d76bb9d9216d9488d8c584a4b615df4f:st/.footprint
 f:fa930307c0d1d3f8651a80c97a9317c4:st/Pkgfile
@@ -60,8 +60,8 @@ f:226c327824f9151d78f72e3554dba912:flash-player-plugin/.footprint
 f:a83e0a46c4639a930e1bff7a7017cc00:flash-player-plugin/Pkgfile
 f:c1edcc42863000252e889aa034d26d18:flash-player-plugin/.md5sum
 f:aa4856022bf28ed9a0f18ac907aaabdd:dmenu/.footprint
-f:fbf4bd997dd2f3457dff1b7264f86bcd:dmenu/Pkgfile
-f:6ae25e7488a72dda9bb0bb22ab2acaef:dmenu/.md5sum
+f:d87c2bccfb451bfffaf4c3e300f6bde3:dmenu/Pkgfile
+f:4fece7b07ed573dd141a1fa499a5a6eb:dmenu/.md5sum
 f:b90bf42a0057053879596c31151e1163:wesnoth/.footprint
 f:9cde717042c326e837c1b137bbbd6307:wesnoth/Pkgfile
 f:5694b6df30de7343d1351158d8f37308:wesnoth/.md5sum
