@@ -211,6 +211,7 @@ drwxr-xr-x	root/root	usr/games/wesnoth/share/man/it/man6/
 -rw-r--r--	root/root	usr/games/wesnoth/share/man/it/man6/wesnothd.6
 drwxr-xr-x	root/root	usr/games/wesnoth/share/man/ja/
 drwxr-xr-x	root/root	usr/games/wesnoth/share/man/ja/man6/
+-rw-r--r--	root/root	usr/games/wesnoth/share/man/ja/man6/wesnoth.6
 -rw-r--r--	root/root	usr/games/wesnoth/share/man/ja/man6/wesnothd.6
 drwxr-xr-x	root/root	usr/games/wesnoth/share/man/ko/
 drwxr-xr-x	root/root	usr/games/wesnoth/share/man/ko/man6/
@@ -249,6 +250,7 @@ drwxr-xr-x	root/root	usr/games/wesnoth/share/man/ro/
 drwxr-xr-x	root/root	usr/games/wesnoth/share/man/ro/man6/
 drwxr-xr-x	root/root	usr/games/wesnoth/share/man/ru/
 drwxr-xr-x	root/root	usr/games/wesnoth/share/man/ru/man6/
+-rw-r--r--	root/root	usr/games/wesnoth/share/man/ru/man6/wesnoth.6
 -rw-r--r--	root/root	usr/games/wesnoth/share/man/ru/man6/wesnothd.6
 drwxr-xr-x	root/root	usr/games/wesnoth/share/man/sk/
 drwxr-xr-x	root/root	usr/games/wesnoth/share/man/sk/man6/
@@ -2308,6 +2310,9 @@ drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_Rise_Of_
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_Rise_Of_Wesnoth/ai/ca_retreat.lua
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_Rise_Of_Wesnoth/images/
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_Rise_Of_Wesnoth/images/campaign_image.png
+drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_Rise_Of_Wesnoth/images/l10n/
+drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_Rise_Of_Wesnoth/images/l10n/hu/
+-rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_Rise_Of_Wesnoth/images/l10n/hu/green_isle--overlay.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_Rise_Of_Wesnoth/images/maps/
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_Rise_Of_Wesnoth/images/maps/great_continent.png
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/campaigns/The_Rise_Of_Wesnoth/images/maps/green_isle.png
@@ -3718,6 +3723,10 @@ drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/core/images/help/l10n/
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/core/images/help/l10n/gl/hpxp.png
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/core/images/help/l10n/gl/recruit.png
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/core/images/help/l10n/gl/tooltip.png
+drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/core/images/help/l10n/hu/
+-rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/core/images/help/l10n/hu/hpxp.png
+-rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/core/images/help/l10n/hu/recruit.png
+-rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/core/images/help/l10n/hu/tooltip.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/core/images/help/l10n/it/
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/core/images/help/l10n/it/hpxp.png
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/core/images/help/l10n/it/recruit.png
@@ -3935,6 +3944,7 @@ drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/core/images/maps/l10n/
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/core/images/maps/l10n/pt/titlescreen--overlay.png
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/core/images/maps/l10n/pt/wesnoth--overlay.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/core/images/maps/l10n/ru/
+-rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/core/images/maps/l10n/ru/titlescreen--overlay.png
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/core/images/maps/l10n/ru/wesnoth--overlay.png
 drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/core/images/maps/l10n/sr/
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/core/images/maps/l10n/sr/wesnoth--overlay.png
@@ -15642,8 +15652,6 @@ drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/fonts/
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/fonts/Lato-BlackItalic.ttf
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/fonts/Lato-Bold.ttf
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/fonts/Lato-BoldItalic.ttf
--rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/fonts/Lato-Hairline.ttf
--rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/fonts/Lato-HairlineItalic.ttf
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/fonts/Lato-Heavy.ttf
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/fonts/Lato-HeavyItalic.ttf
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/fonts/Lato-Italic.ttf
