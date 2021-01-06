@@ -18,7 +18,7 @@ build () {
 
 	cd ${SRC}/UrbanTerror43
 
-	install -d ${PKG}/usr/{bin,games/UrbanTerror43}
-	cp -r * ${PKG}/usr/games/UrbanTerror43
-	ln -s /usr/games/UrbanTerror43/Quake3-UrT.x86_64 ${PKG}/usr/bin/ut_client
+	install -d ${PKG}/usr/{bin,games/UrbanTerror}
+	cp -r * ${PKG}/usr/games/UrbanTerror
+	ln -s /usr/games/UrbanTerror/Quake3-UrT.x86_64 ${PKG}/usr/bin/ut_client
 }
