@@ -25,8 +25,8 @@ f:f7e65531646fe2ecdb2f364f28a2385d:ffmpeg/sixel.patch
 f:5f41dfd7c68c898a7acd88a235770eea:ffmpeg/.footprint
 f:e3c0744902e98a63eb02a7797079454e:ffmpeg/Pkgfile
 f:0f4e12b6da066531c3574b3d8e3f3dab:ffmpeg/.md5sum
-f:f103875a3e1b461b52e83002cf0ecdeb:assaultcube/.footprint
-f:382e43da4d97a0c1c31e0e8813b94d93:assaultcube/Pkgfile
+f:6dd443b12df4664f4726ec0d70497190:assaultcube/.footprint
+f:d120339aca4f0a91a1fe667fce674bd1:assaultcube/Pkgfile
 f:c47c6f276083b6fe73c66dae3be5590b:assaultcube/.md5sum
 f:d41d8cd98f00b204e9800998ecf8427e:record
 f:e1baca0c66bc4a886e8c4b8b95eaa6e2:bigslex/bigslex
@@ -62,8 +62,8 @@ f:c1edcc42863000252e889aa034d26d18:flash-player-plugin/.md5sum
 f:aa4856022bf28ed9a0f18ac907aaabdd:dmenu/.footprint
 f:d87c2bccfb451bfffaf4c3e300f6bde3:dmenu/Pkgfile
 f:4fece7b07ed573dd141a1fa499a5a6eb:dmenu/.md5sum
-f:99863086bf398facf2726add98c015f3:gtkballs/.footprint
-f:1c0fa6b61535c83b6d8b6784653b2eb8:gtkballs/Pkgfile
+f:afe6f0daded86d76d7b59d76b6934c58:gtkballs/.footprint
+f:e95f116225f3ef4b79b222932b633976:gtkballs/Pkgfile
 f:918376dc164a419fc52fff32a5f95296:gtkballs/.md5sum
 f:b2b01c0badb0f5ee3e95a7c8d6329f19:wesnoth/.footprint
 f:f158a6c50300b41d8bdd064971630577:wesnoth/Pkgfile

@@ -10,9 +10,10 @@ source=(http://gtkballs.antex.ru/dist/gtkballs-3.1.5.tar.gz)
 
 build() {
 	cd $name-$version
-	./configure --prefix=/usr/games/$name-$version 
+	./configure --prefix=/usr/games/$name 
 	make -j4
-	make prefix=$PKG/usr/games/$name-$version install
+	make prefix=$PKG/usr/games/$name install
 
-	install -d ${PKG}/usr/games/$name-$version 
+	install -d ${PKG}/usr/{bin,games/$name}
+	ln -s /usr/games/gtkballs/bin/gtkballs ${PKG}/usr/bin/gtkballs
 }

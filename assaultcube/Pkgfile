@@ -17,7 +17,7 @@ build () {
 	cd ${SRC}/AssaultCube_v$version
 	rm  -r bin_unix/l* source
 
-	install -d ${PKG}/usr/{bin,games/AssaultCube_v$version}
-	cp -r * ${PKG}/usr/games/AssaultCube_v$version
-	ln -s /usr/games/AssaultCube_v1.2.0.2/assaultcube.sh ${PKG}/usr/bin/ac_client
+	install -d ${PKG}/usr/{bin,games/AssaultCube}
+	cp -r * ${PKG}/usr/games/AssaultCube
+	ln -s /usr/games/AssaultCube/assaultcube.sh ${PKG}/usr/bin/ac_client
 }
