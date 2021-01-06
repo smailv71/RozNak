@@ -10,6 +10,7 @@ d:st
 d:freeciv
 d:flash-player-plugin
 d:dmenu
+d:gtkballs
 d:wesnoth
 d:sauerbraten
 d:nnn
@@ -29,9 +30,8 @@ f:382e43da4d97a0c1c31e0e8813b94d93:assaultcube/Pkgfile
 f:c47c6f276083b6fe73c66dae3be5590b:assaultcube/.md5sum
 f:d41d8cd98f00b204e9800998ecf8427e:record
 f:e1baca0c66bc4a886e8c4b8b95eaa6e2:bigslex/bigslex
-f:7e2daf77fb48a5c4c1e6921c635a07ba:bigslex/.footprint
-f:99f6feffca37c8cfb86ae7ee6161e325:bigslex/Pkgfile
-f:7bde9422f95dce4bf8eb9331af602d5e:bigslex/.md5sum
+f:24c72a8024b895eedfa1e6cf1b245893:bigslex/Pkgfile
+f:987a7ec8a98b6b958784ec4e3e82d52c:bigslex/.md5sum
 f:1fb6f4cb93da6446dfdeaab7b53db173:rexuiz/rexuiz_client
 f:f8fbb3a7eeaf1cf71df4c5242779a981:rexuiz/.footprint
 f:3cb87b5f50e687255a9ba33df721d555:rexuiz/Pkgfile
@@ -55,13 +55,16 @@ f:fa930307c0d1d3f8651a80c97a9317c4:st/Pkgfile
 f:f476fb5f8178a5436e2cf2f10e5a2bac:st/.md5sum
 f:a566daa40bda2f8aa47db1f5264c3013:freeciv/.footprint
 f:6d16b9b55196abc344bdb78d1a491a56:freeciv/Pkgfile
-f:716ac94950cf5f5a3387763a04ad8921:freeciv/.md5sum
+f:7c3652700db01561c3da1e3977be3827:freeciv/.md5sum
 f:226c327824f9151d78f72e3554dba912:flash-player-plugin/.footprint
 f:a83e0a46c4639a930e1bff7a7017cc00:flash-player-plugin/Pkgfile
 f:c1edcc42863000252e889aa034d26d18:flash-player-plugin/.md5sum
 f:aa4856022bf28ed9a0f18ac907aaabdd:dmenu/.footprint
 f:d87c2bccfb451bfffaf4c3e300f6bde3:dmenu/Pkgfile
 f:4fece7b07ed573dd141a1fa499a5a6eb:dmenu/.md5sum
+f:99863086bf398facf2726add98c015f3:gtkballs/.footprint
+f:1c0fa6b61535c83b6d8b6784653b2eb8:gtkballs/Pkgfile
+f:918376dc164a419fc52fff32a5f95296:gtkballs/.md5sum
 f:b2b01c0badb0f5ee3e95a7c8d6329f19:wesnoth/.footprint
 f:f158a6c50300b41d8bdd064971630577:wesnoth/Pkgfile
 f:cf2090014866b91fe50e9d433b3fa435:wesnoth/.md5sum

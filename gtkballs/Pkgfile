@@ -1,0 +1,18 @@
+# GtkBalls is the clone of well-known DOS game "Lines".
+# URL: http://gtkballs.antex.ru 
+# Maintainer: smailv71 at gmaili dot com
+# Depends on:
+
+name=gtkballs
+version=3.1.5
+release=1
+source=(http://gtkballs.antex.ru/dist/gtkballs-3.1.5.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr/games/$name-$version 
+	make -j4
+	make prefix=$PKG/usr/games/$name-$version install
+
+	install -d ${PKG}/usr/games/$name-$version 
+}
