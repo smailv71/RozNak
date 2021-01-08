@@ -5,7 +5,7 @@
 
 name=bigslex
 version=2.6.6
-release=1
+release=2
 source=(https://codeload.github.com/SLASHEM-Extended/SLASHEM-Extended/zip/master bigslex)
 build() {
 	unzip master
