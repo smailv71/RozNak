@@ -1,0 +1,22 @@
+# PWMAngband is a graphical dungeon adventure game that uses textual characters to represent the walls and floors of a dungeon and the inhabitants therein, in the vein of games like NetHack and Rogue. 
+# URL:http://www.roguebasin.com/index.php?title=PWMAngband 
+# Maintainer: smailv71 at gmail dot com 
+# Depends on:
+
+name=pwmangband
+version=1.5.0
+release=1
+source=(https://codeload.github.com/draconisPW/PWMAngband/zip/master)
+
+build() {
+	unzip master
+	cd PWMAngband-master 
+
+	./autogen.sh
+	./configure --prefix=/usr/games/PWMAngband --disable-curses --enable-sdl
+	make -j4
+	make DESTDIR=$PKG install
+
+	install -d ${PKG}/usr/{bin,games/PWMAngband}
+	ln -s /usr/games/PWMAngband/games/pwmangclient ${PKG}/usr/bin/pwmangclient
+}

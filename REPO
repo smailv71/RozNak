@@ -20,6 +20,7 @@ d:libsixel
 d:libvidstab
 d:urbanterror
 d:djvulibre
+d:pwmangband
 d:firefox
 f:f7e65531646fe2ecdb2f364f28a2385d:ffmpeg/sixel.patch
 f:5f41dfd7c68c898a7acd88a235770eea:ffmpeg/.footprint
@@ -93,6 +94,9 @@ f:23c8a9747d992e4e2621c1a1755930d9:urbanterror/.md5sum
 f:1455c44ba0f10439a2439ff8c6505000:djvulibre/.footprint
 f:f001c62471a1f9739047fc25d7cd22a3:djvulibre/Pkgfile
 f:41e1361810948d4f39dd11b5feb1b764:djvulibre/.md5sum
+f:45d883495d625dc1c3190caab6a2077d:pwmangband/.footprint
+f:baeef7bc7ac09f49c1d02b38296d21a3:pwmangband/Pkgfile
+f:45bbb0b6e0f0a31546ac644dd7a3dbb9:pwmangband/.md5sum
 f:4d6811c8f2518e93434b11802dd333a0:firefox/README
 f:3a34a63a36ace9c4f6d7a6518ae9b0bf:firefox/0001-Use-remoting-name-for-GDK-application-names.patch
 f:148fc68da66e6e59dabb9b296a4c08da:firefox/.footprint
