@@ -627,6 +627,7 @@ drwxr-xr-x	root/root	usr/share/vim/vim82/ftplugin/
 -rw-r--r--	root/root	usr/share/vim/vim82/ftplugin/flexwiki.vim
 -rw-r--r--	root/root	usr/share/vim/vim82/ftplugin/fortran.vim
 -rw-r--r--	root/root	usr/share/vim/vim82/ftplugin/framescript.vim
+-rw-r--r--	root/root	usr/share/vim/vim82/ftplugin/fstab.vim
 -rw-r--r--	root/root	usr/share/vim/vim82/ftplugin/fvwm.vim
 -rw-r--r--	root/root	usr/share/vim/vim82/ftplugin/gdb.vim
 -rw-r--r--	root/root	usr/share/vim/vim82/ftplugin/git.vim
@@ -744,6 +745,7 @@ drwxr-xr-x	root/root	usr/share/vim/vim82/ftplugin/
 -rw-r--r--	root/root	usr/share/vim/vim82/ftplugin/sensors.vim
 -rw-r--r--	root/root	usr/share/vim/vim82/ftplugin/services.vim
 -rw-r--r--	root/root	usr/share/vim/vim82/ftplugin/setserial.vim
+-rw-r--r--	root/root	usr/share/vim/vim82/ftplugin/sexplib.vim
 -rw-r--r--	root/root	usr/share/vim/vim82/ftplugin/sgml.vim
 -rw-r--r--	root/root	usr/share/vim/vim82/ftplugin/sh.vim
 -rw-r--r--	root/root	usr/share/vim/vim82/ftplugin/sieve.vim
@@ -828,6 +830,7 @@ drwxr-xr-x	root/root	usr/share/vim/vim82/indent/
 -rw-r--r--	root/root	usr/share/vim/vim82/indent/dosbatch.vim
 -rw-r--r--	root/root	usr/share/vim/vim82/indent/dtd.vim
 -rw-r--r--	root/root	usr/share/vim/vim82/indent/dtrace.vim
+-rw-r--r--	root/root	usr/share/vim/vim82/indent/dune.vim
 -rw-r--r--	root/root	usr/share/vim/vim82/indent/dylan.vim
 -rw-r--r--	root/root	usr/share/vim/vim82/indent/eiffel.vim
 -rw-r--r--	root/root	usr/share/vim/vim82/indent/elm.vim
@@ -1607,6 +1610,7 @@ drwxr-xr-x	root/root	usr/share/vim/vim82/syntax/
 -rw-r--r--	root/root	usr/share/vim/vim82/syntax/gdb.vim
 -rw-r--r--	root/root	usr/share/vim/vim82/syntax/gdmo.vim
 -rw-r--r--	root/root	usr/share/vim/vim82/syntax/gedcom.vim
+-rw-r--r--	root/root	usr/share/vim/vim82/syntax/gift.vim
 -rw-r--r--	root/root	usr/share/vim/vim82/syntax/git.vim
 -rw-r--r--	root/root	usr/share/vim/vim82/syntax/gitcommit.vim
 -rw-r--r--	root/root	usr/share/vim/vim82/syntax/gitconfig.vim
@@ -1779,6 +1783,7 @@ drwxr-xr-x	root/root	usr/share/vim/vim82/syntax/
 -rw-r--r--	root/root	usr/share/vim/vim82/syntax/ocaml.vim
 -rw-r--r--	root/root	usr/share/vim/vim82/syntax/occam.vim
 -rw-r--r--	root/root	usr/share/vim/vim82/syntax/omnimark.vim
+-rw-r--r--	root/root	usr/share/vim/vim82/syntax/opam.vim
 -rw-r--r--	root/root	usr/share/vim/vim82/syntax/openroad.vim
 -rw-r--r--	root/root	usr/share/vim/vim82/syntax/opl.vim
 -rw-r--r--	root/root	usr/share/vim/vim82/syntax/ora.vim
@@ -1878,6 +1883,7 @@ drwxr-xr-x	root/root	usr/share/vim/vim82/syntax/
 -rw-r--r--	root/root	usr/share/vim/vim82/syntax/sensors.vim
 -rw-r--r--	root/root	usr/share/vim/vim82/syntax/services.vim
 -rw-r--r--	root/root	usr/share/vim/vim82/syntax/setserial.vim
+-rw-r--r--	root/root	usr/share/vim/vim82/syntax/sexplib.vim
 -rw-r--r--	root/root	usr/share/vim/vim82/syntax/sgml.vim
 -rw-r--r--	root/root	usr/share/vim/vim82/syntax/sgmldecl.vim
 -rw-r--r--	root/root	usr/share/vim/vim82/syntax/sgmllnx.vim
