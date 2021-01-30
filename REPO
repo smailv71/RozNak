@@ -79,9 +79,9 @@ f:4e502facbaac4a34239acdb1eee97321:nnn/.md5sum
 f:6dbc1fb86fc8e39651a53183676f67b7:vifm/.footprint
 f:debcb2636917064e95bdb87ff8d4b7b4:vifm/Pkgfile
 f:c71cfa08d573a0c98250a55323a0e5f0:vifm/.md5sum
-f:432cf09b86031b82c19ba161c8f66bcd:vim/.footprint
-f:be846eb1b256e47849a846ba79094876:vim/Pkgfile
-f:599db49e48325152a835772eb916d44e:vim/.md5sum
+f:68aae8d769f642e99ee7e959c564de41:vim/.footprint
+f:9f355c9c995df0f29add7f870aa84428:vim/Pkgfile
+f:cdd2c3907bc4d890130abc24014a952c:vim/.md5sum
 f:d5edc86dd17b6e0586ae3197d13f7393:libsixel/.footprint
 f:c57f1e449f35a0bab67771415979a894:libsixel/Pkgfile
 f:a8dcff5ce9922c1412d304477b108720:libsixel/.md5sum
@@ -98,7 +98,7 @@ f:45d883495d625dc1c3190caab6a2077d:pwmangband/.footprint
 f:baeef7bc7ac09f49c1d02b38296d21a3:pwmangband/Pkgfile
 f:45bbb0b6e0f0a31546ac644dd7a3dbb9:pwmangband/.md5sum
 f:4d6811c8f2518e93434b11802dd333a0:firefox/README
-f:3a34a63a36ace9c4f6d7a6518ae9b0bf:firefox/0001-Use-remoting-name-for-GDK-application-names.patch
+f:e7994b3b78b780ebe610ba3d87247e40:firefox/0001-Use-remoting-name-for-GDK-application-names.patch
 f:148fc68da66e6e59dabb9b296a4c08da:firefox/.footprint
-f:ef2fb576c551d119e196ec6292291e1c:firefox/Pkgfile
-f:e1f58ca02dc10b314f375cd901ec0529:firefox/.md5sum
+f:50d60a3df6584d7e8a950d26fbbd75f7:firefox/Pkgfile
+f:917898337dc8d5865e21dbaaeba20e37:firefox/.md5sum
