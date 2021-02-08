@@ -4,9 +4,9 @@
 # Depends on:  gtk sdl_image sdl_ttf openal libsndfile glew glu
 
 name=dwarffortress
-version=0.47.04
+version=0.47.05
 release=1
-source=(http://www.bay12games.com/dwarves/df_47_04_linux.tar.bz2 df_game)
+source=(http://www.bay12games.com/dwarves/df_47_05_linux.tar.bz2 df_game)
 
 build() {
 	cd df_linux
