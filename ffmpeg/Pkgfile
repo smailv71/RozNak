@@ -1,5 +1,5 @@
 # Description: Complete solution to record, convert and stream audio and video.
-# URL: http://ffmpeg.org/
+# URL: http://ffmpeg.org
 # Maintainer: smailv71 at gmail dot com 
 # Depends on: gnutls lame libass libbluray libgmp libmodplug libsdl libtheora libva libvpx libxvid opencore-amr openjpeg2 opus rtmpdump speex x264 x265 libvidstab libsixel libsdl2
 
