@@ -95,8 +95,8 @@ f:1455c44ba0f10439a2439ff8c6505000:djvulibre/.footprint
 f:bc27ded9a63b19be9939d3987338a7f0:djvulibre/Pkgfile
 f:584ccadea9e3c5d6c46555a3748ad512:djvulibre/.md5sum
 f:9c0c953723ec0f9303ea314a3b6cb660:pwmangband/.footprint
-f:baeef7bc7ac09f49c1d02b38296d21a3:pwmangband/Pkgfile
-f:2999ba1439d11db2513be0f7749c317f:pwmangband/.md5sum
+f:42e6779f2f55a61b52554c14cc88b46c:pwmangband/Pkgfile
+f:85e84d8841db5df33d4be2dc044c5d76:pwmangband/.md5sum
 f:4d6811c8f2518e93434b11802dd333a0:firefox/README
 f:e7994b3b78b780ebe610ba3d87247e40:firefox/0001-Use-remoting-name-for-GDK-application-names.patch
 f:148fc68da66e6e59dabb9b296a4c08da:firefox/.footprint
