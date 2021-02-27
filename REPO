@@ -80,8 +80,8 @@ f:6dbc1fb86fc8e39651a53183676f67b7:vifm/.footprint
 f:da2a07a4c6847a3b7d3cf10c8cc954ba:vifm/Pkgfile
 f:a2844736f84836d95b44177339228876:vifm/.md5sum
 f:68aae8d769f642e99ee7e959c564de41:vim/.footprint
-f:d1170ef8e4c3c0a103b2fd1bd0bf2b24:vim/Pkgfile
-f:3995c20fd9f6e9a5a83cb2407008983a:vim/.md5sum
+f:a8106fca00beda7112693e7114f6b09e:vim/Pkgfile
+f:7a2739ae192be1b85a1394ba93f42773:vim/.md5sum
 f:d5edc86dd17b6e0586ae3197d13f7393:libsixel/.footprint
 f:c57f1e449f35a0bab67771415979a894:libsixel/Pkgfile
 f:a8dcff5ce9922c1412d304477b108720:libsixel/.md5sum
@@ -100,6 +100,5 @@ f:85e84d8841db5df33d4be2dc044c5d76:pwmangband/.md5sum
 f:4d6811c8f2518e93434b11802dd333a0:firefox/README
 f:e7994b3b78b780ebe610ba3d87247e40:firefox/0001-Use-remoting-name-for-GDK-application-names.patch
 f:148fc68da66e6e59dabb9b296a4c08da:firefox/.footprint
-f:7a97c67caca0ebdcb9ee17b2aa446290:firefox/fix-rust-1.50-build.patch
-f:b5427f560f4c810db136e66673a6968f:firefox/Pkgfile
-f:f6c81548721b404ca7a377b17320cbea:firefox/.md5sum
+f:1a099f8e2687e37f00189433e3e6f86e:firefox/Pkgfile
+f:6602565ad2c1fa263d23a1e596b03ddd:firefox/.md5sum
