@@ -1,0 +1,16 @@
+# Description: dynamic window manager with dwm-systray
+# URL:         https://dwm.suckless.org
+# Maintainer:  smailv71 at gmaili dot com 
+# Depends on:  xorg-libxft xorg-libxinerama
+
+name=dwm
+version=6.2
+release=1
+source=(https://dl.suckless.org/dwm/$name-$version.tar.gz https://dwm.suckless.org/patches/systray/dwm-systray-$version.diff)
+
+build () {
+	cd $name-$version
+	git apply ../../../dwm-systray-$version.diff
+	make -j4 CC=gcc X11INC=/usr/include
+	make DESTDIR=$PKG PREFIX=/usr install
+}
