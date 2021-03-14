@@ -1,0 +1,9 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+lrwxrwxrwx	root/root	usr/bin/tixati -> /usr/local/tixati/tixati
+drwxr-xr-x	root/root	usr/local/
+drwxr-xr-x	root/root	usr/local/tixati/
+-rw-r--r--	root/root	usr/local/tixati/README.txt
+-rwxr-xr-x	root/root	usr/local/tixati/tixati
+-rw-r--r--	root/root	usr/local/tixati/tixati.desktop
+-rw-r--r--	root/root	usr/local/tixati/tixati.png

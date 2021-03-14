@@ -1,4 +1,5 @@
 d:ffmpeg
+d:tixati
 d:assaultcube
 d:bigslex
 d:rexuiz
@@ -28,6 +29,9 @@ f:dae0c10c99399580c929fc100e79faef:ffmpeg/ffmpeg-x264-10bit.sh
 f:746e25d89b279706f58163c8933f333a:ffmpeg/.footprint
 f:7c5dff2b9153198145575b175acca06d:ffmpeg/Pkgfile
 f:07d2a7695fdf45106130f1f2940cba90:ffmpeg/.md5sum
+f:363a96e5e30bccd0abd0bdd96468d56a:tixati/.footprint
+f:8dbe411c981bd953d4d4f40b16f0c080:tixati/Pkgfile
+f:27ff2f82f535d1dcaf162655349fdd2b:tixati/.md5sum
 f:6dd443b12df4664f4726ec0d70497190:assaultcube/.footprint
 f:d120339aca4f0a91a1fe667fce674bd1:assaultcube/Pkgfile
 f:c47c6f276083b6fe73c66dae3be5590b:assaultcube/.md5sum

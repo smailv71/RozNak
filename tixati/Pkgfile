@@ -1,0 +1,17 @@
+# Description: 100% Free, Simple and Easy to Use Bittorrent Client.
+# URL:         https://www.tixati.com 
+# Maintainer:  smailv71 at gmail dot com 
+# Depends on:
+
+name=tixati
+version=2.81
+release=1
+source=(https://download2.tixati.com/download/tixati-$version-1.x86_64.manualinstall.tar.gz)
+
+build () {
+	cd ${SRC}/tixati-$version-1.x86_64.manualinstall 
+
+	install -d ${PKG}/usr/{bin,local/tixati}
+	cp -r * ${PKG}/usr/local/tixati
+	ln -s /usr/local/tixati/tixati ${PKG}/usr/bin/tixati
+}
