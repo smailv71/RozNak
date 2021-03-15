@@ -4,6 +4,7 @@ d:assaultcube
 d:bigslex
 d:rexuiz
 d:gforth
+d:umoria
 d:bzflag
 d:dwarffortress
 d:mupdf
@@ -45,6 +46,10 @@ f:388dbc319f0583a82d48993c63472d1b:rexuiz/.md5sum
 f:e3667f07efab4a1e917ea143cef518ff:gforth/.footprint
 f:05d71b9691dd05e17d6932d2945d733c:gforth/Pkgfile
 f:729f2ebf2b19f5da4c61265df3466408:gforth/.md5sum
+f:f8cfefe01b9267551d2c0e726d3a6ca6:umoria/umoria
+f:375f20357f3578aeaa306655f4350d8c:umoria/.footprint
+f:f3b848c6488bb2159183deec56aa3558:umoria/Pkgfile
+f:c9014552a462917bd1ac0229a2d9aff3:umoria/.md5sum
 f:c7cf332de4b0cdecb243d1b25cfc7810:bzflag/.footprint
 f:c75d7062aafea0a9f4188b91561b6fb5:bzflag/Pkgfile
 f:100cdde0f3f9b296e77195df90d2f4fb:bzflag/.md5sum
@@ -88,9 +93,9 @@ f:1c9970b56c09d1fa48378f7f92e73291:nnn/.md5sum
 f:6dbc1fb86fc8e39651a53183676f67b7:vifm/.footprint
 f:da2a07a4c6847a3b7d3cf10c8cc954ba:vifm/Pkgfile
 f:a2844736f84836d95b44177339228876:vifm/.md5sum
-f:69800024115baa77329938216dec905c:vim/.footprint
-f:e4501a3d9a7744c67318370c73bd450a:vim/Pkgfile
-f:3ab6d3c0a225d1c97d5ba26e7fb9e69d:vim/.md5sum
+f:35059a936f4de0272fef81852e69c6a6:vim/.footprint
+f:c8f81e334a46a5683889170d9f6c23ab:vim/Pkgfile
+f:1f374494c19d7ea61824bc8650d6ffdd:vim/.md5sum
 f:d5edc86dd17b6e0586ae3197d13f7393:libsixel/.footprint
 f:c57f1e449f35a0bab67771415979a894:libsixel/Pkgfile
 f:a8dcff5ce9922c1412d304477b108720:libsixel/.md5sum

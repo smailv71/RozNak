@@ -1,0 +1,23 @@
+# Description: Moria: a roguelike Dungeon Crawler game
+# URL: https://umoria.org
+# Maintainer:  smailv71 at gmail dot com 
+# Depends on: 
+
+name=umoria
+version=5.7.14
+release=1
+source=(https://codeload.github.com/dungeons-of-moria/umoria/zip/master umoria)
+
+build() {
+	unzip master
+	cd $name-master/src
+	cd ..
+	mkdir build
+	cd build
+	cmake .. 
+	make -j4
+
+	install -d ${PKG}/usr/{bin,games}
+	cp -r umoria ${PKG}/usr/games
+	install -D -m 0755 ${SRC}/umoria ${PKG}/usr/bin
+}
