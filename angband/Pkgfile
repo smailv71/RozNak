@@ -1,0 +1,23 @@
+# Description: Angband is a dungeon-crawling roguelike computer game derived from Umoria.
+# URL: http://rephial.org 
+# Maintainer:  smailv71 at gmail dot com 
+# Depends on: 
+
+name=angband
+version=4.2.2
+release=1
+source=(https://codeload.github.com/angband/angband/zip/master)
+
+build() {
+	unzip master
+
+	cd $name-master
+	./autogen.sh
+	./configure --prefix=/usr/games/angband --disable-x11
+	make -j4
+
+	install -d ${PKG}/usr/bin
+	ln -s /usr/games/angband/games/angband ${PKG}/usr/bin/angband
+
+	make DESTDIR=$PKG install
+}
