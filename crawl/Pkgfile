@@ -1,0 +1,22 @@
+# Description: A roguelike adventure through dungeons filled with dangerous monsters in a quest to find the mystifyingly fabulous Orb of Zot. 
+# URL:         https://crawl.develz.org 
+# Maintainer:  smailv71 at gmaili dot com 
+# Depends on:  lua51 python3-yaml 
+
+name=crawl
+version=0.26.1
+release=1
+
+build () {
+
+	install -d ${PKG}/usr/{bin,games/crawl}
+
+	git clone https://github.com/crawl/crawl.git
+	cd crawl
+	git submodule update --init
+	cd crawl-ref/source
+	make -j4 prefix=/usr/games/crawl
+	make DESTDIR=$PKG/usr/games/crawl SAVEDIR="~/crawl_saving" install
+
+	ln -s /usr/games/crawl/bin/crawl ${PKG}/usr/bin/crawl
+}

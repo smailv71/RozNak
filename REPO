@@ -23,6 +23,7 @@ d:libsixel
 d:libvidstab
 d:angband
 d:urbanterror
+d:crawl
 d:djvulibre
 d:pwmangband
 d:firefox
@@ -95,8 +96,8 @@ f:6dbc1fb86fc8e39651a53183676f67b7:vifm/.footprint
 f:da2a07a4c6847a3b7d3cf10c8cc954ba:vifm/Pkgfile
 f:a2844736f84836d95b44177339228876:vifm/.md5sum
 f:35059a936f4de0272fef81852e69c6a6:vim/.footprint
-f:c1c6a24ba3188bdc316eea00b28842e7:vim/Pkgfile
-f:0fefc463ae2c8b44c923bf6a862eef57:vim/.md5sum
+f:3ad4f2d8b9cc3c10b0a4248cf0df1ff7:vim/Pkgfile
+f:b7d2577088f51ec9e5d8198c4879d882:vim/.md5sum
 f:d5edc86dd17b6e0586ae3197d13f7393:libsixel/.footprint
 f:c57f1e449f35a0bab67771415979a894:libsixel/Pkgfile
 f:a8dcff5ce9922c1412d304477b108720:libsixel/.md5sum
@@ -109,6 +110,9 @@ f:0951e3b4405d713dac0c92107ea59262:angband/.md5sum
 f:89ceacd8fe6812e9974e4b196f699390:urbanterror/.footprint
 f:1436fa1938c7a058c61ea3526a8e41ea:urbanterror/Pkgfile
 f:23c8a9747d992e4e2621c1a1755930d9:urbanterror/.md5sum
+f:02cf3b7c37b4580ce7e143b735b5b67f:crawl/.footprint
+f:aba467d73b5c03924dea6fcb0050e275:crawl/Pkgfile
+f:d41d8cd98f00b204e9800998ecf8427e:crawl/.md5sum
 f:1455c44ba0f10439a2439ff8c6505000:djvulibre/.footprint
 f:bc27ded9a63b19be9939d3987338a7f0:djvulibre/Pkgfile
 f:584ccadea9e3c5d6c46555a3748ad512:djvulibre/.md5sum
