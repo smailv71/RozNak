@@ -28,11 +28,9 @@ d:crawl
 d:djvulibre
 d:pwmangband
 d:firefox
-f:d84e0f81740adefa76d94ed8c3aa9006:ffmpeg/ffmpeg-4.3.2.tar.bz2
 f:5e0c5cca88620751af75ce7a219b5b09:ffmpeg/CVE-2018-6621.patch
 f:dae0c10c99399580c929fc100e79faef:ffmpeg/ffmpeg-x264-10bit.sh
 f:746e25d89b279706f58163c8933f333a:ffmpeg/.footprint
-f:d53b3dffdf61526861fc4a40efa2bcfb:ffmpeg/ffmpeg#4.3.2-1.pkg.tar.gz
 f:7c5dff2b9153198145575b175acca06d:ffmpeg/Pkgfile
 f:07d2a7695fdf45106130f1f2940cba90:ffmpeg/.md5sum
 f:363a96e5e30bccd0abd0bdd96468d56a:tixati/.footprint
