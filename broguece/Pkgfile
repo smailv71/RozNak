@@ -1,0 +1,24 @@
+# Description: Brogue is a single-player strategy game set in the halls of a mysterious and randomly-generated dungeon.
+# URL: https://sites.google.com/site/broguegame 
+# Maintainer: smailv71 at gmail dot com 
+# Depends on: 
+
+name=broguece
+version=1.9.3
+release=1
+source=(https://codeload.github.com/tmewett/BrogueCE/zip/refs/heads/master broguece)
+
+build() {
+	install -d ${PKG}/usr/{bin,games/broguece/assets}
+
+	unzip master
+
+	cd BrogueCE-master 
+	make -j4
+
+	cd bin
+	cp brogue ${PKG}/usr/games/broguece
+	cp -r assets/{i*,t*} ${PKG}/usr/games/broguece/assets
+
+	install -D -m 0755 $SRC/broguece ${PKG}/usr/bin
+}

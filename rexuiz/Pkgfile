@@ -4,7 +4,7 @@
 # Depends on:  curl freetype libjpeg-turbo libpng libtheora libvorbis make unzip zip
 # Optional:    libircclient libmaxminddb
 name=rexuiz
-version=2.5.2-210206
+version=2.5.2-210314
 release=1
 source=(https://netcologne.dl.sourceforge.net/project/rexuiz/Rexuiz-$version.zip rexuiz_client)
 

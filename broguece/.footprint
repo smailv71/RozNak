@@ -1,0 +1,10 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/broguece
+drwxr-xr-x	root/root	usr/games/
+drwxr-xr-x	root/root	usr/games/broguece/
+drwxr-xr-x	root/root	usr/games/broguece/assets/
+-rw-r--r--	root/root	usr/games/broguece/assets/icon.png
+-rw-r--r--	root/root	usr/games/broguece/assets/tiles.bin
+-rw-r--r--	root/root	usr/games/broguece/assets/tiles.png
+-rwxr-xr-x	root/root	usr/games/broguece/brogue

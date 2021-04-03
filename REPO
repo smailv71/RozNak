@@ -14,6 +14,7 @@ d:freeciv
 d:flash-player-plugin
 d:dmenu
 d:gtkballs
+d:broguece
 d:wesnoth
 d:sauerbraten
 d:nnn
@@ -27,9 +28,11 @@ d:crawl
 d:djvulibre
 d:pwmangband
 d:firefox
+f:d84e0f81740adefa76d94ed8c3aa9006:ffmpeg/ffmpeg-4.3.2.tar.bz2
 f:5e0c5cca88620751af75ce7a219b5b09:ffmpeg/CVE-2018-6621.patch
 f:dae0c10c99399580c929fc100e79faef:ffmpeg/ffmpeg-x264-10bit.sh
 f:746e25d89b279706f58163c8933f333a:ffmpeg/.footprint
+f:d53b3dffdf61526861fc4a40efa2bcfb:ffmpeg/ffmpeg#4.3.2-1.pkg.tar.gz
 f:7c5dff2b9153198145575b175acca06d:ffmpeg/Pkgfile
 f:07d2a7695fdf45106130f1f2940cba90:ffmpeg/.md5sum
 f:363a96e5e30bccd0abd0bdd96468d56a:tixati/.footprint
@@ -42,9 +45,9 @@ f:d41d8cd98f00b204e9800998ecf8427e:record
 f:e1baca0c66bc4a886e8c4b8b95eaa6e2:bigslex/bigslex
 f:24c72a8024b895eedfa1e6cf1b245893:bigslex/Pkgfile
 f:1fb6f4cb93da6446dfdeaab7b53db173:rexuiz/rexuiz_client
-f:f8fbb3a7eeaf1cf71df4c5242779a981:rexuiz/.footprint
-f:6b8a315869218cba6f62395058734369:rexuiz/Pkgfile
-f:388dbc319f0583a82d48993c63472d1b:rexuiz/.md5sum
+f:f9da6e3dfe87697294e1c3c032153273:rexuiz/.footprint
+f:2eea16a44d318034d0ac28f675143c6f:rexuiz/Pkgfile
+f:ef68433dafa36a006dc5df14fb0033f1:rexuiz/.md5sum
 f:e3667f07efab4a1e917ea143cef518ff:gforth/.footprint
 f:05d71b9691dd05e17d6932d2945d733c:gforth/Pkgfile
 f:729f2ebf2b19f5da4c61265df3466408:gforth/.md5sum
@@ -82,6 +85,10 @@ f:4fece7b07ed573dd141a1fa499a5a6eb:dmenu/.md5sum
 f:afe6f0daded86d76d7b59d76b6934c58:gtkballs/.footprint
 f:e95f116225f3ef4b79b222932b633976:gtkballs/Pkgfile
 f:918376dc164a419fc52fff32a5f95296:gtkballs/.md5sum
+f:7035c8569d2790e8663565f51cd9b198:broguece/broguece
+f:86a9b83639d0992791ec459640601290:broguece/.footprint
+f:5deae8bbc4563f3c120961aa4e94ddb3:broguece/Pkgfile
+f:e86e721d3f9d1467d7f8813026fb350e:broguece/.md5sum
 f:b2b01c0badb0f5ee3e95a7c8d6329f19:wesnoth/.footprint
 f:f158a6c50300b41d8bdd064971630577:wesnoth/Pkgfile
 f:cf2090014866b91fe50e9d433b3fa435:wesnoth/.md5sum
@@ -96,8 +103,8 @@ f:6dbc1fb86fc8e39651a53183676f67b7:vifm/.footprint
 f:da2a07a4c6847a3b7d3cf10c8cc954ba:vifm/Pkgfile
 f:a2844736f84836d95b44177339228876:vifm/.md5sum
 f:35059a936f4de0272fef81852e69c6a6:vim/.footprint
-f:3ad4f2d8b9cc3c10b0a4248cf0df1ff7:vim/Pkgfile
-f:b7d2577088f51ec9e5d8198c4879d882:vim/.md5sum
+f:40db8d21aa14ad6f35665f33a17c8cf1:vim/Pkgfile
+f:cb4979a9ec8ac437d4ca9241f3e10c1e:vim/.md5sum
 f:d5edc86dd17b6e0586ae3197d13f7393:libsixel/.footprint
 f:c57f1e449f35a0bab67771415979a894:libsixel/Pkgfile
 f:a8dcff5ce9922c1412d304477b108720:libsixel/.md5sum
