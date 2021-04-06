@@ -21,6 +21,7 @@ d:nnn
 d:vifm
 d:vim
 d:libsixel
+d:adom
 d:libvidstab
 d:angband
 d:urbanterror
@@ -101,11 +102,15 @@ f:6dbc1fb86fc8e39651a53183676f67b7:vifm/.footprint
 f:da2a07a4c6847a3b7d3cf10c8cc954ba:vifm/Pkgfile
 f:a2844736f84836d95b44177339228876:vifm/.md5sum
 f:35059a936f4de0272fef81852e69c6a6:vim/.footprint
-f:40db8d21aa14ad6f35665f33a17c8cf1:vim/Pkgfile
-f:cb4979a9ec8ac437d4ca9241f3e10c1e:vim/.md5sum
+f:248eecf94efb00496fc402a601875ee1:vim/Pkgfile
+f:6fe112d418e420fff6ceabe10ed17f6d:vim/.md5sum
 f:d5edc86dd17b6e0586ae3197d13f7393:libsixel/.footprint
 f:c57f1e449f35a0bab67771415979a894:libsixel/Pkgfile
 f:a8dcff5ce9922c1412d304477b108720:libsixel/.md5sum
+f:220aa3d1315d3e012639d5c4cf27d8c0:adom/README
+f:734c8bb5605f238d3a46745bbcb5b10c:adom/.footprint
+f:5c120d2ca6cf31f33654bfa25040a35a:adom/Pkgfile
+f:65827cec372aea765718de897e99c2e7:adom/.md5sum
 f:f9a7da89d3b58584f3d1cdd56aafa069:libvidstab/.footprint
 f:26314608d903289743461904023eafbb:libvidstab/Pkgfile
 f:81dc6281afc29da69cc9ee7d3688b0e8:libvidstab/.md5sum

@@ -1,0 +1,6 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+lrwxrwxrwx	root/root	usr/bin/adom -> /usr/games/ADOM/adom
+drwxr-xr-x	root/root	usr/games/
+drwxr-xr-x	root/root	usr/games/ADOM/
+-rwxr-xr-x	root/root	usr/games/ADOM/adom

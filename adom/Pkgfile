@@ -1,0 +1,18 @@
+# Description:Ancient Domains Of Mystery (ADOM) is an epic roguelike & RPG game, customizable to a wide variety of playing styles. 
+# URL: https://www.adom.de 
+# Maintainer:  smailv71 at gmail dot com 
+# Depends on: 
+
+name=adom
+version=3.3.3
+release=101
+source=(https://www.adom.de/home/download/current/adom_linux_ubuntu_64_$version.tar.gz)
+
+build() {
+	install -d ${PKG}/usr/{bin,games/ADOM}
+	
+	cd ${SRC}/$name
+
+	cp adom ${PKG}/usr/games/ADOM
+	ln -s /usr/games/ADOM/adom ${PKG}/usr/bin/adom
+}
