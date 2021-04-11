@@ -24,6 +24,7 @@ d:libsixel
 d:adom
 d:libvidstab
 d:angband
+d:cataclysm-dda
 d:urbanterror
 d:crawl
 d:djvulibre
@@ -117,6 +118,9 @@ f:81dc6281afc29da69cc9ee7d3688b0e8:libvidstab/.md5sum
 f:bacbe1420f5855829efba8f2963abc6f:angband/.footprint
 f:d297d3a83bfebe3f3a2b6ed08dd89976:angband/Pkgfile
 f:0951e3b4405d713dac0c92107ea59262:angband/.md5sum
+f:f97304ff79999f3f03d16ee067f8db61:cataclysm-dda/.footprint
+f:d477aa4c6a02b091756f773fc5e324af:cataclysm-dda/Pkgfile
+f:80585782d3e6b8002ec22b1b6bef71bb:cataclysm-dda/.md5sum
 f:89ceacd8fe6812e9974e4b196f699390:urbanterror/.footprint
 f:1436fa1938c7a058c61ea3526a8e41ea:urbanterror/Pkgfile
 f:23c8a9747d992e4e2621c1a1755930d9:urbanterror/.md5sum

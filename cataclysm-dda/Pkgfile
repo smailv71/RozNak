@@ -1,0 +1,24 @@
+# Description: Cataclysm: Dark Days Ahead is a turn-based survival game set in a post-apocalyptic world.
+# URL: https://cataclysmdda.org 
+# Maintainer: smailv71 at gmail dot com 
+# Depends on: 
+
+name=cataclysm-dda
+version=0.E-3
+release=1
+source=(https://codeload.github.com/CleverRaven/Cataclysm-DDA/tar.gz/refs/tags/$version)
+
+build() {
+
+	tar xf $version
+	cd ${SRC}/Cataclysm-DDA-$version
+
+	install -d ${PKG}/usr/{games/cataclysm-dda,bin}
+	ln -s /usr/games/cataclysm-dda/bin/cataclysm ${PKG}/usr/bin/cataclysm
+
+make -j4 CCACHE=1 LANGUAGES=ru LOCALIZE=1 NATIVE=linux64 PREFIX=/usr/games/cataclysm-dda RELEASE=1 USE_HOME_DIR=1
+
+make DESTDIR=$PKG/usr/games/cataclysm-dda install
+
+cp -R $SRC/Cataclysm-DDA-$version/lang/mo/* ${PKG}/usr/games/cataclysm-dda/share/locale
+}
