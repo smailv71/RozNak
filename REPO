@@ -31,9 +31,9 @@ d:pwmangband
 d:firefox
 f:5e0c5cca88620751af75ce7a219b5b09:ffmpeg/CVE-2018-6621.patch
 f:dae0c10c99399580c929fc100e79faef:ffmpeg/ffmpeg-x264-10bit.sh
-f:746e25d89b279706f58163c8933f333a:ffmpeg/.footprint
-f:7c5dff2b9153198145575b175acca06d:ffmpeg/Pkgfile
-f:07d2a7695fdf45106130f1f2940cba90:ffmpeg/.md5sum
+f:4ea4da9fdbb48d0ba9dde2656f999ec8:ffmpeg/.footprint
+f:bb4fa9349d18c06f950dae7ca8acbb0e:ffmpeg/Pkgfile
+f:aaee602d5d8cc9c92bc36b39f85d243c:ffmpeg/.md5sum
 f:363a96e5e30bccd0abd0bdd96468d56a:tixati/.footprint
 f:8dbe411c981bd953d4d4f40b16f0c080:tixati/Pkgfile
 f:27ff2f82f535d1dcaf162655349fdd2b:tixati/.md5sum
@@ -101,9 +101,9 @@ f:1c9970b56c09d1fa48378f7f92e73291:nnn/.md5sum
 f:6dbc1fb86fc8e39651a53183676f67b7:vifm/.footprint
 f:da2a07a4c6847a3b7d3cf10c8cc954ba:vifm/Pkgfile
 f:a2844736f84836d95b44177339228876:vifm/.md5sum
-f:35059a936f4de0272fef81852e69c6a6:vim/.footprint
-f:248eecf94efb00496fc402a601875ee1:vim/Pkgfile
-f:6fe112d418e420fff6ceabe10ed17f6d:vim/.md5sum
+f:860c98544c67e7068dec2e45dfbd8ef7:vim/.footprint
+f:95423a520bec1a7d0864766982cee309:vim/Pkgfile
+f:f317d79c38abef93e43be456873d2e6a:vim/.md5sum
 f:d5edc86dd17b6e0586ae3197d13f7393:libsixel/.footprint
 f:c57f1e449f35a0bab67771415979a894:libsixel/Pkgfile
 f:a8dcff5ce9922c1412d304477b108720:libsixel/.md5sum
