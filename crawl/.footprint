@@ -50,6 +50,7 @@ drwxr-xr-x	root/root	usr/games/crawl/dat/des/
 drwxr-xr-x	root/root	usr/games/crawl/dat/des/altar/
 -rw-r--r--	root/root	usr/games/crawl/dat/des/altar/altar.des
 -rw-r--r--	root/root	usr/games/crawl/dat/des/altar/ashenzari_visionary.des
+-rw-r--r--	root/root	usr/games/crawl/dat/des/altar/ecumenical.des
 -rw-r--r--	root/root	usr/games/crawl/dat/des/altar/kiku_cage.des
 -rw-r--r--	root/root	usr/games/crawl/dat/des/altar/lugonu_bribe.des
 -rw-r--r--	root/root	usr/games/crawl/dat/des/altar/nemelex_the_gamble.des
@@ -78,6 +79,7 @@ drwxr-xr-x	root/root	usr/games/crawl/dat/des/branches/
 -rw-r--r--	root/root	usr/games/crawl/dat/des/branches/elf.des
 -rw-r--r--	root/root	usr/games/crawl/dat/des/branches/geh.des
 -rw-r--r--	root/root	usr/games/crawl/dat/des/branches/hell.des
+-rw-r--r--	root/root	usr/games/crawl/dat/des/branches/hilbert_zone.des
 -rw-r--r--	root/root	usr/games/crawl/dat/des/branches/lair.des
 -rw-r--r--	root/root	usr/games/crawl/dat/des/branches/orc.des
 -rw-r--r--	root/root	usr/games/crawl/dat/des/branches/pan.des
@@ -85,6 +87,7 @@ drwxr-xr-x	root/root	usr/games/crawl/dat/des/branches/
 -rw-r--r--	root/root	usr/games/crawl/dat/des/branches/slime.des
 -rw-r--r--	root/root	usr/games/crawl/dat/des/branches/snake.des
 -rw-r--r--	root/root	usr/games/crawl/dat/des/branches/spider.des
+-rw-r--r--	root/root	usr/games/crawl/dat/des/branches/spider_jumping.des
 -rw-r--r--	root/root	usr/games/crawl/dat/des/branches/swamp.des
 -rw-r--r--	root/root	usr/games/crawl/dat/des/branches/tar.des
 -rw-r--r--	root/root	usr/games/crawl/dat/des/branches/temple.des

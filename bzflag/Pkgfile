@@ -4,7 +4,7 @@
 # Depends on:
 
 name=bzflag
-version=2.4.20
+version=2.4.22
 release=1
 source=(https://download.bzflag.org/bzflag/source/$version/bzflag-$version.tar.bz2)
 

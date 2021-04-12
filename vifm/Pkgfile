@@ -4,8 +4,8 @@
 # Depends on:  ncurses unzip
 
 name=vifm
-version=0.11
-release=2
+version=0.11m
+release=1
 source=(https://codeload.github.com/vifm/vifm/zip/master)
 build() {
 	unzip master

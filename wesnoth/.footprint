@@ -81,6 +81,7 @@ drwxr-xr-x	root/root	usr/games/wesnoth/share/doc/wesnoth/html/images/tr/
 -rw-r--r--	root/root	usr/games/wesnoth/share/doc/wesnoth/html/images/tr/recruit-1.14.7.jpg
 -rw-r--r--	root/root	usr/games/wesnoth/share/doc/wesnoth/html/images/tr/right_pane-1.14.7.jpg
 -rw-r--r--	root/root	usr/games/wesnoth/share/doc/wesnoth/html/images/tr/top_pane-1.14.7.jpg
+-rw-r--r--	root/root	usr/games/wesnoth/share/doc/wesnoth/html/manual.ca.html
 -rw-r--r--	root/root	usr/games/wesnoth/share/doc/wesnoth/html/manual.cs.html
 -rw-r--r--	root/root	usr/games/wesnoth/share/doc/wesnoth/html/manual.de.html
 -rw-r--r--	root/root	usr/games/wesnoth/share/doc/wesnoth/html/manual.en.html
@@ -146,6 +147,8 @@ drwxr-xr-x	root/root	usr/games/wesnoth/share/man/bg/
 drwxr-xr-x	root/root	usr/games/wesnoth/share/man/bg/man6/
 drwxr-xr-x	root/root	usr/games/wesnoth/share/man/ca/
 drwxr-xr-x	root/root	usr/games/wesnoth/share/man/ca/man6/
+-rw-r--r--	root/root	usr/games/wesnoth/share/man/ca/man6/wesnoth.6
+-rw-r--r--	root/root	usr/games/wesnoth/share/man/ca/man6/wesnothd.6
 drwxr-xr-x	root/root	usr/games/wesnoth/share/man/ca_ES@valencia/
 drwxr-xr-x	root/root	usr/games/wesnoth/share/man/ca_ES@valencia/man6/
 drwxr-xr-x	root/root	usr/games/wesnoth/share/man/cs/
@@ -15463,6 +15466,7 @@ drwxrwxr-x	root/root	usr/games/wesnoth/share/wesnoth/data/test/scenarios/ai/modi
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/test/scenarios/test_movetype.cfg
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/test/scenarios/test_relative_dir.cfg
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/test/scenarios/test_require.cfg
+-rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/test/scenarios/test_resistances.cfg
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/test/scenarios/test_return.cfg
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/test/scenarios/test_role_types.cfg
 -rw-rw-r--	root/root	usr/games/wesnoth/share/wesnoth/data/test/scenarios/test_unit_map.cfg

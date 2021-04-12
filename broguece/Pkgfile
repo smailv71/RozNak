@@ -4,7 +4,7 @@
 # Depends on: 
 
 name=broguece
-version=1.9.3
+version=1.9.3m
 release=1
 source=(https://codeload.github.com/tmewett/BrogueCE/zip/refs/heads/master broguece)
 
