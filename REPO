@@ -46,8 +46,8 @@ f:e1baca0c66bc4a886e8c4b8b95eaa6e2:bigslex/bigslex
 f:24c72a8024b895eedfa1e6cf1b245893:bigslex/Pkgfile
 f:1fb6f4cb93da6446dfdeaab7b53db173:rexuiz/rexuiz_client
 f:f9da6e3dfe87697294e1c3c032153273:rexuiz/.footprint
-f:2eea16a44d318034d0ac28f675143c6f:rexuiz/Pkgfile
-f:ef68433dafa36a006dc5df14fb0033f1:rexuiz/.md5sum
+f:2bea298457577b5e60b34fb29102e304:rexuiz/Pkgfile
+f:412e09099e37dcd2403f26894f4c49f3:rexuiz/.md5sum
 f:e3667f07efab4a1e917ea143cef518ff:gforth/.footprint
 f:05d71b9691dd05e17d6932d2945d733c:gforth/Pkgfile
 f:729f2ebf2b19f5da4c61265df3466408:gforth/.md5sum
@@ -102,9 +102,9 @@ f:c75807a387107eaa4a742a7924102a99:nnn/.md5sum
 f:6dbc1fb86fc8e39651a53183676f67b7:vifm/.footprint
 f:293ba270352383362df1cac8ab832ae0:vifm/Pkgfile
 f:e01041595129c889772f4057269d96f1:vifm/.md5sum
-f:860c98544c67e7068dec2e45dfbd8ef7:vim/.footprint
-f:88c05690fbbfbd5449e68338b705caaf:vim/Pkgfile
-f:9b347ae1794422074926c56ce329bb8b:vim/.md5sum
+f:df3e1a328638ec45640189950c40ffd6:vim/.footprint
+f:2330142c63a7919949ea3f9fdd74f96e:vim/Pkgfile
+f:218c6b09b8cf5f52312b27b36cfdaf29:vim/.md5sum
 f:d5edc86dd17b6e0586ae3197d13f7393:libsixel/.footprint
 f:c57f1e449f35a0bab67771415979a894:libsixel/Pkgfile
 f:a8dcff5ce9922c1412d304477b108720:libsixel/.md5sum
@@ -136,5 +136,5 @@ f:85e84d8841db5df33d4be2dc044c5d76:pwmangband/.md5sum
 f:4d6811c8f2518e93434b11802dd333a0:firefox/README
 f:e7994b3b78b780ebe610ba3d87247e40:firefox/0001-Use-remoting-name-for-GDK-application-names.patch
 f:148fc68da66e6e59dabb9b296a4c08da:firefox/.footprint
-f:d8007bb4e6ea3b07be9849904e2e93ff:firefox/Pkgfile
-f:a523640b310b25578fc8cb23f2cb22e5:firefox/.md5sum
+f:393a66171a7b6e64d7ee44e919b532ac:firefox/Pkgfile
+f:6181581df4a01dd4fcfb099eb1b16ac1:firefox/.md5sum
