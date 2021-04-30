@@ -104,7 +104,6 @@ drwxr-xr-x	root/root	usr/games/crawl/dat/des/builder/
 -rw-r--r--	root/root	usr/games/crawl/dat/des/builder/arena.des
 -rw-r--r--	root/root	usr/games/crawl/dat/des/builder/decor.des
 -rw-r--r--	root/root	usr/games/crawl/dat/des/builder/dummy.des
--rw-r--r--	root/root	usr/games/crawl/dat/des/builder/food.des
 -rw-r--r--	root/root	usr/games/crawl/dat/des/builder/layout.des
 -rw-r--r--	root/root	usr/games/crawl/dat/des/builder/layout_caves.des
 -rw-r--r--	root/root	usr/games/crawl/dat/des/builder/layout_cc.des
@@ -605,7 +604,6 @@ drwxr-xr-x	root/root	usr/games/crawl/docs/develop/
 -rw-r--r--	root/root	usr/games/crawl/docs/develop/android.txt
 -rw-r--r--	root/root	usr/games/crawl/docs/develop/arena.txt
 -rw-r--r--	root/root	usr/games/crawl/docs/develop/background_creation.txt
--rw-r--r--	root/root	usr/games/crawl/docs/develop/coding_conventions.txt
 -rw-r--r--	root/root	usr/games/crawl/docs/develop/ctags.txt
 -rw-r--r--	root/root	usr/games/crawl/docs/develop/editor_tips.txt
 -rw-r--r--	root/root	usr/games/crawl/docs/develop/gdb_tips.txt
