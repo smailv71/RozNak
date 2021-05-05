@@ -102,9 +102,9 @@ f:b0e57cbf26c25037396cbeade7a6fbed:nnn/.md5sum
 f:6dbc1fb86fc8e39651a53183676f67b7:vifm/.footprint
 f:12b5e1f4cc7d6f3ac1be079c563bdd7b:vifm/Pkgfile
 f:d44f4f5523e1f90adbb9bf6cfee98cd9:vifm/.md5sum
-f:df3e1a328638ec45640189950c40ffd6:vim/.footprint
-f:a5f016dd4ebfe580564ac194594cf06f:vim/Pkgfile
-f:2bf8c937ac8b5a4b8017bfc9950d4a55:vim/.md5sum
+f:1e9be0d8a0b0a78836db869837041e0d:vim/.footprint
+f:5f67db9b521dd0d5125630ce6f137499:vim/Pkgfile
+f:0347ffc393c52367c5f6a035b0a2e790:vim/.md5sum
 f:d5edc86dd17b6e0586ae3197d13f7393:libsixel/.footprint
 f:c57f1e449f35a0bab67771415979a894:libsixel/Pkgfile
 f:a8dcff5ce9922c1412d304477b108720:libsixel/.md5sum
@@ -136,5 +136,5 @@ f:85e84d8841db5df33d4be2dc044c5d76:pwmangband/.md5sum
 f:4d6811c8f2518e93434b11802dd333a0:firefox/README
 f:e7994b3b78b780ebe610ba3d87247e40:firefox/0001-Use-remoting-name-for-GDK-application-names.patch
 f:148fc68da66e6e59dabb9b296a4c08da:firefox/.footprint
-f:393a66171a7b6e64d7ee44e919b532ac:firefox/Pkgfile
-f:6181581df4a01dd4fcfb099eb1b16ac1:firefox/.md5sum
+f:9173dce6faa42797efa4e3322c351789:firefox/Pkgfile
+f:305b4b79e92e988fc18ee0f0d26ff842:firefox/.md5sum

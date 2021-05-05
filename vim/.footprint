@@ -633,6 +633,7 @@ drwxr-xr-x	root/root	usr/share/vim/vim82/ftplugin/
 -rw-r--r--	root/root	usr/share/vim/vim82/ftplugin/fetchmail.vim
 -rw-r--r--	root/root	usr/share/vim/vim82/ftplugin/flexwiki.vim
 -rw-r--r--	root/root	usr/share/vim/vim82/ftplugin/fortran.vim
+-rw-r--r--	root/root	usr/share/vim/vim82/ftplugin/fpcmake.vim
 -rw-r--r--	root/root	usr/share/vim/vim82/ftplugin/framescript.vim
 -rw-r--r--	root/root	usr/share/vim/vim82/ftplugin/freebasic.vim
 -rw-r--r--	root/root	usr/share/vim/vim82/ftplugin/fstab.vim
@@ -1619,6 +1620,7 @@ drwxr-xr-x	root/root	usr/share/vim/vim82/syntax/
 -rw-r--r--	root/root	usr/share/vim/vim82/syntax/forth.vim
 -rw-r--r--	root/root	usr/share/vim/vim82/syntax/fortran.vim
 -rw-r--r--	root/root	usr/share/vim/vim82/syntax/foxpro.vim
+-rw-r--r--	root/root	usr/share/vim/vim82/syntax/fpcmake.vim
 -rw-r--r--	root/root	usr/share/vim/vim82/syntax/framescript.vim
 -rw-r--r--	root/root	usr/share/vim/vim82/syntax/freebasic.vim
 -rw-r--r--	root/root	usr/share/vim/vim82/syntax/fstab.vim
