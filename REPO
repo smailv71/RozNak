@@ -1,4 +1,5 @@
 d:ffmpeg
+d:nethack
 d:tixati
 d:assaultcube
 d:bigslex
@@ -35,6 +36,9 @@ f:dae0c10c99399580c929fc100e79faef:ffmpeg/ffmpeg-x264-10bit.sh
 f:4ea4da9fdbb48d0ba9dde2656f999ec8:ffmpeg/.footprint
 f:bb4fa9349d18c06f950dae7ca8acbb0e:ffmpeg/Pkgfile
 f:aaee602d5d8cc9c92bc36b39f85d243c:ffmpeg/.md5sum
+f:90f03b058e3b8165cd854d0a0cae1876:nethack/.footprint
+f:fde46058eb618af9711b3a3de8e43bd7:nethack/Pkgfile
+f:be5e97a8c366adef1144a52d2ba69af9:nethack/.md5sum
 f:363a96e5e30bccd0abd0bdd96468d56a:tixati/.footprint
 f:8dbe411c981bd953d4d4f40b16f0c080:tixati/Pkgfile
 f:27ff2f82f535d1dcaf162655349fdd2b:tixati/.md5sum

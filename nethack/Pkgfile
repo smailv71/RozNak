@@ -1,0 +1,32 @@
+# Description: NetHack is an open source single-player roguelike video game, first released in 1987 and maintained by the NetHack DevTeam.
+# URL: http://www.nethack.org
+# Maintainer: smailv71 at gmail dot com
+# Depends on:	
+
+name=nethack
+version=3.6.6
+release=1
+source=(https://github.com/NetHack/NetHack/archive/refs/tags/NetHack-${version}_Released.tar.gz)
+build() {
+
+#Game compilation error: /usr/bin/ld: cannot find -ltinfo
+ln -s /lib/libncursesw.so.6.2 /lib/libtinfo.so
+
+install -d $PKG/{$HOME,usr/bin}
+ln -s $HOME/nethack-minimal/games/nethack $PKG/usr/bin/nethack
+
+cd NetHack-NetHack-${version}_Released/sys/unix
+sh setup.sh hints/linux-minimal
+cd ../..
+make all
+make install
+
+mv ~/nethack-minimal/ $PKG/$HOME
+
+#Error starting the game: Unable to open SYSCF_FILE.
+install -d $PKG/$HOME/nethack-minimal/games/lib/nethackdir/sysconf
+
+#Not correct saving game: No such file or directory
+#                         Exec to compress save/0root failed.
+ln -s /bin/gzip $PKG/usr/bin/compress
+}
