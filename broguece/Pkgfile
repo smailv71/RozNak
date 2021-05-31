@@ -5,7 +5,7 @@
 
 name=broguece
 version=1.9.3m
-release=2
+release=3
 source=(https://codeload.github.com/tmewett/BrogueCE/zip/refs/heads/master broguece)
 
 build() {

@@ -5,15 +5,16 @@
 
 name=gtkballs
 version=3.1.5
-release=1
-source=(http://gtkballs.antex.ru/dist/gtkballs-3.1.5.tar.gz)
+release=2
+source=(https://github.com/emorozov/gtkballs/archive/refs/heads/master.zip)
 
 build() {
-	cd $name-$version
+	install -d ${PKG}/usr/{bin,games/$name}
+	ln -s /usr/games/gtkballs/bin/gtkballs ${PKG}/usr/bin/gtkballs
+
+	cd $SRC/$name-master
+	./autogen.sh
 	./configure --prefix=/usr/games/$name 
 	make -j4
 	make prefix=$PKG/usr/games/$name install
-
-	install -d ${PKG}/usr/{bin,games/$name}
-	ln -s /usr/games/gtkballs/bin/gtkballs ${PKG}/usr/bin/gtkballs
 }

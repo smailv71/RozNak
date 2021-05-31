@@ -5,9 +5,6 @@ drwxr-xr-x	root/root	usr/games/
 drwxr-xr-x	root/root	usr/games/gtkballs/
 drwxr-xr-x	root/root	usr/games/gtkballs/bin/
 -rwxr-xr-x	root/root	usr/games/gtkballs/bin/gtkballs
-drwxr-xr-x	root/root	usr/games/gtkballs/man/
-drwxr-xr-x	root/root	usr/games/gtkballs/man/man6/
--rw-r--r--	root/root	usr/games/gtkballs/man/man6/gtkballs.6x.gz
 drwxr-xr-x	root/root	usr/games/gtkballs/share/
 drwxr-xr-x	root/root	usr/games/gtkballs/share/gtkballs/
 -rw-r--r--	root/root	usr/games/gtkballs/share/gtkballs/COPYING
@@ -545,11 +542,17 @@ drwxr-xr-x	root/root	usr/games/gtkballs/share/locale/de/LC_MESSAGES/
 drwxr-xr-x	root/root	usr/games/gtkballs/share/locale/fr/
 drwxr-xr-x	root/root	usr/games/gtkballs/share/locale/fr/LC_MESSAGES/
 -rw-r--r--	root/root	usr/games/gtkballs/share/locale/fr/LC_MESSAGES/gtkballs.mo
+drwxr-xr-x	root/root	usr/games/gtkballs/share/locale/nl/
+drwxr-xr-x	root/root	usr/games/gtkballs/share/locale/nl/LC_MESSAGES/
+-rw-r--r--	root/root	usr/games/gtkballs/share/locale/nl/LC_MESSAGES/gtkballs.mo
 drwxr-xr-x	root/root	usr/games/gtkballs/share/locale/pl/
 drwxr-xr-x	root/root	usr/games/gtkballs/share/locale/pl/LC_MESSAGES/
 -rw-r--r--	root/root	usr/games/gtkballs/share/locale/pl/LC_MESSAGES/gtkballs.mo
 drwxr-xr-x	root/root	usr/games/gtkballs/share/locale/ru/
 drwxr-xr-x	root/root	usr/games/gtkballs/share/locale/ru/LC_MESSAGES/
 -rw-r--r--	root/root	usr/games/gtkballs/share/locale/ru/LC_MESSAGES/gtkballs.mo
+drwxr-xr-x	root/root	usr/games/gtkballs/share/man/
+drwxr-xr-x	root/root	usr/games/gtkballs/share/man/man6/
+-rw-r--r--	root/root	usr/games/gtkballs/share/man/man6/gtkballs.6x.gz
 drwxr-xr-x	root/root	usr/games/gtkballs/var/
 -rw-rw-r--	root/root	usr/games/gtkballs/var/gtkballs-scores (EMPTY)

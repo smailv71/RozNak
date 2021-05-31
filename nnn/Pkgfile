@@ -6,7 +6,7 @@
 
 name=nnn
 version=4.0m
-release=1
+release=2
 source=(https://codeload.github.com/jarun/nnn/zip/master)
 
 build() {
