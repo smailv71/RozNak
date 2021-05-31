@@ -1,0 +1,12 @@
+drwxr-xr-x	root/root	root/
+drwxr-xr-x	root/root	root/nethack4dir/
+drwxr-xr-x	root/root	root/nethack4dir/data/
+-rw-r--r--	root/root	root/nethack4dir/data/license
+-rw-r--r--	root/root	root/nethack4dir/data/nhdat
+-rw-r--r--	root/root	root/nethack4dir/data/textascii.nh4ct
+-rw-r--r--	root/root	root/nethack4dir/data/textunicode.nh4ct
+-rwxr-xr-x	root/root	root/nethack4dir/nethack4
+drwxr-xr-x	root/root	root/nethack4dir/save/
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+lrwxrwxrwx	root/root	usr/bin/nethack4 -> /root/nethack4dir/nethack4

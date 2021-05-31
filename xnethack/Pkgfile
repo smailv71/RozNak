@@ -1,0 +1,26 @@
+# xNetHack is a fork of the dungeon exploration game NetHack. 
+# URL: https://github.com/copperwater/xNetHack 
+# Maintainer: smailv71 at gmail dot com
+# Depends on: lua compress-ln libtinfo.so-ln
+
+name=xnethack
+version=6.1
+release=1
+source=(https://github.com/copperwater/xNetHack/archive/refs/tags/xnh$version.tar.gz)
+build() {
+
+install -d $PKG/{$HOME,usr/bin}
+ln -s $HOME/xnethack-minimal/games/xnethack $PKG/usr/bin/xnethack
+
+cd xNetHack-xnh$version/sys/unix
+sh setup.sh hints/linux-minimal
+cd ../..
+make fetch-lua
+make all
+make install
+
+mv ~/xnethack-minimal/ $PKG/$HOME
+
+#Error starting the game: Unable to open SYSCF_FILE.
+install -d $PKG/$HOME/xnethack-minimal/games/lib/xnethackdir/sysconf
+}

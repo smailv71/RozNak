@@ -1,0 +1,18 @@
+# Description: NetHack 4 is a NetHack fork, created by combining AceHack and NitroHack. 
+# URL: http://nethack4.org
+# Maintainer: smailv71 at gmail dot com
+# Depends on:	
+
+name=nethack4
+version=4.3.0m
+release=1
+source=(https://github.com/tsadok/nethack4/archive/refs/heads/master.zip)
+build() {
+
+install -d $PKG/{$HOME,usr/bin}
+ln -s $HOME/nethack4dir/nethack4 $PKG/usr/bin/nethack4
+
+cd nethack4-master 
+make 
+make DESTDIR=$PKG install
+}

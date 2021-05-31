@@ -1,0 +1,17 @@
+# Description: DynaHack is a variant of NetHack that aims to modernize core aspects of its gameplay and interface. 
+# URL: https://tung.github.io/DynaHack 
+# Maintainer: smailv71 at gmail dot com
+# Depends on: libncursesw.so.5_libtinfo.so.5-ln
+
+name=dynahack
+version=0.6.0
+release=1
+source=(https://github.com/tung/DynaHack/releases/download/v$version/dynahack-$version-1-linux-amd64.tar.bz2 dynahack)
+build() {
+
+install -d $PKG/{$HOME/dynahack,usr/bin}
+install -D -m 0755 $SRC/dynahack ${PKG}/usr/bin
+
+cd dynahack-$version-1-amd64
+cp -r * ${PKG}/$HOME/dynahack
+}

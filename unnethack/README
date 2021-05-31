@@ -1,0 +1,10 @@
+#To get lev.tab.h and dgn.tab.h need to do this:
+
+cd UnNetHack-5.3.2
+./configure --prefix=$HOME/unnethack --with-gamesdir=$HOME/unnethack --with-owner=`id -un` --with-group=`id -gn` --enable-wizmode=`id -un`
+make
+make install
+cp include/lev_comp.h include/lev.tab.h
+make install
+cp include/dgn_comp.h include/dgn.tab.h
+make install

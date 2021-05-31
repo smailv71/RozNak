@@ -1,0 +1,12 @@
+drwxr-xr-x	root/root	root/
+drwxr-xr-x	root/root	root/fiqhackdir/
+drwxr-xr-x	root/root	root/fiqhackdir/data/
+-rw-r--r--	root/root	root/fiqhackdir/data/license
+-rw-r--r--	root/root	root/fiqhackdir/data/nhdat
+-rw-r--r--	root/root	root/fiqhackdir/data/textascii.nh4ct
+-rw-r--r--	root/root	root/fiqhackdir/data/textunicode.nh4ct
+-rwxr-xr-x	root/root	root/fiqhackdir/fiqhack
+drwxr-xr-x	root/root	root/fiqhackdir/save/
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+lrwxrwxrwx	root/root	usr/bin/fiqhack -> /root/fiqhackdir/fiqhack

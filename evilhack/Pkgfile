@@ -1,0 +1,26 @@
+# EvilHack is a NetHack variant that is designed to be a much more challenging experience that the original, drawing inspiration from and incorporating some of the best features from variants such as GruntHack and SporkHack, as well as other interesting bits of code from other variants (Slash'EM, Splicehack, UnNetHack, xNetHack). 
+# URL: https://github.com/k21971/EvilHack
+# Maintainer: smailv71 at gmail dot com
+# Depends on: compress-ln libtinfo.so-ln
+
+name=evilhack
+version=0.6.0
+release=1
+source=(https://github.com/k21971/EvilHack/archive/refs/tags/v$version.tar.gz)
+build() {
+
+install -d $PKG/{$HOME,usr/bin}
+ln -s $HOME/evilhack-minimal/games/evilhack $PKG/usr/bin/evilhack
+
+cd EvilHack-$version/sys/unix
+sed -i 's/nethack-/evilhack-/g' hints/linux-minimal 
+sh setup.sh hints/linux-minimal
+cd ../..
+make all
+make install
+
+mv ~/evilhack-minimal/ $PKG/$HOME
+
+#Error starting the game: Unable to open SYSCF_FILE.
+install -d $PKG/$HOME/evilhack-minimal/games/lib/evilhackdir/sysconf
+}

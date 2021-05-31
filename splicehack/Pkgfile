@@ -1,0 +1,27 @@
+# An in-progress nethack variant based on version 3.7. An attempt to build a "kitchen sink" style variant that is easy to pick up and play.
+# URL: https://github.com/NullCGT/SpliceHack
+# Maintainer: smailv71 at gmail dot com
+# Depends on: lua compress-ln libtinfo.so-ln
+
+name=splicehack
+version=0.8.1
+release=1
+source=(https://github.com/NullCGT/SpliceHack/archive/refs/tags/Spl-$version-R.tar.gz)
+build() {
+
+install -d $PKG/{$HOME,usr/bin}
+ln -s $HOME/splicehack-minimal/games/splicehack $PKG/usr/bin/splicehack
+
+cd SpliceHack-Spl-$version-R/sys/unix
+sed -i 's/nethack-/splicehack-/g' hints/linux-minimal 
+sh setup.sh hints/linux-minimal
+cd ../..
+make fetch-lua
+make all
+make install
+
+mv ~/splicehack-minimal/ $PKG/$HOME
+
+#Error starting the game: Unable to open SYSCF_FILE.
+install -d $PKG/$HOME/splicehack-minimal/games/lib/splicehackdir/sysconf
+}

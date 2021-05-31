@@ -1,0 +1,25 @@
+drwxr-xr-x	root/root	root/
+drwxr-xr-x	root/root	root/unnethack/
+drwxr-xr-x	root/root	root/unnethack/bin/
+-rwxr-xr-x	root/root	root/unnethack/bin/unnethack
+drwxr-xr-x	root/root	root/unnethack/bones/
+drwxr-xr-x	root/root	root/unnethack/level/
+-rw-r--r--	root/root	root/unnethack/logfile (EMPTY)
+-rw-r--r--	root/root	root/unnethack/perm (EMPTY)
+-rw-r--r--	root/root	root/unnethack/record (EMPTY)
+drwxr-xr-x	root/root	root/unnethack/saves/
+drwxr-xr-x	root/root	root/unnethack/share/
+drwxr-xr-x	root/root	root/unnethack/share/doc/
+drwxr-xr-x	root/root	root/unnethack/share/doc/unnethack/
+-rw-r--r--	root/root	root/unnethack/share/doc/unnethack/Guidebook.txt
+-rw-r--r--	root/root	root/unnethack/share/doc/unnethack/license
+drwxr-xr-x	root/root	root/unnethack/share/unnethack/
+-rw-r--r--	root/root	root/unnethack/share/unnethack/nhdat
+-rwxr-xr-x	root/root	root/unnethack/share/unnethack/recover
+-rwsr-xr-x	root/root	root/unnethack/share/unnethack/unnethack
+-rw-r--r--	root/root	root/unnethack/share/unnethack/unnethack_dump.css
+-rw-r--r--	root/root	root/unnethack/share/unnethack/unnethackrc.default
+-rw-r--r--	root/root	root/unnethack/xlogfile (EMPTY)
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+lrwxrwxrwx	root/root	usr/bin/unnethack -> /root/unnethack/bin/unnethack

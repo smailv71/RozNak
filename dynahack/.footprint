@@ -1,0 +1,12 @@
+drwxr-xr-x	root/root	root/
+drwxr-xr-x	root/root	root/dynahack/
+-rw-r--r--	root/root	root/dynahack/changelog.txt
+drwxr-xr-x	root/root	root/dynahack/dynahack-data/
+-rwxr-xr-x	root/root	root/dynahack/dynahack-data/dynahack
+-rw-r--r--	root/root	root/dynahack/dynahack-data/license
+-rw-r--r--	root/root	root/dynahack/dynahack-data/nhdat
+-rwxr-xr-x	root/root	root/dynahack/dynahack.sh
+-rw-r--r--	root/root	root/dynahack/readme.txt
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/dynahack
