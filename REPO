@@ -137,10 +137,8 @@ f:7e92a063f887f4c2a663dca2292250c1:dynahack/.md5sum
 f:3c27cad7bd99faa68bb7ca030c8aa90e:evilhack/.footprint
 f:81e892962807e83c8ce293cc86f38a0b:evilhack/Pkgfile
 f:938f7e5a74d37aab1120540904a2a74d:evilhack/.md5sum
-f:21fd02d85612a141184dc7ebd973ebb8:vim/vim#8.2.2914-1.pkg.tar.gz
 f:1e9be0d8a0b0a78836db869837041e0d:vim/.footprint
 f:d795db6841775593706f1508c1ed26a8:vim/Pkgfile
-f:4cc6d9c16c480ed57ccab7618ca113d5:vim/v8.2.2914.tar.gz
 f:ec05473d798978c5cee48dde3353b83d:vim/.md5sum
 f:d5edc86dd17b6e0586ae3197d13f7393:libsixel/.footprint
 f:c57f1e449f35a0bab67771415979a894:libsixel/Pkgfile
