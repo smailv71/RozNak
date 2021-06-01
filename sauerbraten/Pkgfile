@@ -1,7 +1,7 @@
 # Description: Cube 2: Sauerbraten is a free multiplayer & singleplayer first person shooter, the successor of the Cube FPS.
-# URL:         http://sauerbraten.org
-# Maintainer:  smailv71 at gmail dot com 
-# Depends on:  sdl_image sdl_mixer glu
+# URL: http://sauerbraten.org
+# Maintainer: smailv71 at gmail dot com 
+# Depends on: libwebp.so.7-ln sdl_image sdl_mixer glu
 
 name=sauerbraten
 version=2020_12_27

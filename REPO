@@ -27,6 +27,7 @@ d:xnethack
 d:dynahack
 d:evilhack
 d:vim
+d:libwebp.so.7-ln
 d:libsixel
 d:adom
 d:libvidstab
@@ -107,14 +108,14 @@ f:bc29eabdd58b7821e3a847a734d430b7:gtkballs/Pkgfile
 f:44e263c6c51d2d57e47001d8ec8d19a0:gtkballs/.md5sum
 f:7035c8569d2790e8663565f51cd9b198:broguece/broguece
 f:86a9b83639d0992791ec459640601290:broguece/.footprint
-f:55e811a800cc3501dd177455b3d6ecd4:broguece/Pkgfile
+f:ce335b741821d6a71b4da9ff0a31ad6d:broguece/Pkgfile
 f:8e3c9bf0692990dd6d73e385430be189:broguece/.md5sum
 f:bdd4d17cdef0ff60834a4f3e510681c1:wesnoth/.footprint
 f:8e4e101a0b1091f0cedd7b2ede580dbd:wesnoth/Pkgfile
 f:b56d7dfd13e8cb1ac5bd9b5e102fbb44:wesnoth/.md5sum
 f:7b7196fef0b7c92757a3b12b1f24533b:sauerbraten/sauer_client
 f:64a3cb63a85ea129811900c1d397c914:sauerbraten/.footprint
-f:5489052ff36e7e4f7e9ece7f6681b664:sauerbraten/Pkgfile
+f:2517582287ee8fdfe3112668b76dfc65:sauerbraten/Pkgfile
 f:569df913df7093a9446980553f879ff4:sauerbraten/.md5sum
 f:0c1ffbb6fafa14feaffc767e04d0a984:fiqhack/.footprint
 f:2e24af82d283167183ca42289455bb04:fiqhack/Pkgfile
@@ -138,6 +139,9 @@ f:938f7e5a74d37aab1120540904a2a74d:evilhack/.md5sum
 f:1e9be0d8a0b0a78836db869837041e0d:vim/.footprint
 f:d795db6841775593706f1508c1ed26a8:vim/Pkgfile
 f:ec05473d798978c5cee48dde3353b83d:vim/.md5sum
+f:a1f50e86bfb123a7d37eb4699ac8fd18:libwebp.so.7-ln/.footprint
+f:989b8c76b70787d22c344d91ea1617c6:libwebp.so.7-ln/Pkgfile
+f:d41d8cd98f00b204e9800998ecf8427e:libwebp.so.7-ln/.md5sum
 f:d5edc86dd17b6e0586ae3197d13f7393:libsixel/.footprint
 f:c57f1e449f35a0bab67771415979a894:libsixel/Pkgfile
 f:a8dcff5ce9922c1412d304477b108720:libsixel/.md5sum

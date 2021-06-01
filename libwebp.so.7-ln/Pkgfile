@@ -1,0 +1,13 @@
+# Description: WebP codec: library to encode and decode images in WebP format.
+# URL: https://developers.google.com/speed/webp
+# Maintainer: smailv71 at gmail dot com
+# Depends on:
+
+name=libwebp.so.7-ln
+version=1.2.0
+release=1
+build() {
+
+install -d $PKG/usr/lib
+ln -s /usr/lib/libwebp.so.1.2.0 $PKG/usr/lib/libwebp.so.7
+}

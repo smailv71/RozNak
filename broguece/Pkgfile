@@ -1,7 +1,7 @@
 # Description: Brogue is a single-player strategy game set in the halls of a mysterious and randomly-generated dungeon.
 # URL: https://sites.google.com/site/broguegame 
 # Maintainer: smailv71 at gmail dot com 
-# Depends on: 
+# Depends on: libwebp.so.7-ln 
 
 name=broguece
 version=1.9.3m
