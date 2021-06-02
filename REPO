@@ -41,7 +41,6 @@ d:libtinfo.so.5-ln
 d:djvulibre
 d:unnethack
 d:pwmangband
-d:libncursesw.so.5_libtinfo.so.5-ln
 d:compress-ln
 d:firefox
 f:5e0c5cca88620751af75ce7a219b5b09:ffmpeg/CVE-2018-6621.patch
