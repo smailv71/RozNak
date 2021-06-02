@@ -1,0 +1,13 @@
+# Description: ncurses (new curses) is a programming library providing an application programming interface (API) that allows the programmer to write text-based user interfaces in a terminal-independent manner.
+# URL: https://invisible-island.net/ncurses
+# Maintainer: smailv71 at gmail dot com
+# Depends on:
+
+name=libtinfo.so.5-ln
+version=6.2
+release=1
+build() {
+
+install -d $PKG/lib
+ln -s /lib/libncursesw.so.6.2 $PKG/lib/libtinfo.so.5
+}

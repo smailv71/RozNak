@@ -1,7 +1,7 @@
 # Description:Ancient Domains Of Mystery (ADOM) is an epic roguelike & RPG game, customizable to a wide variety of playing styles. 
 # URL: https://www.adom.de 
 # Maintainer:  smailv71 at gmail dot com 
-# Depends on: 
+# Depends on: libtinfo.so.5-ln
 
 name=adom
 version=3.3.3
