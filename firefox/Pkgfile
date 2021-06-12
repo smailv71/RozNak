@@ -6,15 +6,19 @@
 
 name=firefox
 version=89.0
-release=1
+release=2
 source=(https://archive.mozilla.org/pub/firefox/releases/$version/source/$name-$version.source.tar.xz
-	0001-Use-remoting-name-for-GDK-application-names.patch)
+	0001-Use-remoting-name-for-GDK-application-names.patch
+	D116874.diff)
 
 build() {
 	cd firefox-$version
 
 	# https://bugzilla.mozilla.org/show_bug.cgi?id=1530052
 	patch -p1 -i $SRC/0001-Use-remoting-name-for-GDK-application-names.patch
+	# https://phabricator.services.mozilla.com/D116874
+	# https://bugzilla.mozilla.org/show_bug.cgi?id=1714282
+	patch -p1 -i $SRC/D116874.diff
 
 	if [ $(/usr/bin/python -c "import sys; print sys.stdout.encoding") = 'UTF-8' ]; then
 		printf "\e[031mError: set an UTF-8 locale to compile this!\033[0m\n"
@@ -26,9 +30,6 @@ build() {
 		export CCACHE_COMPILERCHECK="string:$OS_CCACHE_COMPILERCHECK"
 		PATH=$(echo ${PATH} | awk -v RS=: -v ORS=: '/ccache/ {next} {print}' | sed 's/:*$//')
 	fi	
-
-	mkdir "$PKGMK_SOURCE_DIR/rust" || true
-	export CARGO_HOME="$PKGMK_SOURCE_DIR/rust"
 
 cat <<- EOF > .mozconfig
 	mk_add_options MOZ_OBJDIR=@TOPSRCDIR@/firefox-shared

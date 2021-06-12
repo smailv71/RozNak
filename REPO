@@ -125,8 +125,8 @@ f:2764af97dd3ad108fb2c12ad5ee2fc15:nnn/.footprint
 f:8570a4d6273faecc2fe2499c422048aa:nnn/Pkgfile
 f:89714d07a213d7cccdca30a1b58ff0d7:nnn/.md5sum
 f:6dbc1fb86fc8e39651a53183676f67b7:vifm/.footprint
-f:6f03c069cecd6ec7ed3c8344c35797fc:vifm/Pkgfile
-f:645f157f11ca3964c76f3b65d08aa5ae:vifm/.md5sum
+f:60132139a81483fbf81fb3ceca37141e:vifm/Pkgfile
+f:583bf40b4725c8f7b2f706bc00f61524:vifm/.md5sum
 f:3616d3401994c2621120ed562e389032:xnethack/.footprint
 f:1b8773b8dd815bdf6e1cfee97cc89406:xnethack/Pkgfile
 f:5ec3c2c44093733aeda6f94617efb211:xnethack/.md5sum
@@ -138,8 +138,8 @@ f:3c27cad7bd99faa68bb7ca030c8aa90e:evilhack/.footprint
 f:81e892962807e83c8ce293cc86f38a0b:evilhack/Pkgfile
 f:938f7e5a74d37aab1120540904a2a74d:evilhack/.md5sum
 f:1e9be0d8a0b0a78836db869837041e0d:vim/.footprint
-f:d795db6841775593706f1508c1ed26a8:vim/Pkgfile
-f:ec05473d798978c5cee48dde3353b83d:vim/.md5sum
+f:fbf993718c7a8b11424fa40b619ff56a:vim/Pkgfile
+f:b79233a9a4281cb50200451f7ce54c5d:vim/.md5sum
 f:a1f50e86bfb123a7d37eb4699ac8fd18:libwebp.so.7-ln/.footprint
 f:989b8c76b70787d22c344d91ea1617c6:libwebp.so.7-ln/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:libwebp.so.7-ln/.md5sum
@@ -192,5 +192,6 @@ f:d41d8cd98f00b204e9800998ecf8427e:compress-ln/.md5sum
 f:4d6811c8f2518e93434b11802dd333a0:firefox/README
 f:e7994b3b78b780ebe610ba3d87247e40:firefox/0001-Use-remoting-name-for-GDK-application-names.patch
 f:148fc68da66e6e59dabb9b296a4c08da:firefox/.footprint
-f:c6524a8efbd52ecad6bcd7ec51170255:firefox/Pkgfile
-f:791cc49bdf17d9be33f760b065e7bead:firefox/.md5sum
+f:aacc4b7d15be1de09b8512681f382fb5:firefox/Pkgfile
+f:5dcfd98113169f78378c4e791ddcd68d:firefox/D116874.diff
+f:6e5a197c2d8fdb9b4ffbf713b82ed926:firefox/.md5sum
