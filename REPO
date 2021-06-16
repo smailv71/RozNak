@@ -8,6 +8,7 @@ d:rexuiz
 d:gforth
 d:umoria
 d:bzflag
+d:tangaria-d
 d:dwarffortress
 d:mupdf
 d:dwm
@@ -22,6 +23,7 @@ d:wesnoth
 d:sauerbraten
 d:fiqhack
 d:nnn
+d:tangaria
 d:vifm
 d:xnethack
 d:dynahack
@@ -41,6 +43,7 @@ d:libtinfo.so.5-ln
 d:djvulibre
 d:unnethack
 d:pwmangband
+d:palemoon
 d:compress-ln
 d:firefox
 f:5e0c5cca88620751af75ce7a219b5b09:ffmpeg/CVE-2018-6621.patch
@@ -77,6 +80,9 @@ f:c9014552a462917bd1ac0229a2d9aff3:umoria/.md5sum
 f:c7cf332de4b0cdecb243d1b25cfc7810:bzflag/.footprint
 f:69e53266f266dae98fd49e7aac1d1474:bzflag/Pkgfile
 f:7b115241b3aa83e766445168c57f144f:bzflag/.md5sum
+f:49d673b8e65a6f987fa3d69e3541cd3e:tangaria-d/.footprint
+f:d8ad9f5bf50996a266b9ef4099b1a6e7:tangaria-d/Pkgfile
+f:104e42eec1db44e50d6557a6c8902e87:tangaria-d/.md5sum
 f:eb5f6960388ae2b29869946dd435fec8:dwarffortress/.footprint
 f:d7d2e220142f41fb5754fd53ae0b4247:dwarffortress/Pkgfile
 f:b8c55d2ea34f86eba1b38172e34dce5a:dwarffortress/.md5sum
@@ -124,6 +130,9 @@ f:96291ca928043915d9ac88515a73e11e:fiqhack/.md5sum
 f:2764af97dd3ad108fb2c12ad5ee2fc15:nnn/.footprint
 f:8570a4d6273faecc2fe2499c422048aa:nnn/Pkgfile
 f:89714d07a213d7cccdca30a1b58ff0d7:nnn/.md5sum
+f:3c70958976fd021eb4330aca09d51e5c:tangaria/.footprint
+f:9c635e37612adb1daddc54126fa810aa:tangaria/Pkgfile
+f:36121906d8c389da5ab4f92cd9d76d56:tangaria/.md5sum
 f:6dbc1fb86fc8e39651a53183676f67b7:vifm/.footprint
 f:60132139a81483fbf81fb3ceca37141e:vifm/Pkgfile
 f:583bf40b4725c8f7b2f706bc00f61524:vifm/.md5sum
@@ -186,6 +195,9 @@ f:c22738e3904d4cbfb0f926ad90eb6f3a:unnethack/.md5sum
 f:9c0c953723ec0f9303ea314a3b6cb660:pwmangband/.footprint
 f:d96a89385b28183a588092c57eba775b:pwmangband/Pkgfile
 f:85e84d8841db5df33d4be2dc044c5d76:pwmangband/.md5sum
+f:70b771f2414bc8b0e87c6e4bff751e5c:palemoon/.footprint
+f:04edc51a47ab0c68e704f8afa4b0c660:palemoon/Pkgfile
+f:d41d8cd98f00b204e9800998ecf8427e:palemoon/.md5sum
 f:a20008707a336371fe744fcd60bb3662:compress-ln/.footprint
 f:c426cdfa3875c077681064c283e0583c:compress-ln/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:compress-ln/.md5sum

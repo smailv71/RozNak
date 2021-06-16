@@ -1,0 +1,54 @@
+# Description: Pale Moon is an open-source web browser with an emphasis on customizability; its motto is "Your browser, Your way".
+# URL: http://www.palemoon.org
+# Maintainer:  smailv71 at gmail dot com
+# Depends on: alsa-lib autoconf-2.13 gtk3 yasm python
+
+name=palemoon
+version=29.2.1
+release=1
+
+build() {
+mkdir $HOME/palemoon-source
+cd $HOME/palemoon-source
+
+git clone https://repo.palemoon.org/MoonchildProductions/Pale-Moon.git ./
+git submodule init && git submodule update
+git checkout release && git submodule update
+
+cat <<- EOF > .mozconfig
+ac_add_options --disable-debug
+ac_add_options --disable-eme
+ac_add_options --disable-gamepad
+ac_add_options --disable-gconf
+ac_add_options --disable-necko-wifi
+ac_add_options --disable-pulseaudio
+ac_add_options --disable-tests
+ac_add_options --disable-updater
+ac_add_options --disable-webrtc
+
+ac_add_options --enable-application=palemoon
+ac_add_options --enable-av1
+ac_add_options --enable-default-toolkit=cairo-gtk3
+ac_add_options --enable-devtools
+ac_add_options --enable-jemalloc
+ac_add_options --enable-official-branding
+ac_add_options --enable-optimize="-O3 -w"
+ac_add_options --enable-strip
+
+ac_add_options --with-pthreads
+ac_add_options --x-libraries=/usr/lib64
+
+export MOZILLA_OFFICIAL=1
+export MOZ_MAKE_FLAGS="-j4"
+export MOZ_PKG_SPECIAL=gtk3
+EOF
+
+./mach build
+./mach package
+
+cd $HOME/palemoon-source/obj-x86_64-pc-linux-gnu/dist
+install -d ${PKG}/{$HOME,/usr/bin}
+cp -r palemoon/ ${PKG}/$HOME
+ln -s $HOME/palemoon/palemoon $PKG/usr/bin/palemoon
+rm -r $HOME/palemoon-source
+}

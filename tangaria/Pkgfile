@@ -1,0 +1,23 @@
+# Description: Tangaria – free open-source multiplayer roguelike game loosely based on Tolkien’s lore and powered by PWMAngband.
+# URL: https://tangaria.com
+# Maintainer: smailv71 at gmail dot com 
+# Depends on:
+
+name=tangaria
+version=stable
+release=1
+source=(https://github.com/igroglaz/Tangaria/archive/refs/heads/stable.zip)
+
+build() {
+	cd Tangaria-stable 
+
+	./autogen.sh
+	./configure --prefix=$HOME/Tangaria --disable-curses --enable-sdl --sysconfdir=$HOME/Tangaria/etc --datarootdir=$HOME/Tangaria/share
+	make -j4
+
+	make DESTDIR=$PKG install
+
+	install -d ${PKG}/usr/bin
+	ln -s $HOME/Tangaria/games/pwmangclient ${PKG}/usr/bin/tangaria
+	echo -e "[MAngband]\nnick=RozNak\npass=021271vs\n;host=localhost\nmeta_address=mangband.org\nmeta_port=8802\nDisableNumlock=1\nLighterBlue=1" > ${PKG}/$HOME/.pwmangrc
+}
