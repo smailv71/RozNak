@@ -6,7 +6,7 @@
 
 name=firefox
 version=89.0.2
-release=2
+release=1
 source=(https://archive.mozilla.org/pub/firefox/releases/$version/source/$name-$version.source.tar.xz
 	0001-Use-remoting-name-for-GDK-application-names.patch
 	D116874.diff)
