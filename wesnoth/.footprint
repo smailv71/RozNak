@@ -153,6 +153,7 @@ drwxr-xr-x	root/root	usr/games/wesnoth/share/man/ca_ES@valencia/
 drwxr-xr-x	root/root	usr/games/wesnoth/share/man/ca_ES@valencia/man6/
 drwxr-xr-x	root/root	usr/games/wesnoth/share/man/cs/
 drwxr-xr-x	root/root	usr/games/wesnoth/share/man/cs/man6/
+-rw-r--r--	root/root	usr/games/wesnoth/share/man/cs/man6/wesnoth.6
 -rw-r--r--	root/root	usr/games/wesnoth/share/man/cs/man6/wesnothd.6
 drwxr-xr-x	root/root	usr/games/wesnoth/share/man/da/
 drwxr-xr-x	root/root	usr/games/wesnoth/share/man/da/man6/
@@ -223,7 +224,6 @@ drwxr-xr-x	root/root	usr/games/wesnoth/share/man/la/man6/
 drwxr-xr-x	root/root	usr/games/wesnoth/share/man/lt/
 drwxr-xr-x	root/root	usr/games/wesnoth/share/man/lt/man6/
 -rw-r--r--	root/root	usr/games/wesnoth/share/man/lt/man6/wesnoth.6
--rw-r--r--	root/root	usr/games/wesnoth/share/man/lt/man6/wesnothd.6
 drwxr-xr-x	root/root	usr/games/wesnoth/share/man/lv/
 drwxr-xr-x	root/root	usr/games/wesnoth/share/man/lv/man6/
 drwxr-xr-x	root/root	usr/games/wesnoth/share/man/man6/

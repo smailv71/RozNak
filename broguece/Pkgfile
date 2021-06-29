@@ -4,8 +4,8 @@
 # Depends on: libwebp.so.7-ln 
 
 name=broguece
-version=1.9.3m
-release=3
+version=1.10m
+release=1
 source=(https://codeload.github.com/tmewett/BrogueCE/zip/refs/heads/master broguece)
 
 build() {

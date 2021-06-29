@@ -188,6 +188,8 @@ drwxr-xr-x	root/root	root/Tangaria-d/share/pwmangband/screens/
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/screens/news.txt
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/screens/news_old.txt
 drwxr-xr-x	root/root	root/Tangaria-d/share/pwmangband/sounds/
+-rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/afraid.mp3
+-rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/afraid.ogg
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/amb_bell_metal1.mp3
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/amb_bell_metal1.ogg
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/amb_bell_metal2.mp3
@@ -242,8 +244,12 @@ drwxr-xr-x	root/root	root/Tangaria-d/share/pwmangband/sounds/
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/blind2.ogg
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/confused.mp3
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/confused.ogg
+-rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/cut.mp3
+-rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/cut.ogg
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/enter_pit.mp3
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/enter_pit.ogg
+-rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/hallucinate.mp3
+-rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/hallucinate.ogg
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/id_bad_aww.mp3
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/id_bad_aww.ogg
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/id_bad_dang.mp3
@@ -344,6 +350,8 @@ drwxr-xr-x	root/root	root/Tangaria-d/share/pwmangband/sounds/
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/mco_howl_high.ogg
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/mco_howl_long.mp3
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/mco_howl_long.ogg
+-rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/mco_hypnotize.mp3
+-rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/mco_hypnotize.ogg
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/mco_liquid_squirt.mp3
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/mco_liquid_squirt.ogg
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/mco_man_mumble.mp3
@@ -376,6 +384,8 @@ drwxr-xr-x	root/root	root/Tangaria-d/share/pwmangband/sounds/
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/mco_thud_crash.ogg
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/mco_tube_hit.mp3
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/mco_tube_hit.ogg
+-rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/paralyzed.mp3
+-rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/paralyzed.ogg
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/plc_bell_warn.mp3
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/plc_bell_warn.ogg
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/plc_die_laugh.mp3
@@ -590,6 +600,10 @@ drwxr-xr-x	root/root	root/Tangaria-d/share/pwmangband/sounds/
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/pls_tone_scrape.ogg
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/pls_tone_stick.mp3
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/pls_tone_stick.ogg
+-rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/poison.mp3
+-rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/poison.ogg
+-rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/slow.mp3
+-rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/slow.ogg
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/sound.cfg
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/sto_bell_desk.mp3
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/sto_bell_desk.ogg
@@ -615,6 +629,10 @@ drwxr-xr-x	root/root	root/Tangaria-d/share/pwmangband/sounds/
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/sto_man_hey.ogg
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/sto_man_whoohaha.mp3
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/sto_man_whoohaha.ogg
+-rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/stun1.mp3
+-rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/stun1.ogg
+-rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/stun2.ogg
+-rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/stun3.ogg
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/sum_angel_song.mp3
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/sum_angel_song.ogg
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/sum_bell_crystal.mp3

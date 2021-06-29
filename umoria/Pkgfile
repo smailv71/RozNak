@@ -4,7 +4,7 @@
 # Depends on: 
 
 name=umoria
-version=5.7.14m
+version=5.7.15m
 release=1
 source=(https://codeload.github.com/dungeons-of-moria/umoria/zip/master umoria)
 
