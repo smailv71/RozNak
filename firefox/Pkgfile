@@ -5,20 +5,16 @@
 # Optional: jack
 
 name=firefox
-version=89.0.2
+version=90.0
 release=1
 source=(https://archive.mozilla.org/pub/firefox/releases/$version/source/$name-$version.source.tar.xz
-	0001-Use-remoting-name-for-GDK-application-names.patch
-	D116874.diff)
+	0001-Use-remoting-name-for-GDK-application-names.patch)
 
 build() {
 	cd firefox-$version
 
 	# https://bugzilla.mozilla.org/show_bug.cgi?id=1530052
 	patch -p1 -i $SRC/0001-Use-remoting-name-for-GDK-application-names.patch
-	# https://phabricator.services.mozilla.com/D116874
-	# https://bugzilla.mozilla.org/show_bug.cgi?id=1714282
-	patch -p1 -i $SRC/D116874.diff
 
 	if [ $(/usr/bin/python -c "import sys; print sys.stdout.encoding") = 'UTF-8' ]; then
 		printf "\e[031mError: set an UTF-8 locale to compile this!\033[0m\n"
