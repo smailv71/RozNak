@@ -196,7 +196,7 @@ f:9c0c953723ec0f9303ea314a3b6cb660:pwmangband/.footprint
 f:d96a89385b28183a588092c57eba775b:pwmangband/Pkgfile
 f:85e84d8841db5df33d4be2dc044c5d76:pwmangband/.md5sum
 f:70b771f2414bc8b0e87c6e4bff751e5c:palemoon/.footprint
-f:04edc51a47ab0c68e704f8afa4b0c660:palemoon/Pkgfile
+f:6ac8e02bb5a3f125a065d39742e679bf:palemoon/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:palemoon/.md5sum
 f:a20008707a336371fe744fcd60bb3662:compress-ln/.footprint
 f:c426cdfa3875c077681064c283e0583c:compress-ln/Pkgfile
@@ -204,5 +204,5 @@ f:d41d8cd98f00b204e9800998ecf8427e:compress-ln/.md5sum
 f:4d6811c8f2518e93434b11802dd333a0:firefox/README
 f:e7994b3b78b780ebe610ba3d87247e40:firefox/0001-Use-remoting-name-for-GDK-application-names.patch
 f:98506c935a54c965e100b044343fd3f1:firefox/.footprint
-f:90e312df622b4f7ad719378e68580681:firefox/Pkgfile
-f:3635878e306a7cf1275da766be1028b7:firefox/.md5sum
+f:9443c2d063eb542bc182b647e35cee8b:firefox/Pkgfile
+f:0f6c5254a1011db88f56b19b793d1e1a:firefox/.md5sum
