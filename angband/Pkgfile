@@ -4,7 +4,7 @@
 # Depends on: 
 
 name=angband
-version=4.2.2-193-gb72a8d27
+version=4.2.2-247-g9e43bac29
 release=1
 source=(https://codeload.github.com/angband/angband/zip/master)
 

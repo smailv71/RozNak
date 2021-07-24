@@ -5,7 +5,7 @@
 
 name=crawl
 version=0.26.1m
-release=3
+release=4
 
 build () {
 

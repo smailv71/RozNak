@@ -4,7 +4,7 @@
 # Depends on: 
 
 name=cataclysm-dda
-version=0.E-3
+version=0.F
 release=1
 source=(https://codeload.github.com/CleverRaven/Cataclysm-DDA/tar.gz/refs/tags/$version)
 

@@ -9,6 +9,7 @@ drwxr-xr-x	root/root	usr/games/Rexuiz/data/
 drwxr-xr-x	root/root	usr/games/Rexuiz/data/dlcache/
 -rw-r--r--	root/root	usr/games/Rexuiz/data/dlcache/csprogs.dat.408476.61283
 -rw-r--r--	root/root	usr/games/Rexuiz/data/dlcache/zzz-rexdlc_arachna.pk3
+-rw-r--r--	root/root	usr/games/Rexuiz/data/dlcache/zzz-rexdlc_axe_v2.pk3
 -rw-r--r--	root/root	usr/games/Rexuiz/data/dlcache/zzz-rexdlc_bat.pk3
 -rw-r--r--	root/root	usr/games/Rexuiz/data/dlcache/zzz-rexdlc_brightskins.pk3
 -rw-r--r--	root/root	usr/games/Rexuiz/data/dlcache/zzz-rexdlc_classiccampaign-p1.pk3
@@ -24,6 +25,7 @@ drwxr-xr-x	root/root	usr/games/Rexuiz/data/dlcache/
 -rw-r--r--	root/root	usr/games/Rexuiz/data/dlcache/zzz-rexdlc_rm_arc.pk3
 -rw-r--r--	root/root	usr/games/Rexuiz/data/dlcache/zzz-rexdlc_rm_effects_v2.pk3
 -rw-r--r--	root/root	usr/games/Rexuiz/data/dlcache/zzz-rexdlc_rspear.pk3
+-rw-r--r--	root/root	usr/games/Rexuiz/data/dlcache/zzz-rexdlc_shootingrange.pk3
 -rw-r--r--	root/root	usr/games/Rexuiz/data/dlcache/zzz-rexdlc_simpleitems-luma.pk3
 -rw-r--r--	root/root	usr/games/Rexuiz/data/dlcache/zzz-rexdlc_simpleitems.pk3
 -rw-r--r--	root/root	usr/games/Rexuiz/data/dlcache/zzz-rexdlc_spdemo.pk3

@@ -467,6 +467,7 @@ drwxr-xr-x	root/root	usr/games/crawl/dat/descript/zh/
 -rw-r--r--	root/root	usr/games/crawl/dat/descript/zh/backgrounds.txt
 -rw-r--r--	root/root	usr/games/crawl/dat/descript/zh/branches.txt
 -rw-r--r--	root/root	usr/games/crawl/dat/descript/zh/cards.txt
+-rw-r--r--	root/root	usr/games/crawl/dat/descript/zh/clouds.txt
 -rw-r--r--	root/root	usr/games/crawl/dat/descript/zh/commands.txt
 -rw-r--r--	root/root	usr/games/crawl/dat/descript/zh/features.txt
 -rw-r--r--	root/root	usr/games/crawl/dat/descript/zh/gods.txt

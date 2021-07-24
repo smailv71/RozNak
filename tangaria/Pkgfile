@@ -5,7 +5,7 @@
 
 name=tangaria
 version=stable
-release=2
+release=3
 source=(https://github.com/igroglaz/Tangaria/archive/refs/heads/stable.zip)
 
 build() {

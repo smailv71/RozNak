@@ -66,6 +66,7 @@ drwxr-xr-x	root/root	root/Tangaria-d/etc/pwmangband/gamedata/
 -rw-r--r--	root/root	root/Tangaria-d/etc/pwmangband/gamedata/town_-1_-3.txt
 -rw-r--r--	root/root	root/Tangaria-d/etc/pwmangband/gamedata/town_-1_-4.txt
 -rw-r--r--	root/root	root/Tangaria-d/etc/pwmangband/gamedata/town_-1_0.txt
+-rw-r--r--	root/root	root/Tangaria-d/etc/pwmangband/gamedata/town_-1_1.txt
 -rw-r--r--	root/root	root/Tangaria-d/etc/pwmangband/gamedata/town_-1_2.txt
 -rw-r--r--	root/root	root/Tangaria-d/etc/pwmangband/gamedata/town_-1_3.txt
 -rw-r--r--	root/root	root/Tangaria-d/etc/pwmangband/gamedata/town_-2_-1.txt
@@ -171,6 +172,15 @@ drwxr-xr-x	root/root	root/Tangaria-d/share/pwmangband/fonts/
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/fonts/9X15TG.FON
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/fonts/9x15x.fon
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/fonts/9x15xb.fon
+-rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/fonts/AnonymousPro-Bold.ttf
+-rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/fonts/Cousine-Bold.ttf
+-rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/fonts/IBMPlexMono-Bold.ttf
+-rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/fonts/JetBrainsMono-SemiBold.ttf
+-rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/fonts/RobotoMono-Bold.ttf
+-rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/fonts/SourceCodePro-SemiBold.ttf
+-rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/fonts/Tangaria-tg.ttf
+-rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/fonts/UbuntuMono-Bold.ttf
+-rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/fonts/UbuntuMono-Regular.ttf
 drwxr-xr-x	root/root	root/Tangaria-d/share/pwmangband/help/
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/help/commands.txt
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/help/index.txt
@@ -250,6 +260,8 @@ drwxr-xr-x	root/root	root/Tangaria-d/share/pwmangband/sounds/
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/enter_pit.ogg
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/hallucinate.mp3
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/hallucinate.ogg
+-rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/hypnotize.mp3
+-rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/hypnotize.ogg
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/id_bad_aww.mp3
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/id_bad_aww.ogg
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/id_bad_dang.mp3
@@ -350,8 +362,6 @@ drwxr-xr-x	root/root	root/Tangaria-d/share/pwmangband/sounds/
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/mco_howl_high.ogg
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/mco_howl_long.mp3
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/mco_howl_long.ogg
--rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/mco_hypnotize.mp3
--rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/mco_hypnotize.ogg
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/mco_liquid_squirt.mp3
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/mco_liquid_squirt.ogg
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/mco_man_mumble.mp3
@@ -631,7 +641,9 @@ drwxr-xr-x	root/root	root/Tangaria-d/share/pwmangband/sounds/
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/sto_man_whoohaha.ogg
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/stun1.mp3
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/stun1.ogg
+-rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/stun2.mp3
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/stun2.ogg
+-rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/stun3.mp3
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/stun3.ogg
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/sum_angel_song.mp3
 -rw-r--r--	root/root	root/Tangaria-d/share/pwmangband/sounds/sum_angel_song.ogg

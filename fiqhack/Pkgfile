@@ -4,7 +4,7 @@
 # Depends on:	
 
 name=fiqhack
-version=4.3.1_1d
+version=4.3.1_2d
 release=1
 source=(https://github.com/FredrIQ/fiqhack/archive/refs/heads/development.zip)
 build() {
