@@ -1,3 +1,0 @@
-drwxr-xr-x	root/root	lib/
-lrwxrwxrwx	root/root	lib/libncursesw.so.5 -> /lib/libncursesw.so.6.2
-lrwxrwxrwx	root/root	lib/libtinfo.so.5 -> /lib/libncursesw.so.6.2
