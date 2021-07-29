@@ -134,7 +134,7 @@ f:3c70958976fd021eb4330aca09d51e5c:tangaria/.footprint
 f:a203751f6d300fd8c2a7bbf391dd84b0:tangaria/Pkgfile
 f:629c67512b0df2a1133d9c64dd2f3078:tangaria/.md5sum
 f:6dbc1fb86fc8e39651a53183676f67b7:vifm/.footprint
-f:e8459e8d3052600fd576564fd621aeed:vifm/Pkgfile
+f:3bf2b21dc3d3f722727a13db0c8ea8e6:vifm/Pkgfile
 f:eb7bde933be923cf84c082080e387639:vifm/.md5sum
 f:3616d3401994c2621120ed562e389032:xnethack/.footprint
 f:1b8773b8dd815bdf6e1cfee97cc89406:xnethack/Pkgfile
@@ -146,9 +146,9 @@ f:7e92a063f887f4c2a663dca2292250c1:dynahack/.md5sum
 f:3c27cad7bd99faa68bb7ca030c8aa90e:evilhack/.footprint
 f:81e892962807e83c8ce293cc86f38a0b:evilhack/Pkgfile
 f:938f7e5a74d37aab1120540904a2a74d:evilhack/.md5sum
-f:fd7d1497c9c4bf44cd8ca5a396c7ff7a:vim/.footprint
-f:a283a6361efdb28308533d439ad847f4:vim/Pkgfile
-f:8a3c04be6cca2daf550ef9c6c9148789:vim/.md5sum
+f:2ca698573e7e3e599bd3d30085ad9e21:vim/.footprint
+f:1adcec5beeed1f3ec9616e2aa9dc15bd:vim/Pkgfile
+f:cd8526a56f8055601aa4d36537f400cd:vim/.md5sum
 f:a1f50e86bfb123a7d37eb4699ac8fd18:libwebp.so.7-ln/.footprint
 f:989b8c76b70787d22c344d91ea1617c6:libwebp.so.7-ln/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:libwebp.so.7-ln/.md5sum
