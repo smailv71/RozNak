@@ -146,9 +146,9 @@ f:7e92a063f887f4c2a663dca2292250c1:dynahack/.md5sum
 f:3c27cad7bd99faa68bb7ca030c8aa90e:evilhack/.footprint
 f:81e892962807e83c8ce293cc86f38a0b:evilhack/Pkgfile
 f:938f7e5a74d37aab1120540904a2a74d:evilhack/.md5sum
-f:2ca698573e7e3e599bd3d30085ad9e21:vim/.footprint
-f:1adcec5beeed1f3ec9616e2aa9dc15bd:vim/Pkgfile
-f:cd8526a56f8055601aa4d36537f400cd:vim/.md5sum
+f:e877bec563a9e40c1db05ac1e5e5c2ba:vim/.footprint
+f:012b0d6376cb65adc49039868a7ed8a7:vim/Pkgfile
+f:aae1da0ba6d5a8c33d52fc03aa89362b:vim/.md5sum
 f:a1f50e86bfb123a7d37eb4699ac8fd18:libwebp.so.7-ln/.footprint
 f:989b8c76b70787d22c344d91ea1617c6:libwebp.so.7-ln/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:libwebp.so.7-ln/.md5sum
