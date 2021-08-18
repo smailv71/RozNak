@@ -5,7 +5,7 @@
 
 name=tangaria-d
 version=dev
-release=3
+release=4
 source=(https://github.com/igroglaz/Tangaria/archive/refs/heads/dev.zip)
 
 build() {

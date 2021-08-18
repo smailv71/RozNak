@@ -4,13 +4,10 @@
 # Depends on: 
 
 name=cataclysm-dda
-version=0.F
+version=0.F-1
 release=1
-source=(https://codeload.github.com/CleverRaven/Cataclysm-DDA/tar.gz/refs/tags/$version)
-
+source=(https://github.com/CleverRaven/Cataclysm-DDA/archive/refs/tags/$version.tar.gz)
 build() {
-
-	tar xf $version
 	cd ${SRC}/Cataclysm-DDA-$version
 
 	install -d ${PKG}/usr/{games/cataclysm-dda,bin}

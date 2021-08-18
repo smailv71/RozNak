@@ -4,16 +4,14 @@
 # Depends on: libwebp.so.7-ln 
 
 name=broguece
-version=1.10m
-release=2
-source=(https://codeload.github.com/tmewett/BrogueCE/zip/refs/heads/master broguece)
+version=1.10.1
+release=1
+source=(https://github.com/tmewett/BrogueCE/archive/refs/tags/v$version.tar.gz broguece)
 
 build() {
 	install -d ${PKG}/usr/{bin,games/broguece/assets}
 
-	unzip master
-
-	cd BrogueCE-master 
+	cd BrogueCE-$version 
 	make -j4
 
 	cd bin

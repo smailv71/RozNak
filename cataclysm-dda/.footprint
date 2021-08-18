@@ -154,6 +154,7 @@ drwxr-xr-x	root/root	usr/games/cataclysm-dda/share/cataclysm-dda/json/itemgroups
 -rw-r--r--	root/root	usr/games/cataclysm-dda/share/cataclysm-dda/json/itemgroups/SUS/fridges.json
 -rw-r--r--	root/root	usr/games/cataclysm-dda/share/cataclysm-dda/json/itemgroups/SUS/garage.json
 -rw-r--r--	root/root	usr/games/cataclysm-dda/share/cataclysm-dda/json/itemgroups/SUS/library.json
+-rw-r--r--	root/root	usr/games/cataclysm-dda/share/cataclysm-dda/json/itemgroups/SUS/mre_packages.json
 -rw-r--r--	root/root	usr/games/cataclysm-dda/share/cataclysm-dda/json/itemgroups/SUS/office.json
 drwxr-xr-x	root/root	usr/games/cataclysm-dda/share/cataclysm-dda/json/itemgroups/Weapons_Mods_Ammo/
 -rw-r--r--	root/root	usr/games/cataclysm-dda/share/cataclysm-dda/json/itemgroups/Weapons_Mods_Ammo/ammo.json
@@ -1303,6 +1304,7 @@ drwxr-xr-x	root/root	usr/games/cataclysm-dda/share/cataclysm-dda/json/mapgen_pal
 -rw-r--r--	root/root	usr/games/cataclysm-dda/share/cataclysm-dda/json/mapgen_palettes/necropolis/necropolis_b3.json
 -rw-r--r--	root/root	usr/games/cataclysm-dda/share/cataclysm-dda/json/mapgen_palettes/office.json
 -rw-r--r--	root/root	usr/games/cataclysm-dda/share/cataclysm-dda/json/mapgen_palettes/office_doctor.json
+-rw-r--r--	root/root	usr/games/cataclysm-dda/share/cataclysm-dda/json/mapgen_palettes/orchard_apple.json
 -rw-r--r--	root/root	usr/games/cataclysm-dda/share/cataclysm-dda/json/mapgen_palettes/park_palette.json
 -rw-r--r--	root/root	usr/games/cataclysm-dda/share/cataclysm-dda/json/mapgen_palettes/prison.json
 -rw-r--r--	root/root	usr/games/cataclysm-dda/share/cataclysm-dda/json/mapgen_palettes/private_resort.json
@@ -1835,7 +1837,6 @@ drwxr-xr-x	root/root	usr/games/cataclysm-dda/share/cataclysm-dda/json/recipes/ot
 -rw-r--r--	root/root	usr/games/cataclysm-dda/share/cataclysm-dda/json/recipes/recipe_ammo.json
 -rw-r--r--	root/root	usr/games/cataclysm-dda/share/cataclysm-dda/json/recipes/recipe_companion.json
 -rw-r--r--	root/root	usr/games/cataclysm-dda/share/cataclysm-dda/json/recipes/recipe_deconstruction.json
--rw-r--r--	root/root	usr/games/cataclysm-dda/share/cataclysm-dda/json/recipes/recipe_deconstruction_package.json
 -rw-r--r--	root/root	usr/games/cataclysm-dda/share/cataclysm-dda/json/recipes/recipe_food.json
 -rw-r--r--	root/root	usr/games/cataclysm-dda/share/cataclysm-dda/json/recipes/recipe_medsandchemicals.json
 -rw-r--r--	root/root	usr/games/cataclysm-dda/share/cataclysm-dda/json/recipes/recipe_obsolete.json
@@ -2772,6 +2773,7 @@ drwxr-xr-x	root/root	usr/games/cataclysm-dda/share/cataclysm-dda/mods/Magiclysm/
 -rw-r--r--	root/root	usr/games/cataclysm-dda/share/cataclysm-dda/mods/Magiclysm/items/tools.json
 drwxr-xr-x	root/root	usr/games/cataclysm-dda/share/cataclysm-dda/mods/Magiclysm/items/vehicle/
 -rw-r--r--	root/root	usr/games/cataclysm-dda/share/cataclysm-dda/mods/Magiclysm/items/vehicle/frames.json
+-rw-r--r--	root/root	usr/games/cataclysm-dda/share/cataclysm-dda/mods/Magiclysm/items/vehicle/vehicle_parts.json
 -rw-r--r--	root/root	usr/games/cataclysm-dda/share/cataclysm-dda/mods/Magiclysm/items/vehicle_parts.json
 -rw-r--r--	root/root	usr/games/cataclysm-dda/share/cataclysm-dda/mods/Magiclysm/items/weapons.json
 -rw-r--r--	root/root	usr/games/cataclysm-dda/share/cataclysm-dda/mods/Magiclysm/lore.md

@@ -125,6 +125,7 @@ drwxr-xr-x	root/root	usr/games/crawl/dat/des/builder/
 -rw-r--r--	root/root	usr/games/crawl/dat/des/builder/uniques.des
 -rw-r--r--	root/root	usr/games/crawl/dat/des/guide.txt
 drwxr-xr-x	root/root	usr/games/crawl/dat/des/portals/
+-rw-r--r--	root/root	usr/games/crawl/dat/des/portals/arena.des
 -rw-r--r--	root/root	usr/games/crawl/dat/des/portals/bailey.des
 -rw-r--r--	root/root	usr/games/crawl/dat/des/portals/bazaar.des
 -rw-r--r--	root/root	usr/games/crawl/dat/des/portals/desolation.des

@@ -5,7 +5,7 @@
 
 name=gtkballs
 version=3.1.5
-release=2
+release=3
 source=(https://github.com/emorozov/gtkballs/archive/refs/heads/master.zip)
 
 build() {

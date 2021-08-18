@@ -4,8 +4,8 @@
 # Depends on:  lua51 python3-yaml 
 
 name=crawl
-version=0.26.1m
-release=4
+version=0.27m
+release=1
 
 build () {
 

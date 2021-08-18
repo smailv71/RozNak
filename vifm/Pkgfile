@@ -5,7 +5,7 @@
 
 name=vifm
 version=0.11m
-release=7
+release=8
 source=(https://codeload.github.com/vifm/vifm/zip/master)
 build() {
 	unzip master

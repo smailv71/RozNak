@@ -5,7 +5,7 @@
 
 name=umoria
 version=5.7.15m
-release=2
+release=3
 source=(https://codeload.github.com/dungeons-of-moria/umoria/zip/master umoria)
 
 build() {

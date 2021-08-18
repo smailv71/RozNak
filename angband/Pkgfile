@@ -4,14 +4,11 @@
 # Depends on: 
 
 name=angband
-version=4.2.2-247-g9e43bac29
+version=4.2.3
 release=1
-source=(https://codeload.github.com/angband/angband/zip/master)
-
+source=(https://github.com/angband/angband/archive/refs/tags/$version.tar.gz)
 build() {
-	unzip master
-
-	cd $name-master
+	cd $name-$version
 	./autogen.sh
 	./configure --prefix=/usr/games/angband --disable-x11
 	make -j4
