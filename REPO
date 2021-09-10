@@ -204,5 +204,5 @@ f:d41d8cd98f00b204e9800998ecf8427e:compress-ln/.md5sum
 f:4d6811c8f2518e93434b11802dd333a0:firefox/README
 f:e7994b3b78b780ebe610ba3d87247e40:firefox/0001-Use-remoting-name-for-GDK-application-names.patch
 f:98506c935a54c965e100b044343fd3f1:firefox/.footprint
-f:99eb1215d2b15a2395bae23fed126482:firefox/Pkgfile
-f:69385ac58f0118e4106a92b01e4543a8:firefox/.md5sum
+f:67ae8464ec1c150405ed81bffc0d0933:firefox/Pkgfile
+f:6edb2f79c008f1a0cb25939e5edf3b8c:firefox/.md5sum
