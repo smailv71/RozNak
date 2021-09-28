@@ -4,7 +4,7 @@
 # Depends on: 
 
 name=cataclysm-dda
-version=0.F-1
+version=0.F-2
 release=1
 source=(https://github.com/CleverRaven/Cataclysm-DDA/archive/refs/tags/$version.tar.gz)
 build() {

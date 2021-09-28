@@ -78,7 +78,9 @@ drwxr-xr-x	root/root	usr/games/crawl/dat/des/branches/
 -rw-r--r--	root/root	usr/games/crawl/dat/des/branches/dis.des
 -rw-r--r--	root/root	usr/games/crawl/dat/des/branches/elf.des
 -rw-r--r--	root/root	usr/games/crawl/dat/des/branches/geh.des
+-rw-r--r--	root/root	usr/games/crawl/dat/des/branches/geh_lava_maze.des
 -rw-r--r--	root/root	usr/games/crawl/dat/des/branches/hell.des
+-rw-r--r--	root/root	usr/games/crawl/dat/des/branches/hells.des
 -rw-r--r--	root/root	usr/games/crawl/dat/des/branches/hilbert_zone.des
 -rw-r--r--	root/root	usr/games/crawl/dat/des/branches/lair.des
 -rw-r--r--	root/root	usr/games/crawl/dat/des/branches/orc.des
