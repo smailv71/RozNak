@@ -4,7 +4,7 @@
 # Depends on: compress-ln libtinfo.so-ln
 
 name=evilhack
-version=0.6.0
+version=0.7.0
 release=1
 source=(https://github.com/k21971/EvilHack/archive/refs/tags/v$version.tar.gz)
 build() {

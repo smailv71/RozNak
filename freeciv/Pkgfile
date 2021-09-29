@@ -5,7 +5,7 @@
 # Optional:    gtk+ qt5 sdl2_gfx
 name=freeciv
 version=3.0.0b2m
-release=1
+release=2
 source=(https://codeload.github.com/freeciv/freeciv/zip/master)
 
 build () {

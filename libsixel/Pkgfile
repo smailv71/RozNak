@@ -1,17 +1,21 @@
-# Description: terminal image format
-# URL: https://github.com/saitoha/libsixel
+# Description: A SIXEL encoder/decoder implementation derived from kmiya's sixel
+# URL: https://github.com/libsixel/libsixel
 # Maintainer: smailv71 at gmail dot com
-# Depends on:  
+# Depends on: meson ninja
+# Optional: gd libjpeg-turbo libpng
 
 name=libsixel
-version=1.8.6
+version=1.10.2
 release=1
-source=(https://github.com/saitoha/$name/archive/v$version.tar.gz)
+source=(https://github.com/libsixel/libsixel/archive/v$version/$name-$version.tar.gz)
 
 build() {
-	cd $name-$version
-	./configure --prefix=/usr
-
-	make
-	make DESTDIR=$PKG install
+  meson setup $name-$version build \
+    --prefix /usr \
+    --buildtype=plain \
+    --wrap-mode nodownload \
+    -D b_lto=true \
+    -D b_pie=true
+  meson compile -C build
+  DESTDIR=$PKG meson install -C build
 }

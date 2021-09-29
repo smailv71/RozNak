@@ -64,6 +64,7 @@ drwxr-xr-x	root/root	usr/games/freeciv/share/doc/freeciv/
 -rw-r--r--	root/root	usr/games/freeciv/share/doc/freeciv/README.tilesets
 -rw-r--r--	root/root	usr/games/freeciv/share/doc/freeciv/TODO
 drwxr-xr-x	root/root	usr/games/freeciv/share/freeciv/
+-rw-r--r--	root/root	usr/games/freeciv/share/freeciv/alien.modpack
 -rw-r--r--	root/root	usr/games/freeciv/share/freeciv/alien.serv
 drwxr-xr-x	root/root	usr/games/freeciv/share/freeciv/alien/
 -rw-r--r--	root/root	usr/games/freeciv/share/freeciv/alien/README.alien
@@ -112,6 +113,8 @@ drwxr-xr-x	root/root	usr/games/freeciv/share/freeciv/alio/
 drwxr-xr-x	root/root	usr/games/freeciv/share/freeciv/amplio2/
 -rw-r--r--	root/root	usr/games/freeciv/share/freeciv/amplio2/activities.png
 -rw-r--r--	root/root	usr/games/freeciv/share/freeciv/amplio2/activities.spec
+-rw-r--r--	root/root	usr/games/freeciv/share/freeciv/amplio2/animals.png
+-rw-r--r--	root/root	usr/games/freeciv/share/freeciv/amplio2/animals.spec
 -rw-r--r--	root/root	usr/games/freeciv/share/freeciv/amplio2/bases.png
 -rw-r--r--	root/root	usr/games/freeciv/share/freeciv/amplio2/bases.spec
 -rw-r--r--	root/root	usr/games/freeciv/share/freeciv/amplio2/cities.png
@@ -196,6 +199,7 @@ drwxr-xr-x	root/root	usr/games/freeciv/share/freeciv/buildings/
 drwxr-xr-x	root/root	usr/games/freeciv/share/freeciv/cimpletoon/
 -rw-r--r--	root/root	usr/games/freeciv/share/freeciv/cimpletoon/orient_units.png
 -rw-r--r--	root/root	usr/games/freeciv/share/freeciv/cimpletoon/orient_units.spec
+-rw-r--r--	root/root	usr/games/freeciv/share/freeciv/civ1.modpack
 -rw-r--r--	root/root	usr/games/freeciv/share/freeciv/civ1.serv
 drwxr-xr-x	root/root	usr/games/freeciv/share/freeciv/civ1/
 -rw-r--r--	root/root	usr/games/freeciv/share/freeciv/civ1/buildings.ruleset
@@ -210,6 +214,7 @@ drwxr-xr-x	root/root	usr/games/freeciv/share/freeciv/civ1/
 -rw-r--r--	root/root	usr/games/freeciv/share/freeciv/civ1/techs.ruleset
 -rw-r--r--	root/root	usr/games/freeciv/share/freeciv/civ1/terrain.ruleset
 -rw-r--r--	root/root	usr/games/freeciv/share/freeciv/civ1/units.ruleset
+-rw-r--r--	root/root	usr/games/freeciv/share/freeciv/civ2.modpack
 -rw-r--r--	root/root	usr/games/freeciv/share/freeciv/civ2.serv
 drwxr-xr-x	root/root	usr/games/freeciv/share/freeciv/civ2/
 -rw-r--r--	root/root	usr/games/freeciv/share/freeciv/civ2/buildings.ruleset
@@ -224,6 +229,7 @@ drwxr-xr-x	root/root	usr/games/freeciv/share/freeciv/civ2/
 -rw-r--r--	root/root	usr/games/freeciv/share/freeciv/civ2/techs.ruleset
 -rw-r--r--	root/root	usr/games/freeciv/share/freeciv/civ2/terrain.ruleset
 -rw-r--r--	root/root	usr/games/freeciv/share/freeciv/civ2/units.ruleset
+-rw-r--r--	root/root	usr/games/freeciv/share/freeciv/civ2civ3.modpack
 -rw-r--r--	root/root	usr/games/freeciv/share/freeciv/civ2civ3.serv
 drwxr-xr-x	root/root	usr/games/freeciv/share/freeciv/civ2civ3/
 -rw-r--r--	root/root	usr/games/freeciv/share/freeciv/civ2civ3/README.civ2civ3
@@ -239,6 +245,7 @@ drwxr-xr-x	root/root	usr/games/freeciv/share/freeciv/civ2civ3/
 -rw-r--r--	root/root	usr/games/freeciv/share/freeciv/civ2civ3/techs.ruleset
 -rw-r--r--	root/root	usr/games/freeciv/share/freeciv/civ2civ3/terrain.ruleset
 -rw-r--r--	root/root	usr/games/freeciv/share/freeciv/civ2civ3/units.ruleset
+-rw-r--r--	root/root	usr/games/freeciv/share/freeciv/classic.modpack
 -rw-r--r--	root/root	usr/games/freeciv/share/freeciv/classic.serv
 drwxr-xr-x	root/root	usr/games/freeciv/share/freeciv/classic/
 -rw-r--r--	root/root	usr/games/freeciv/share/freeciv/classic/README.classic
@@ -2665,6 +2672,7 @@ drwxr-xr-x	root/root	usr/games/freeciv/share/freeciv/misc/
 -rw-r--r--	root/root	usr/games/freeciv/share/freeciv/misc/treaty.png
 -rw-r--r--	root/root	usr/games/freeciv/share/freeciv/misc/treaty.spec
 -rw-r--r--	root/root	usr/games/freeciv/share/freeciv/misc/wonders-large.spec
+-rw-r--r--	root/root	usr/games/freeciv/share/freeciv/multiplayer.modpack
 -rw-r--r--	root/root	usr/games/freeciv/share/freeciv/multiplayer.serv
 drwxr-xr-x	root/root	usr/games/freeciv/share/freeciv/multiplayer/
 -rw-r--r--	root/root	usr/games/freeciv/share/freeciv/multiplayer/README.multiplayer

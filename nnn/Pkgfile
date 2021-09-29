@@ -5,8 +5,8 @@
 # Optional: patool mediainfo
 
 name=nnn
-version=4.2m
-release=2
+version=4.3m
+release=1
 source=(https://codeload.github.com/jarun/nnn/zip/master)
 
 build() {

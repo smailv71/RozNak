@@ -80,9 +80,7 @@ drwxr-xr-x	root/root	root/evilhack-minimal/games/lib/evilhackdir/
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/Wiz-loca.lev
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/Wiz-strt.lev
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/air.lev
--rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/asmodeus.lev
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/astral.lev
--rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/baalz.lev
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/bigrm-1.lev
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/bigrm-10.lev
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/bigrm-2.lev
@@ -99,8 +97,6 @@ drwxr-xr-x	root/root	root/evilhack-minimal/games/lib/evilhackdir/
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/castle-3.lev
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/cmdhelp
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/data
--rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/demogor.lev
--rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/dis.lev
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/dungeon
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/earth.lev
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/engrave
@@ -109,7 +105,16 @@ drwxr-xr-x	root/root	root/evilhack-minimal/games/lib/evilhackdir/
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/fakewiz1.lev
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/fakewiz2.lev
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/fire.lev
--rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/geryon.lev
+-rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/hella-1.lev
+-rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/hella-2.lev
+-rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/hella-3.lev
+-rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/hella-4.lev
+-rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/hellb-1.lev
+-rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/hellb-2.lev
+-rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/hellb-3.lev
+-rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/hellc-1.lev
+-rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/hellc-2.lev
+-rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/hellc-3.lev
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/hellfill.lev
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/help
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/hh
@@ -117,7 +122,6 @@ drwxr-xr-x	root/root	root/evilhack-minimal/games/lib/evilhackdir/
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/icequeen-1.lev
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/icequeen-2.lev
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/icequeen-3.lev
--rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/juiblex.lev
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/keyhelp
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/knox-1.lev
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/knox-2.lev
@@ -146,7 +150,9 @@ drwxr-xr-x	root/root	root/evilhack-minimal/games/lib/evilhackdir/
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/nymph.lev
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/opthelp
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/options
--rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/oracle.lev
+-rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/oracle-1.lev
+-rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/oracle-2.lev
+-rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/oracle-3.lev
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/oracles
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/orcus.lev
 -rw-------	root/root	root/evilhack-minimal/games/lib/evilhackdir/perm (EMPTY)
@@ -158,12 +164,28 @@ drwxr-xr-x	root/root	root/evilhack-minimal/games/lib/evilhackdir/
 drwxr-xr-x	root/root	root/evilhack-minimal/games/lib/evilhackdir/save/
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/soko1-1.lev
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/soko1-2.lev
+-rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/soko1-3.lev
+-rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/soko1-4.lev
+-rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/soko1-5.lev
+-rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/soko1-6.lev
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/soko2-1.lev
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/soko2-2.lev
+-rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/soko2-3.lev
+-rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/soko2-4.lev
+-rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/soko2-5.lev
+-rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/soko2-6.lev
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/soko3-1.lev
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/soko3-2.lev
+-rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/soko3-3.lev
+-rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/soko3-4.lev
+-rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/soko3-5.lev
+-rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/soko3-6.lev
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/soko4-1.lev
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/soko4-2.lev
+-rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/soko4-3.lev
+-rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/soko4-4.lev
+-rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/soko4-5.lev
+-rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/soko4-6.lev
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/symbols
 drwxr-xr-x	root/root	root/evilhack-minimal/games/lib/evilhackdir/sysconf/
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/tower1.lev
@@ -173,6 +195,9 @@ drwxr-xr-x	root/root	root/evilhack-minimal/games/lib/evilhackdir/sysconf/
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/tribute
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/valley.lev
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/vaults.dat
+-rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/vecna-1.lev
+-rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/vecna-2.lev
+-rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/vecna-3.lev
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/vlt-0000.lev
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/vlt-0001.lev
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/vlt-0002.lev
@@ -213,7 +238,6 @@ drwxr-xr-x	root/root	root/evilhack-minimal/games/lib/evilhackdir/whereis/
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/wizard3.lev
 -rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/wizhelp
 -rw-------	root/root	root/evilhack-minimal/games/lib/evilhackdir/xlogfile (EMPTY)
--rw-r--r--	root/root	root/evilhack-minimal/games/lib/evilhackdir/yeenoghu.lev
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 lrwxrwxrwx	root/root	usr/bin/evilhack -> /root/evilhack-minimal/games/evilhack
