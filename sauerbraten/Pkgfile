@@ -4,7 +4,7 @@
 # Depends on: libwebp.so.7-ln sdl_image sdl_mixer glu
 
 name=sauerbraten
-version=2020_12_27
+version=2020_12_29
 release=1
 source=(https://netix.dl.sourceforge.net/project/sauerbraten/sauerbraten/2020_11_29/${name}_${version}_linux.tar.bz2 sauer_client)
 

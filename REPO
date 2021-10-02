@@ -67,9 +67,9 @@ f:e766729155db465a82c7d5e0edf8f7e5:nethack4/.md5sum
 f:e1baca0c66bc4a886e8c4b8b95eaa6e2:bigslex/bigslex
 f:24c72a8024b895eedfa1e6cf1b245893:bigslex/Pkgfile
 f:1fb6f4cb93da6446dfdeaab7b53db173:rexuiz/rexuiz_client
-f:6443663d577d2f0715074b5f1b0e769c:rexuiz/.footprint
-f:66a94337778113c1d67a82f2481348ef:rexuiz/Pkgfile
-f:c0926b839fc1f917fc21038584a9356e:rexuiz/.md5sum
+f:d44d070123005e4f08805fd155a4922e:rexuiz/.footprint
+f:a41e6f96d74546d815c58b1693bcfd70:rexuiz/Pkgfile
+f:e531fd4df387fbf9daaa72782fad2d12:rexuiz/.md5sum
 f:e3667f07efab4a1e917ea143cef518ff:gforth/.footprint
 f:05d71b9691dd05e17d6932d2945d733c:gforth/Pkgfile
 f:729f2ebf2b19f5da4c61265df3466408:gforth/.md5sum
@@ -122,8 +122,8 @@ f:64d62cc3cf462c4236e4dbcaeac45ca7:wesnoth/Pkgfile
 f:f05c54028f351b9f046d9e4e807d8b93:wesnoth/.md5sum
 f:7b7196fef0b7c92757a3b12b1f24533b:sauerbraten/sauer_client
 f:64a3cb63a85ea129811900c1d397c914:sauerbraten/.footprint
-f:2517582287ee8fdfe3112668b76dfc65:sauerbraten/Pkgfile
-f:569df913df7093a9446980553f879ff4:sauerbraten/.md5sum
+f:90ceb477b5dfd12fa354512a16a9e6df:sauerbraten/Pkgfile
+f:98d547a1bf41699bbc147346430d92aa:sauerbraten/.md5sum
 f:0c1ffbb6fafa14feaffc767e04d0a984:fiqhack/.footprint
 f:06dca4d11fe54808681273f39ab81acc:fiqhack/Pkgfile
 f:2e9f3c5e3e96ee9a23cbe2ed72ae3745:fiqhack/.md5sum
@@ -196,8 +196,8 @@ f:9c0c953723ec0f9303ea314a3b6cb660:pwmangband/.footprint
 f:d96a89385b28183a588092c57eba775b:pwmangband/Pkgfile
 f:85e84d8841db5df33d4be2dc044c5d76:pwmangband/.md5sum
 f:70b771f2414bc8b0e87c6e4bff751e5c:palemoon/.footprint
-f:6ac8e02bb5a3f125a065d39742e679bf:palemoon/Pkgfile
-f:d41d8cd98f00b204e9800998ecf8427e:palemoon/.md5sum
+f:01cbe69ddaf831ec8183bb4d5ca06030:palemoon/Pkgfile
+f:71e93860c1ccfc87aabca3d777de1d47:palemoon/.md5sum
 f:a20008707a336371fe744fcd60bb3662:compress-ln/.footprint
 f:c426cdfa3875c077681064c283e0583c:compress-ln/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:compress-ln/.md5sum

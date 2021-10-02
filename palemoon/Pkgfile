@@ -4,16 +4,11 @@
 # Depends on: alsa-lib autoconf-2.13 gtk3 yasm python
 
 name=palemoon
-version=29.3.0
+version=29.4.1
 release=1
+source=(http://archive.palemoon.org/source/palemoon-$version-source.tar.xz)
 
 build() {
-mkdir $HOME/palemoon-source
-cd $HOME/palemoon-source
-
-git clone https://repo.palemoon.org/MoonchildProductions/Pale-Moon.git ./
-git submodule init && git submodule update
-git checkout release && git submodule update
 
 cat <<- EOF > .mozconfig
 ac_add_options --disable-debug
@@ -46,9 +41,8 @@ EOF
 ./mach build
 ./mach package
 
-cd $HOME/palemoon-source/obj-x86_64-pc-linux-gnu/dist
+cd obj-x86_64-pc-linux-gnu/dist
 install -d ${PKG}/{$HOME,/usr/bin}
 cp -r palemoon/ ${PKG}/$HOME
 ln -s $HOME/palemoon/palemoon $PKG/usr/bin/palemoon
-rm -r $HOME/palemoon-source
 }
