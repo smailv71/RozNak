@@ -4,7 +4,7 @@
 # Depends on:
 
 name=tixati
-version=2.84
+version=2.85
 release=1
 source=(https://download2.tixati.com/download/tixati-$version-1.x86_64.manualinstall.tar.gz)
 
