@@ -152,9 +152,9 @@ f:f1b21c45273b39231118168b3b26655f:vim/.md5sum
 f:a1f50e86bfb123a7d37eb4699ac8fd18:libwebp.so.7-ln/.footprint
 f:989b8c76b70787d22c344d91ea1617c6:libwebp.so.7-ln/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:libwebp.so.7-ln/.md5sum
-f:b091038f5fde13cb0e4289c2bce75745:libsixel/.footprint
-f:db93b32b05a416999f0db4ad43f1b5eb:libsixel/Pkgfile
-f:bee00914c5f91b0c1fcfcf5f00d32218:libsixel/.md5sum
+f:b7aa88454587257872ca3335cda179ae:libsixel/.footprint
+f:c10af4c43ebb8b2b9b54236f31f4b3c4:libsixel/Pkgfile
+f:050c65b59f8b3c043c52de5a242f2cd1:libsixel/.md5sum
 f:220aa3d1315d3e012639d5c4cf27d8c0:adom/README
 f:734c8bb5605f238d3a46745bbcb5b10c:adom/.footprint
 f:f50014b4ef7cef22b93ce081197b1753:adom/Pkgfile
