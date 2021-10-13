@@ -6,12 +6,15 @@
 name=st
 version=0.8.4
 release=3
-source=(https://dl.suckless.org/st/$name-$version.tar.gz)
+source=(https://dl.suckless.org/st/$name-$version.tar.gz xrdb-plus.patch)
 
 build () {
-	cd "$name-$version"
-	make CC=gcc
-	make DESTDIR=$PKG PREFIX=/usr TERMINFO=$PKG/usr/share/terminfo install
+	cd $name-$version
+
+	patch -p1 -i "${SRC}"/xrdb-plus.patch
+	sed -i '/tic/d' Makefile
+
+	make CC="${CC:-cc}" DESTDIR=$PKG PREFIX=/usr X11INC=/usr/include/X11 X11LIB=/usr/lib install
 
 	# Remove duplicates of files from ncurses
 	rm -f $PKG/usr/share/terminfo/s/{st,st-256color}

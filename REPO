@@ -94,10 +94,10 @@ f:6fad530f81a7658a10ad62de8946f6ae:dwm/README
 f:741c1a116e5019e71222386c940489a8:dwm/.footprint
 f:1f272e3e71012b4e4220c3ace0c8d737:dwm/Pkgfile
 f:93b3f27541eed4bc25cb9fb1bc9b5b3c:dwm/.md5sum
-f:20f08c5f31e9a85c101e0a2c43b6ab36:st/README
-f:d76bb9d9216d9488d8c584a4b615df4f:st/.footprint
-f:29f75eb6d385926367055e203bada3d6:st/Pkgfile
-f:f476fb5f8178a5436e2cf2f10e5a2bac:st/.md5sum
+f:eb3446b2673cb3d67e1c0417e5448dd4:st/xrdb-plus.patch
+f:6b0d6180cf988e7ee7779c0dce6ded3b:st/.footprint
+f:989dd5d6523f430f7dff87358aa1309b:st/Pkgfile
+f:1181fc6fd55734a67c66656460772a00:st/.md5sum
 f:fb91659957906dd61f9275bb467b31f0:freeciv/.footprint
 f:4c97668fb51a96b2aecc372d56b03a9c:freeciv/Pkgfile
 f:64bf31ba8f05b8b8d9b79882dce1e0ba:freeciv/.md5sum
