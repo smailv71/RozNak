@@ -5,16 +5,19 @@
 # Optional: jack
 
 name=firefox
-version=92.0.1
+version=93.0
 release=1
 source=(https://archive.mozilla.org/pub/firefox/releases/$version/source/$name-$version.source.tar.xz
-	0001-Use-remoting-name-for-GDK-application-names.patch)
+	0001-Use-remoting-name-for-GDK-application-names.patch rust-1.56.0.patch)
 
 build() {
 	cd firefox-$version
 
 	# https://bugzilla.mozilla.org/show_bug.cgi?id=1530052
 	patch -p1 -i $SRC/0001-Use-remoting-name-for-GDK-application-names.patch
+
+	patch -p1 -i $SRC/rust-1.56.0.patch
+	sed -e 's/f2e2d0867734a62e1f468e5d3e15fbd01a15f8aafd5d65a8a3cb7ab95ffd61c4/41c2a5c5fb42225ce9c6a267653870fdb8af30f933b3b8534d57a15fb96ebb39/g' -i third_party/rust/packed_simd/.cargo-checksum.json
 
 	if [ $(/usr/bin/python -c "import sys; print sys.stdout.encoding") = 'UTF-8' ]; then
 		printf "\e[031mError: set an UTF-8 locale to compile this!\033[0m\n"

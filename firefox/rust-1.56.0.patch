@@ -1,0 +1,24 @@
+From 45d5347a0d2187c046a546a477d2a53111cd7713 Mon Sep 17 00:00:00 2001
+From: Yuki Okushi <yuki.okushi@huawei.com>
+Date: Sat, 4 Sep 2021 07:01:42 +0900
+Subject: [PATCH] Rename `const_generics` feature gate to `adt_const_params`
+
+edited to be universal between rust versions, crux.
+---
+ src/lib.rs | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff -pruN firefox-93.0.orig/third_party/rust/packed_simd/src/lib.rs firefox-93.0/third_party/rust/packed_simd/src/lib.rs
+--- firefox-93.0.orig/third_party/rust/packed_simd/src/lib.rs	2021-10-26 20:55:18.759640511 +1100
++++ firefox-93.0/third_party/rust/packed_simd/src/lib.rs	2021-10-26 20:56:59.195873095 +1100
+@@ -199,8 +199,9 @@
+ //!   Numeric casts are not very "precise": sometimes lossy, sometimes value
+ //!   preserving, etc.
+ 
++#![cfg_attr(const_generics, feature(const_generics))]
++#![cfg_attr(not(const_generics), feature(adt_const_params))]
+ #![feature(
+-    const_generics,
+     repr_simd,
+     rustc_attrs,
+     platform_intrinsics,
